@@ -2,13 +2,6 @@
 # Revisiting O67940_AQUAE: a reproducible evidence-chain for structure-guided protein function inference
 
 A modern re-analysis of a published protein-function prediction workflow, focused on annotation transfer, structural evidence, residue mapping, and transparent reproducibility.
-
-## Workflow overview
-
-![Workflow evidence-chain overview](figures/report/figure1_workflow_evidence_chain.png)
-
-**Figure 1.** Reproducible evidence-chain workflow for the modern re-analysis of O67940_AQUAE.
-
 ## Project title
 
 **A reproducible modern re-analysis of a structure-guided protein function inference workflow**
@@ -92,6 +85,12 @@ methods_bioinfo_reanalysis/
 ├── README.md              # Project overview
 └── .gitignore
 ```
+
+## Workflow overview
+
+![Workflow evidence-chain overview](figures/report/figure1_workflow_evidence_chain.png)
+
+**Figure 1.** Reproducible evidence-chain workflow for the modern re-analysis of O67940_AQUAE.
 
 ## Reproducibility and auditability
 
