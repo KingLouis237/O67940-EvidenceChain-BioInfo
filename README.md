@@ -128,17 +128,24 @@ That file explains how to rerun the workflow from the included data, which steps
 
 ## Key outputs
 
-| Evidence layer             | Main files                                                                                                                                                                          | What it shows                                                                                                                                                              |
-| -------------------------- | -------------------------------------------------------- |
-| Current annotation status  | `results/uniprot_O67940_record_summary.txt`                                                                                                                                         | O67940_AQUAE remains an unreviewed UniProtKB/TrEMBL entry named “Uncharacterized protein”, with no parsed UniProt FUNCTION comment, GO annotation, or PDB cross-reference. |
-| Domain/family evidence     | `results/O67940_interpro_pfam_metadata.tsv`                                                                                                                                         | Current InterPro/Pfam evidence links O67940_AQUAE to SAM_HAT N-terminal/C-terminal domains and a SAM-related family context.                                               |
-| AlphaFold confidence       | `results/alphafold/O67940_alphafold_plddt_summary.txt`<br>`results/alphafold/O67940_alphafold_pae_by_domain_summary.txt`<br>`figures/report/figure2_alphafold_plddt_by_residue.png` | The AlphaFoldDB v6 model has high local confidence and low domain-level PAE values, supporting structural inspection but not proving biochemical function.                 |
-| Structural comparison      | `results/structure_comparison/tmalign_pairwise_summary.tsv`<br>`figures/report/figure3_tmalign_structural_similarity.png`                                                           | TM-align showed strong global fold similarity between O67940_AQUAE and both references, with a higher reference-normalized TM-score against 2Q6O than 1RQP.                |
-| Sequence alignment         | `results/sequence_alignment/O67940_2Q6O_1RQP_alignment_summary.tsv`                                                                                                                 | MAFFT showed nearly equal global sequence identity to both references, so sequence identity alone does not resolve specificity.                                            |
-| Functional-residue mapping | `results/residue_mapping/focused_functional_residue_summary.tsv`<br>`figures/report/figure4_focused_residue_mapping.png`                                                            | Focused mapping reproduced the key O67940_AQUAE positions Val67 and Gly127. Gly127 aligned with 2Q6O Gly131 rather than 1RQP Ser158.                                       |
-| Evidence integration       | `results/evidence_integration/evidence_integration_table.tsv`<br>`results/evidence_integration/evidence_integration_table_short.tsv`                                                | These tables summarize what each evidence layer supports, what it does not prove, and what limitation remains.                                                             |
+| Evidence layer | Main output | What it shows |
+|---|---|---|
+| Current annotation status | `results/uniprot_O67940_record_summary.txt` | O67940_AQUAE remains an unreviewed UniProtKB/TrEMBL entry annotated as an “Uncharacterized protein”, with no parsed UniProt FUNCTION comment, GO annotation, or PDB cross-reference. |
+| Domain/family evidence | `results/O67940_interpro_pfam_metadata.tsv` | Current InterPro/Pfam evidence links O67940_AQUAE to SAM_HAT N-terminal/C-terminal domains and a SAM-related family context. |
+| AlphaFold confidence | `results/alphafold/O67940_alphafold_plddt_summary.txt` | The AlphaFoldDB v6 model has high local confidence, supporting structural inspection but not proving biochemical function. |
+| AlphaFold domain-level uncertainty | `results/alphafold/O67940_alphafold_pae_by_domain_summary.txt` | Domain-level PAE values support a coherent predicted structural model, while still requiring cautious interpretation. |
+| Structural comparison | `results/structure_comparison/tmalign_pairwise_summary.tsv` | TM-align shows strong global fold similarity between O67940_AQUAE and both reference enzymes, with stronger reference-normalized similarity to 2Q6O than to 1RQP. |
+| Sequence alignment | `results/sequence_alignment/O67940_2Q6O_1RQP_alignment_summary.tsv` | MAFFT shows nearly equal global sequence identity to both reference structures, so sequence identity alone does not resolve specificity. |
+| Functional-residue mapping | `results/residue_mapping/focused_functional_residue_summary.tsv` | Focused mapping reproduces the key O67940_AQUAE positions Val67 and Gly127. Gly127 aligns with 2Q6O Gly131 rather than 1RQP Ser158. |
+| Evidence integration | `results/evidence_integration/evidence_integration_table_short.tsv` | Summarizes what each evidence layer supports, what it does not prove, and what limitation remains. |
 
----
+### Report figures
+
+| Figure | File | Purpose |
+|---|---|---|
+| AlphaFold confidence profile | `figures/report/figure2_alphafold_plddt_by_residue.png` | Visualizes residue-level pLDDT confidence across O67940_AQUAE. |
+| Structural similarity summary | `figures/report/figure3_tmalign_structural_similarity.png` | Summarizes TM-align structural comparison across the three structures. |
+| Focused residue mapping | `figures/report/figure4_focused_residue_mapping.png` | Visual support for the two specificity-related aligned residue sites. |
 
 ## Reproduced, modernized, and not reproduced
 
