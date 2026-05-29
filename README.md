@@ -1,5 +1,7 @@
 
-# Methods in Bioinformatics re-analysis
+# Revisiting O67940_AQUAE: a reproducible evidence-chain for structure-guided protein function inference
+
+A modern re-analysis of a published protein-function prediction workflow, focused on annotation transfer, structural evidence, residue mapping, and transparent reproducibility.
 
 ## Project title
 
