@@ -1,0 +1,19 @@
+resourceaccession_or_idurl_or_sourcedate_accessedlocal_output_filepurpose
+UniProtKB FASTAO67940https://rest.uniprot.org/uniprotkb/O67940.fasta2026-05-26data/O67940_AQUAE.fastaquery protein sequence
+UniProtKB JSONO67940https://rest.uniprot.org/uniprotkb/O67940.json2026-05-26data/O67940_uniprot_record.jsoncurrent protein annotation record
+InterPro APIIPR046470https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0464702026-05-26data/interpro_pfam/IPR046470.jsonInterPro domain metadata
+InterPro APIIPR046469https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0464692026-05-26data/interpro_pfam/IPR046469.jsonInterPro domain metadata
+InterPro APIIPR002747https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0027472026-05-26data/interpro_pfam/IPR002747.jsonInterPro family metadata
+InterPro APIIPR023227https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0232272026-05-26data/interpro_pfam/IPR023227.jsonInterPro homologous superfamily metadata
+InterPro APIIPR023228https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0232282026-05-26data/interpro_pfam/IPR023228.jsonInterPro homologous superfamily metadata
+Pfam via InterPro APIPF20257https://www.ebi.ac.uk/interpro/api/entry/pfam/PF202572026-05-26data/interpro_pfam/PF20257.jsonPfam C-terminal SAM_HAT domain metadata
+Pfam via InterPro APIPF01887https://www.ebi.ac.uk/interpro/api/entry/pfam/PF018872026-05-26data/interpro_pfam/PF01887.jsonPfam N-terminal SAM_HAT domain metadata
+AlphaFoldDB APIO67940https://alphafold.ebi.ac.uk/api/prediction/O679402026-05-26data/alphafold/O67940_alphafold_api_prediction.jsonidentify current AlphaFold model version and download URLs
+AlphaFoldDB PDBO67940API-reported v6 pdbUrl2026-05-26data/alphafold/AF-O67940-F1-model_v6.pdbpredicted structure coordinates for pLDDT extraction and structural comparison
+AlphaFoldDB mmCIFO67940API-reported v6 cifUrl2026-05-26data/alphafold/AF-O67940-F1-model_v6.cifpredicted structure coordinates in modern mmCIF format
+AlphaFoldDB bcifO67940API-reported v6 bcifUrl2026-05-26data/alphafold/AF-O67940-F1-model_v6.bcifbinary CIF structure file
+AlphaFoldDB PAEO67940API-reported v6 paeDocUrl2026-05-26data/alphafold/AF-O67940-F1-predicted_aligned_error_v6.jsonpredicted aligned error matrix for structural confidence analysis
+RCSB PDB2Q6Ohttps://files.rcsb.org/download/2Q6O.cif2026-05-26data/pdb/2Q6O.cifchlorinase-related reference structure in mmCIF format
+RCSB PDB2Q6Ohttps://files.rcsb.org/download/2Q6O.pdb2026-05-26data/pdb/2Q6O.pdbchlorinase-related reference structure in PDB format
+RCSB PDB1RQPhttps://files.rcsb.org/download/1RQP.cif2026-05-26data/pdb/1RQP.ciffluorinase reference structure in mmCIF format
+RCSB PDB1RQPhttps://files.rcsb.org/download/1RQP.pdb2026-05-26data/pdb/1RQP.pdbfluorinase reference structure in PDB format

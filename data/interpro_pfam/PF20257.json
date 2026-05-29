@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "accession": "PF20257",
+    "entry_id": null,
+    "type": "domain",
+    "go_terms": null,
+    "source_database": "pfam",
+    "member_databases": null,
+    "integrated": "IPR046470",
+    "hierarchy": null,
+    "name": {
+      "name": "SAM hydroxide adenosyltransferase C-terminal domain",
+      "short": "SAM_HAT_C"
+    },
+    "description": [
+      {
+        "text": "<p>This is a family of proteins, previously known as DUF62, found in archaebacteria and bacteria. The structure of proteins in this family is similar to that of a bacterial fluorinating enzyme [[cite:PUB00047427]]. S-adenosyl-l-methionine hydroxide adenosyltransferases utilises a rigorously conserved amino acid side chain triad (Asp-Arg-His) which may have a role in activating water to hydroxide ion [[cite:PUB00054078]]. This family used to be known as DUF62. This entry represents the C-terminal domain of these enzymes.</p>",
+        "llm": false,
+        "checked": false,
+        "updated": false
+      }
+    ],
+    "wikipedia": null,
+    "literature": {
+      "PUB00054078": {
+        "PMID": 18675376,
+        "ISBN": null,
+        "volume": "12",
+        "issue": "5",
+        "year": 2008,
+        "title": "The fluorinase, the chlorinase and the duf-62 enzymes.",
+        "URL": null,
+        "raw_pages": "582-92",
+        "medline_journal": "Curr Opin Chem Biol",
+        "ISO_journal": "Curr Opin Chem Biol",
+        "authors": [
+          "Deng H",
+          "O'Hagan D."
+        ],
+        "DOI_URL": "http://dx.doi.org/10.1016/j.cbpa.2008.06.036"
+      },
+      "PUB00047427": {
+        "PMID": 17910070,
+        "ISBN": null,
+        "volume": "70",
+        "issue": "2",
+        "year": 2008,
+        "title": "Crystal structure of a conserved protein of unknown function (MJ1651) from Methanococcus jannaschii.",
+        "URL": null,
+        "raw_pages": "572-7",
+        "medline_journal": "Proteins",
+        "ISO_journal": "Proteins",
+        "authors": [
+          "Rao KN",
+          "Burley SK",
+          "Swaminathan S."
+        ],
+        "DOI_URL": "http://dx.doi.org/10.1002/prot.21646"
+      }
+    },
+    "set_info": null,
+    "overlaps_with": null,
+    "counters": {
+      "subfamilies": 0,
+      "domain_architectures": 25,
+      "interactions": 0,
+      "matches": 6438,
+      "pathways": 0,
+      "proteins": 6429,
+      "proteomes": 4313,
+      "sets": 0,
+      "structural_models": {
+        "alphafold": 5093,
+        "bfvd": 0
+      },
+      "structures": 32,
+      "taxa": 8080
+    },
+    "entry_annotations": {
+      "hmm": 0,
+      "logo": 0,
+      "alignment:seed": 238,
+      "alignment:full": 2379
+    },
+    "cross_references": {},
+    "is_llm": false,
+    "is_reviewed_llm": false,
+    "is_updated_llm": false,
+    "representative_structure": null
+  }
+}

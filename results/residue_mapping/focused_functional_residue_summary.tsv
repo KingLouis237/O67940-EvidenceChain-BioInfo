@@ -1,0 +1,7 @@
+focus	source_structure	source_paper_residue	alignment_column	O67940_residue	2Q6O_residue	1RQP_residue	source_residue_check	interpretation
+Tyr/Thr specificity-related position	2Q6O_chainA	Tyr70	68	Val67	Thr70	Thr75	expected_Y_found_T	Key position discussed in the original paper; downloaded 2Q6O structure contains Thr70, consistent with Tyr70Thr mutation context.
+Gly/Ser specificity-related position	2Q6O_chainA	Gly131	151	Gly127	Gly131	Ser158	OK	Key specificity-related position; mapping reproduces O67940 Gly127 aligned with 2Q6O Gly131 and 1RQP Ser158.
+Fluorinase comparison residue	1RQP_chainA	Thr75	68	Val67	Thr70	Thr75	OK	Fluorinase reference position corresponding to O67940 Val67.
+Fluorinase comparison residue	1RQP_chainA	Ser158	151	Gly127	Gly131	Ser158	OK	Fluorinase reference position corresponding to O67940 Gly127.
+C-terminal mapping caution	2Q6O_chainA	Arg250	272	Val229	Leu250	Arg277	expected_R_found_L	Flagged mismatch: current 2Q6O coordinate file has Leu250, not Arg250.
+C-terminal mapping caution	2Q6O_chainA	Glu252	274	Val231	Gln252	Ala279	expected_E_found_Q	Flagged mismatch: current 2Q6O coordinate file has Gln252, not Glu252.

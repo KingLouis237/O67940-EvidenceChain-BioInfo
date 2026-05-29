@@ -1,0 +1,27 @@
+UniProt full record summary for O67940_AQUAE
+=======================================================
+
+Accession: O67940
+UniProt ID: O67940_AQUAE
+Entry type: UniProtKB unreviewed (TrEMBL)
+Protein name: Uncharacterized protein
+Organism: Aquifex aeolicus (strain VF5)
+Taxon ID: 224324
+Protein existence: 3: Inferred from homology
+Sequence length: 251
+Molecular weight: 28322
+CRC64: FB8088D931DCC7B7
+
+Cross-references
+--------------------
+InterPro: IPR046470, IPR046469, IPR002747, IPR023227, IPR023228
+Pfam: PF20257, PF01887
+AlphaFoldDB: O67940
+PDB: None found
+GO: None found
+eggNOG: COG1912
+KEGG: aae:aq_2196
+
+Function comments
+--------------------
+No UniProt FUNCTION comment found.

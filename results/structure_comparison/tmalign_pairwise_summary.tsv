@@ -1,0 +1,4 @@
+structure_1	structure_2	chain1_length	chain2_length	aligned_length	rmsd	seq_identity_aligned	tm_score_norm_chain1	tm_score_norm_chain2	raw_output
+O67940_AQUAE_AlphaFold_chainA	2Q6O_chainA	251	269	250	2.01	0.288	0.91010	0.85311	results/structure_comparison/tmalign_raw/O67940_AQUAE_AlphaFold_chainA_VS_2Q6O_chainA.txt
+O67940_AQUAE_AlphaFold_chainA	1RQP_chainA	251	291	250	2.01	0.268	0.90673	0.78998	results/structure_comparison/tmalign_raw/O67940_AQUAE_AlphaFold_chainA_VS_1RQP_chainA.txt
+2Q6O_chainA	1RQP_chainA	269	291	267	1.89	0.378	0.92203	0.85589	results/structure_comparison/tmalign_raw/2Q6O_chainA_VS_1RQP_chainA.txt

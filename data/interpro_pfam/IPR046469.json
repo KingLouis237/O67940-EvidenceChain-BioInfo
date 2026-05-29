@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "accession": "IPR046469",
+    "entry_id": null,
+    "type": "domain",
+    "go_terms": null,
+    "source_database": "interpro",
+    "member_databases": {
+      "pfam": {
+        "PF01887": "SAM hydroxide adenosyltransferase N-terminal domain"
+      }
+    },
+    "integrated": null,
+    "hierarchy": {
+      "accession": "IPR046469",
+      "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain",
+      "type": "Domain",
+      "children": []
+    },
+    "name": {
+      "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain",
+      "short": "SAM_HAT_N"
+    },
+    "description": [
+      {
+        "text": "<p>The S-adenosyl-L-methionine (SAM) hydroxide adenosyltransferase family groups several fluorinase and chlorinase enzymes whose common feature is that they mediate nucleophilic reactions of their respective halide ions to the C-5' carbon of SAM [[cite:PUB00054078]]. These enzymes utilise a rigorously conserved amino acid side chain triad (Asp-Arg-His) which may have a role in activating water to hydroxide ion. Structural studies indicate that the protein is a homotrimer, with each monomer being composed of N- and C-terminal domains [[cite:PUB00030772], [cite:PUB00048880], [cite:PUB00151506]]. The N-terminal domain has a central seven-stranded \u03b2-sheet, which combines parallel and antiparallel strands sandwiched between \u03b1-helices. The C-terminal domain forms a \u03b2-barrel with a greek-key topology. SAM is bound at the interface between the C-terminal domain of one monomer and the N-terminal domain of the neighbouring monomer, with a total of three molecules bound by the trimer. This group of proteins, which are predominantly found in prokaryotes, used to be known as DUF62 [[cite:PUB00101218]].</p>",
+        "llm": false,
+        "checked": false,
+        "updated": false
+      },
+      {
+        "text": "<p>This entry represents the N-terminal domain of these enzymes.</p>",
+        "llm": false,
+        "checked": false,
+        "updated": false
+      }
+    ],
+    "wikipedia": null,
+    "literature": {
+      "PUB00151506": {
+        "PMID": 36996195,
+        "ISBN": null,
+        "volume": "379",
+        "issue": "6639",
+        "year": 2023,
+        "title": "Enzyme function prediction using contrastive learning.",
+        "URL": null,
+        "raw_pages": "1358-1363",
+        "medline_journal": "Science",
+        "ISO_journal": "Science",
+        "authors": [
+          "Yu T",
+          "Cui H",
+          "Li JC",
+          "Luo Y",
+          "Jiang G",
+          "Zhao H."
+        ],
+        "DOI_URL": "https://doi.org/10.1126/science.adf2465"
+      },
+      "PUB00030772": {
+        "PMID": 14765200,
+        "ISBN": null,
+        "volume": "427",
+        "issue": "6974",
+        "year": 2004,
+        "title": "Crystal structure and mechanism of a bacterial fluorinating enzyme.",
+        "URL": null,
+        "raw_pages": "561-5",
+        "medline_journal": "Nature",
+        "ISO_journal": "Nature",
+        "authors": [
+          "Dong C",
+          "Huang F",
+          "Deng H",
+          "Schaffrath C",
+          "Spencer JB",
+          "O'Hagan D",
+          "Naismith JH."
+        ],
+        "DOI_URL": "http://dx.doi.org/10.1038/nature02280"
+      },
+      "PUB00048880": {
+        "PMID": 18059261,
+        "ISBN": null,
+        "volume": "4",
+        "issue": "1",
+        "year": 2008,
+        "title": "Discovery and characterization of a marine bacterial SAM-dependent chlorinase.",
+        "URL": null,
+        "raw_pages": "69-74",
+        "medline_journal": "Nat Chem Biol",
+        "ISO_journal": "Nat. Chem. Biol.",
+        "authors": [
+          "Eustaquio AS",
+          "Pojer F",
+          "Noel JP",
+          "Moore BS."
+        ],
+        "DOI_URL": "http://dx.doi.org/10.1038/nchembio.2007.56"
+      },
+      "PUB00054078": {
+        "PMID": 18675376,
+        "ISBN": null,
+        "volume": "12",
+        "issue": "5",
+        "year": 2008,
+        "title": "The fluorinase, the chlorinase and the duf-62 enzymes.",
+        "URL": null,
+        "raw_pages": "582-92",
+        "medline_journal": "Curr Opin Chem Biol",
+        "ISO_journal": "Curr Opin Chem Biol",
+        "authors": [
+          "Deng H",
+          "O'Hagan D."
+        ],
+        "DOI_URL": "http://dx.doi.org/10.1016/j.cbpa.2008.06.036"
+      },
+      "PUB00101218": {
+        "PMID": 32776704,
+        "ISBN": null,
+        "volume": "21",
+        "issue": "24",
+        "year": 2020,
+        "title": "An Enzyme Containing the Conserved Domain of Unknown Function DUF62 Acts as a Stereoselective (R<sub>s</sub> ,S<sub>c</sub> )-S-Adenosylmethionine Hydrolase.",
+        "URL": null,
+        "raw_pages": "3495-3499",
+        "medline_journal": "Chembiochem",
+        "ISO_journal": "Chembiochem",
+        "authors": [
+          "Kornfuehrer T",
+          "Romanowski S",
+          "de Crecy-Lagard V",
+          "Hanson AD",
+          "Eustaquio AS."
+        ],
+        "DOI_URL": null
+      }
+    },
+    "set_info": null,
+    "overlaps_with": [
+      {
+        "accession": "IPR023228",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain superfamily",
+        "type": "homologous_superfamily"
+      }
+    ],
+    "counters": {
+      "subfamilies": 0,
+      "domain_architectures": 14,
+      "interactions": 0,
+      "matches": 6296,
+      "pathways": 0,
+      "proteins": 6272,
+      "proteomes": 4267,
+      "sets": 0,
+      "structural_models": {
+        "alphafold": 4952,
+        "bfvd": 0
+      },
+      "structures": 32,
+      "taxa": 7957
+    },
+    "entry_annotations": {
+      "alignment:seed": 238,
+      "alignment:full": 2337
+    },
+    "cross_references": {},
+    "is_llm": false,
+    "is_reviewed_llm": false,
+    "is_updated_llm": false,
+    "representative_structure": {
+      "accession": "2cw5",
+      "name": "Crystal structure of a conserved hypothetical protein from Thermus thermophilus HB8"
+    }
+  }
+}

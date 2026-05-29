@@ -1,0 +1,23 @@
+AlphaFold pLDDT summary for O67940_AQUAE
+==================================================
+
+Input PDB: data/alphafold/AF-O67940-F1-model_v6.pdb
+Number of residues with pLDDT values: 251
+Mean pLDDT: 96.70
+Median pLDDT: 97.69
+Minimum pLDDT: 77.56
+Maximum pLDDT: 98.88
+
+pLDDT confidence ranges
+------------------------------
+Very high confidence (>=90): 242 residues
+Confident (70-90): 9 residues
+Low confidence (50-70): 0 residues
+Very low confidence (<50): 0 residues
+
+Interpretation guide
+------------------------------
+pLDDT >= 90: very high local confidence
+70 <= pLDDT < 90: generally confident local structure
+50 <= pLDDT < 70: low confidence; interpret cautiously
+pLDDT < 50: very low confidence; may be flexible/disordered or unreliable

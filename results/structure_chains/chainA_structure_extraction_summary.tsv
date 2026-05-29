@@ -1,0 +1,4 @@
+label	input_pdb	output_pdb	chain	atom_count	residue_count	first_residue	last_residue	status
+O67940_AQUAE_AlphaFold_chainA	data/alphafold/AF-O67940-F1-model_v6.pdb	data/structure_chains/O67940_AQUAE_AlphaFold_chainA.pdb	A	2007	251	MET1	ILE251	OK
+2Q6O_chainA	data/pdb/2Q6O.pdb	data/structure_chains/2Q6O_chainA.pdb	A	2015	269	HIS3	PRO271	OK
+1RQP_chainA	data/pdb/1RQP.pdb	data/structure_chains/1RQP_chainA.pdb	A	2220	291	ARG8	ALA298	OK

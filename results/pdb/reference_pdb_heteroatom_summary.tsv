@@ -1,0 +1,6 @@
+pdb_id	hetatm_resname	hetatm_atom_count	chains
+2Q6O	CL	2	A,B
+2Q6O	HOH	117	A,B
+2Q6O	SAM	54	A,B
+1RQP	HOH	719	A,B,C
+1RQP	SAM	81	A,B,C

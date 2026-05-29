@@ -1,0 +1,5 @@
+pdb_id	format	url	local_file	file_size_bytes	atom_count_if_pdb	status
+2Q6O	cif	https://files.rcsb.org/download/2Q6O.cif	data/pdb/2Q6O.cif	493999	NA	OK
+2Q6O	pdb	https://files.rcsb.org/download/2Q6O.pdb	data/pdb/2Q6O.pdb	393660	4030	OK
+1RQP	cif	https://files.rcsb.org/download/1RQP.cif	data/pdb/1RQP.cif	1473603	NA	OK
+1RQP	pdb	https://files.rcsb.org/download/1RQP.pdb	data/pdb/1RQP.pdb	1273482	6660	OK

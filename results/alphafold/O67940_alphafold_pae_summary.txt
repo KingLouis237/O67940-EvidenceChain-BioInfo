@@ -1,0 +1,32 @@
+AlphaFold PAE summary for O67940_AQUAE
+==================================================
+
+Input PAE JSON: data/alphafold/AF-O67940-F1-predicted_aligned_error_v6.json
+PAE matrix size: 251 x 251
+Maximum possible/reported PAE: 31.75
+
+Overall PAE statistics
+------------------------------
+Mean PAE: 3.32 Å
+Median PAE: 3.00 Å
+Minimum PAE: 0.00 Å
+Maximum PAE: 22.00 Å
+
+PAE ranges across residue pairs
+------------------------------
+Low PAE (<5 Å): 50308 residue pairs
+Moderate PAE (5-10 Å): 11336 residue pairs
+High PAE (10-20 Å): 1341 residue pairs
+Very high PAE (>=20 Å): 16 residue pairs
+
+Approximate region-level PAE
+------------------------------
+N-terminal half internal mean PAE: 2.52 Å
+C-terminal half internal mean PAE: 3.02 Å
+Between-halves mean PAE: 3.85 Å
+
+Interpretation guide
+------------------------------
+Low PAE between regions means AlphaFold is confident about their relative positions.
+High PAE between regions means each region may be locally well predicted, but their relative arrangement is uncertain.
+This first summary uses a rough N-terminal/C-terminal split; later, domain boundaries can be refined using InterPro/Pfam coordinates if available.

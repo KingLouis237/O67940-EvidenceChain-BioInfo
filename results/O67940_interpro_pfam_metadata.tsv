@@ -1,0 +1,8 @@
+database	accession	name	short_name	type	description
+interpro	IPR046470	S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain	SAM_HAT_C	domain	NA
+interpro	IPR046469	S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain	SAM_HAT_N	domain	NA
+interpro	IPR002747	S-adenosyl-l-methionine hydroxide adenosyltransferase	SAM_OH_AdoTrfase	family	NA
+interpro	IPR023227	S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain superfamily	SAM_OH_AdoTrfase_C_sf	homologous_superfamily	NA
+interpro	IPR023228	S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain superfamily	SAM_OH_AdoTrfase_N_sf	homologous_superfamily	NA
+pfam	PF20257	SAM hydroxide adenosyltransferase C-terminal domain	SAM_HAT_C	domain	NA
+pfam	PF01887	SAM hydroxide adenosyltransferase N-terminal domain	SAM_HAT_N	domain	NA

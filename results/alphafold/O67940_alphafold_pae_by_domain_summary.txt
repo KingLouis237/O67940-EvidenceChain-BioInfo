@@ -1,0 +1,51 @@
+AlphaFold PAE summary by UniProt domain boundaries for O67940_AQUAE
+===========================================================================
+
+Domain boundaries used
+------------------------------
+N-terminal SAM_HAT domain (3-148): residues 3-148
+C-terminal SAM_HAT domain (171-246): residues 171-246
+Inter-domain region (149-170): residues 149-170
+
+PAE interpretation
+------------------------------
+Lower PAE means AlphaFold is more confident about relative positioning.
+Higher PAE means relative positioning should be interpreted more cautiously.
+
+Domain-level PAE summaries
+------------------------------
+N-terminal domain internal
+  Residue-pair count: 21316
+  Mean PAE: 2.33 Å
+  Median PAE: 2.00 Å
+  Minimum PAE: 0.00 Å
+  Maximum PAE: 19.00 Å
+
+C-terminal domain internal
+  Residue-pair count: 5776
+  Mean PAE: 1.83 Å
+  Median PAE: 2.00 Å
+  Minimum PAE: 0.00 Å
+  Maximum PAE: 6.00 Å
+
+Between N-terminal and C-terminal domains
+  Residue-pair count: 11096
+  Mean PAE: 4.03 Å
+  Median PAE: 3.00 Å
+  Minimum PAE: 1.00 Å
+  Maximum PAE: 20.00 Å
+
+N-terminal domain vs inter-domain region
+  Residue-pair count: 3212
+  Mean PAE: 3.47 Å
+  Median PAE: 3.00 Å
+  Minimum PAE: 1.00 Å
+  Maximum PAE: 19.00 Å
+
+C-terminal domain vs inter-domain region
+  Residue-pair count: 1672
+  Mean PAE: 3.21 Å
+  Median PAE: 3.00 Å
+  Minimum PAE: 1.00 Å
+  Maximum PAE: 10.00 Å
+

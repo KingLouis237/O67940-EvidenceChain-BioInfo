@@ -1,0 +1,4 @@
+label	source_file	chain	sequence_length	first_10_aa	last_10_aa	contains_unknown_X
+O67940_AQUAE_AlphaFold_chainA	data/alphafold/AF-O67940-F1-model_v6.pdb	A	251	MAIVLLTDFG	EGEKIKFFII	no
+2Q6O_chainA	data/pdb/2Q6O.pdb	A	269	HNLIAFLSDV	VPGDSITVSP	no
+1RQP_chainA	data/pdb/1RQP.pdb	A	291	RPIIAFMSDL	KEGMSARVEA	no
