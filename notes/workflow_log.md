@@ -720,3 +720,53 @@ Create the publication-upgrade module structure, then begin the homolog-search e
 ### Commit hash recorded after freeze
 `a2c52bdeac88ffae28262641682578a029be22b7`
 
+
+## 2026-07-01 — Cleanup after version-freeze setup
+
+### What was done
+Cleaned the repository state after the initial version-freeze setup. The accidental untracked shell artifacts `fi` and `printf` were inspected and removed if confirmed to be non-project files. The empty `metadata/version_history.tsv` file was replaced with a proper version-history table. The accidental local tag `v0.1-report-state` was checked and removed locally if it was not present on GitHub.
+
+### Why it was done
+The publication-upgrade branch should start from a clean and interpretable repository state. Accidental shell artifacts and duplicate local tags could confuse the audit trail.
+
+### Input files/sources
+- Current Git repository state
+- Git tag `v0.1-course-report-state`
+- Current branch `publication-upgrade-homolog-active-site`
+- `metadata/version_history.tsv`
+- `notes/workflow_log.md`
+
+### Commands used
+```bash
+ls -l fi printf
+file fi printf
+sed -n '1,20p' fi
+sed -n '1,20p' printf
+rm -- fi printf
+git rev-parse v0.1-course-report-state
+git rev-parse HEAD
+cat > metadata/version_history.tsv
+git ls-remote --tags origin "refs/tags/v0.1-report-state"
+git tag -d v0.1-report-state
+```
+
+### Output files generated
+No biological output files.
+
+Infrastructure/provenance outputs:
+- corrected `metadata/version_history.tsv`
+- updated `notes/workflow_log.md`
+- cleaner Git tag state
+
+### Main result
+The repository is cleaner and the version transition from `v0.1-course-report-state` to the publication-upgrade branch is now explicitly documented.
+
+### Interpretation
+This improves traceability before starting the next biological evidence layer.
+
+### Limitation/caution
+This step does not add homologs, alignments, phylogenetic trees, structural mappings, or any biological evidence.
+
+### Next step
+Create the publication-upgrade module folders and begin the homolog-search workflow.
+
