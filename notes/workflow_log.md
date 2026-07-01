@@ -770,3 +770,55 @@ This step does not add homologs, alignments, phylogenetic trees, structural mapp
 ### Next step
 Create the publication-upgrade module folders and begin the homolog-search workflow.
 
+
+## 2026-07-01 — Created publication-upgrade module scaffold
+
+### What was done
+Created the folder scaffold for the publication-upgrade analyses, including homolog context, phylogeny, residue conservation, active-site structural analysis, interface context, publication figures, logs, and basic test infrastructure.
+
+### Why it was done
+The next phase of the project adds broader homolog, phylogenetic, residue-conservation, active-site, ligand-pocket, and interface-context analyses. These outputs need to be separated from the original v0.1 workflow so the evidence chain remains clean and traceable.
+
+### Input files/sources
+Current Git repository state on the `publication-upgrade-homolog-active-site` branch.
+
+### Commands used
+```bash
+mkdir -p scripts/05_evolutionary_active_site_context/tests
+mkdir -p results/homolog_context
+mkdir -p results/phylogeny
+mkdir -p results/residue_conservation
+mkdir -p results/active_site_structure
+mkdir -p results/interface_context
+mkdir -p figures/publication
+mkdir -p logs/05_evolutionary_active_site_context
+
+for d in scripts/05_evolutionary_active_site_context scripts/05_evolutionary_active_site_context/tests results/homolog_context results/phylogeny results/residue_conservation results/active_site_structure results/interface_context figures/publication logs/05_evolutionary_active_site_context; do touch "$d/.gitkeep"; done
+```
+
+### Output files generated
+No biological output files.
+
+Infrastructure outputs:
+- `scripts/05_evolutionary_active_site_context/.gitkeep`
+- `scripts/05_evolutionary_active_site_context/tests/.gitkeep`
+- `results/homolog_context/.gitkeep`
+- `results/phylogeny/.gitkeep`
+- `results/residue_conservation/.gitkeep`
+- `results/active_site_structure/.gitkeep`
+- `results/interface_context/.gitkeep`
+- `figures/publication/.gitkeep`
+- `logs/05_evolutionary_active_site_context/.gitkeep`
+
+### Main result
+A clean publication-upgrade workspace now exists.
+
+### Interpretation
+The new analyses can now be developed as a traceable extension of the original project rather than being mixed into earlier workflow outputs.
+
+### Limitation/caution
+This step creates project infrastructure only. It does not generate homologs, alignments, trees, conservation tables, structural mappings, or functional evidence.
+
+### Next step
+Identify the existing O67940_AQUAE FASTA input and prepare the first homolog-search step.
+
