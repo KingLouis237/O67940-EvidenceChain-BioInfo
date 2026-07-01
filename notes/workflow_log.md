@@ -1,4 +1,4 @@
-# Workflow log — Methods in Bioinformatics re-analysis
+# Workflow log - Methods in Bioinformatics re-analysis
 
 ## Project aim
 
@@ -619,3 +619,100 @@ Files generated:
 Purpose:
 
 A Word-editable report draft was generated from the assembled Markdown report. Figure image links were inserted into the Word-ready Markdown for figures 2, 3, and 4 before conversion with Pandoc.
+
+## 2026-07-01 — Version freeze before publication upgrade
+
+### What was done
+Tagged the current repository state as `v0.1-course-report-state` and prepared a new publication-upgrade branch for broader homolog, phylogenetic, residue-conservation, active-site, ligand-pocket, and interface analyses.
+
+### Why it was done
+The current report represents the completed report-level reproducible re-analysis. Before adding the publication-upgrade analyses, the original state was preserved so that the evidence chain remains transparent.
+
+### Input files/sources
+Current repository state, including `data/`, `scripts/`, `results/`, `figures/`, `metadata/`, `notes/`, `report/`, `README.md`, `REPRODUCIBILITY.md`, and `environment.yml`.
+
+### Command or script used
+`git tag v0.1-course-report-state`
+`git switch -c publication-upgrade-homolog-active-site`
+
+### Output files generated
+No new biological output files. A Git version tag and publication-upgrade branch were created.
+
+### Main result
+The original course/report-level project state is preserved as `v0.1-course-report-state`.
+
+### Interpretation
+This separates the original reproducible report from the publication-upgrade extension.
+
+### Limitation/caution
+This is version-control provenance only. It does not add biological evidence and does not support any new functional claim about O67940_AQUAE.
+
+### Next step
+Create the publication-upgrade module structure and begin the homolog-search evidence layer.
+
+
+## 2026-07-01 — Version freeze before publication upgrade
+
+### What was done
+Prepared the current repository state for tagging as `v0.1-course-report-state` and for branching into `publication-upgrade-homolog-active-site`.
+
+### Why it was done
+The current report represents the completed course/report-level reproducible re-analysis. Before adding the publication-upgrade module — homolog search, broader MSA, phylogenetic analysis, residue conservation, active-site structural mapping, SAM/ligand pocket context, and interface context — the current state is being frozen as a permanent checkpoint. This keeps the original report state separate from the publication extension.
+
+### Input files/sources
+Current repository state, including:
+- `data/`
+- `scripts/`
+- `results/`
+- `figures/`
+- `metadata/`
+- `notes/`
+- `report/`
+- `README.md`
+- `REPRODUCIBILITY.md`
+- `environment.yml`
+
+### Commands used
+```bash
+git status --short --branch
+git add metadata/version_history.tsv notes/workflow_log.md
+git commit -m "Document v0.1 course-report state before publication upgrade"
+git tag -a v0.1-course-report-state -m "Course report state before homolog and active-site publication upgrade"
+git push origin main
+git push origin v0.1-course-report-state
+git switch -c publication-upgrade-homolog-active-site
+git push -u origin publication-upgrade-homolog-active-site
+```
+
+### Commit hash at time of freeze
+To be filled after tagging using:
+```bash
+git rev-parse v0.1-course-report-state
+```
+
+### Output files generated
+No new biological output files.
+
+Infrastructure/provenance outputs:
+- `metadata/version_history.tsv`
+- updated `notes/workflow_log.md`
+- Git tag: `v0.1-course-report-state`
+- Git branch: `publication-upgrade-homolog-active-site`
+
+### Main result
+The original course/report-level project state will be preserved as `v0.1-course-report-state`, while new publication-upgrade analyses will be developed on a separate branch.
+
+### Interpretation
+This separates the original reproducible report from the publication-upgrade extension and keeps the project history auditable.
+
+### Limitation/caution
+This is version-control and documentation provenance only. It does not add biological evidence and does not support any new functional claim about O67940_AQUAE.
+
+### Verification
+- [ ] Tag visible on GitHub tags page
+- [ ] Branch visible on GitHub branches page
+- [ ] Commit hash recorded in this workflow log
+
+### Next step
+Create the publication-upgrade module structure, then begin the homolog-search evidence layer.
+
