@@ -716,3 +716,7 @@ This is version-control and documentation provenance only. It does not add biolo
 ### Next step
 Create the publication-upgrade module structure, then begin the homolog-search evidence layer.
 
+
+### Commit hash recorded after freeze
+`a2c52bdeac88ffae28262641682578a029be22b7`
+
