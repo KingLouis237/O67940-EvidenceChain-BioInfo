@@ -822,3 +822,87 @@ This step creates project infrastructure only. It does not generate homologs, al
 ### Next step
 Identify the existing O67940_AQUAE FASTA input and prepare the first homolog-search step.
 
+
+## 2026-07-01 — Validated O67940_AQUAE FASTA query input
+
+### What was done
+Checked the existing O67940_AQUAE FASTA file before using it as the query for the broader homolog-search module.
+
+### Why it was done
+The homolog-search step depends on one exact query sequence. Before running JackHMMER or any other search tool, I needed to confirm that the FASTA file exists, contains one proper sequence record, has the expected length, is tracked by Git, and is already represented in provenance and checksum metadata.
+
+### Input files/sources
+- data/O67940_AQUAE.fasta
+- metadata/source_provenance.tsv
+- metadata/checksums_sha256.txt
+
+### Commands used
+```bash
+grep "^>" data/O67940_AQUAE.fasta
+grep -c "^>" data/O67940_AQUAE.fasta
+
+ls -lh data/O67940_AQUAE.fasta
+wc -l data/O67940_AQUAE.fasta
+wc -c data/O67940_AQUAE.fasta
+head -5 data/O67940_AQUAE.fasta
+
+awk '
+  /^>/ {next}
+  {
+    gsub(/[[:space:]]/, "", $0)
+    seq = seq $0
+  }
+  END {
+    print "length=" length(seq)
+    print "first20=" substr(seq, 1, 20)
+    print "last20=" substr(seq, length(seq)-19, 20)
+  }
+' data/O67940_AQUAE.fasta
+
+git ls-files data/O67940_AQUAE.fasta
+grep -n "O67940_AQUAE.fasta\|O67940" metadata/source_provenance.tsv | head -20 || true
+grep -n "data/O67940_AQUAE.fasta\|O67940_AQUAE.fasta" metadata/checksums_sha256.txt || true
+
+
+### Output files generated
+
+No new biological output files. This was an input-validation step.
+
+### Main result
+
+The query FASTA is present at:
+
+`data/O67940_AQUAE.fasta`
+
+The FASTA contains one record:
+
+`tr|O67940|O67940_AQUAE Uncharacterized protein OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_2196 PE=3 SV=1`
+
+The sequence length is 251 amino acids.
+
+First 20 residues:
+
+`MAIVLLTDFGTKDGFVGAVK`
+
+Last 20 residues:
+
+`DNAREKFNLKEGEKIKFFII`
+
+The file is tracked by Git. It is also already present in `metadata/source_provenance.tsv` and `metadata/checksums_sha256.txt`.
+
+Checksum recorded:
+
+`6efb6e2e79d1f1df42de3a00281800ed88ee046c2928820c6401d8ca27ce5eb4  data/O67940_AQUAE.fasta`
+
+### Interpretation
+
+`data/O67940_AQUAE.fasta` is suitable to use as the official query input for the homolog-search module.
+
+### Limitation / caution
+
+This step only validates the query input. It does not recover homologs, build an alignment, infer phylogeny, test residue conservation, or support any new functional claim about `O67940_AQUAE`.
+
+### Next step
+
+Install HMMER/JackHMMER inside the `methods_bioinfo` Conda environment so the broader homolog search can be run reproducibly.
+
