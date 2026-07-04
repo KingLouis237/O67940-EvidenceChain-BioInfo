@@ -906,3 +906,44 @@ This step only validates the query input. It does not recover homologs, build an
 
 Install HMMER/JackHMMER inside the `methods_bioinfo` Conda environment so the broader homolog search can be run reproducibly.
 
+
+## 2026-07-01 — Installed HMMER for JackHMMER homolog search
+
+### What was done
+Installed HMMER inside the active methods_bioinfo Conda environment.
+
+### Why it was done
+The previous tool check showed that MAFFT was available but JackHMMER was missing. JackHMMER is needed for the broader homolog-search step.
+
+### Input files/sources
+Active Conda environment:
+
+methods_bioinfo
+
+Package channels:
+
+conda-forge
+bioconda
+
+### Commands used
+```bash
+conda install -y -c conda-forge -c bioconda hmmer
+
+which jackhmmer
+jackhmmer -h 2>&1 | head -15
+conda list | grep -E "^hmmer|^mafft"
+
+cp environment.yml metadata/environment_before_hmmer_install.yml
+conda env export --no-builds | grep -v "^prefix:" > environment.yml
+### environment.yml
+metadata/environment_before_hmmer_install.yml
+### Main result
+HMMER was installed in the project Conda environment, making JackHMMER available for the homolog-search module.
+
+### Interpretation
+
+The environment is now ready for the first broader homolog-search run using data/O67940_AQUAE.fasta as the query.
+
+### Next step
+
+Select and document the homolog-search database, then run JackHMMER using data/O67940_AQUAE.fasta as the query.
