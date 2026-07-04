@@ -1,0 +1,5 @@
+Started: Sat Jul  4 17:25:16 CEST 2026
+Query: data/O67940_AQUAE.fasta
+Database: data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta
+Tool: # jackhmmer :: iteratively search a protein sequence against a protein database # HMMER 3.4 (Aug 2023); http://hmmer.org/ 
+Finished: Sat Jul  4 17:25:22 CEST 2026

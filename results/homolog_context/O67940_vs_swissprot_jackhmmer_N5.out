@@ -1,0 +1,227 @@
+# jackhmmer :: iteratively search a protein sequence against a protein database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             data/O67940_AQUAE.fasta
+# target sequence database:        data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta
+# output directed to file:         results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.out
+# MSA of hits saved to file:       results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.sto
+# per-seq hits tabular output:     results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.tblout
+# per-dom hits tabular output:     results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.domtblout
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 1e-05
+# domain reporting threshold:      E-value <= 1e-05
+# sequence inclusion threshold:    E-value <= 1e-05
+# domain inclusion threshold:      E-value <= 1e-05
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       tr|O67940|O67940_AQUAE  [L=251]
+Description: Uncharacterized protein OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_2196 PE=3 SV=1
+
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
++   1.1e-48  170.8   0.4    1.2e-48  170.7   0.4    1.0  1  sp|O58212|RSAMH_PYRHO    (R)-S-adenosyl-L-methionine hydrolas
++   8.3e-36  128.6   0.0    1.1e-35  128.2   0.0    1.1  1  sp|Q5SLF5|RSAMH_THET8    (R)-S-adenosyl-L-methionine hydrolas
++   6.8e-34  122.4   6.3    4.9e-33  119.6   6.3    2.1  1  sp|Q59045|RSAMH_METJA    (R)-S-adenosyl-L-methionine hydrolas
++   3.6e-29  106.9   0.0    4.8e-29  106.5   0.0    1.1  1  sp|A8M783|RSAMH_SALAI    (R)-S-adenosyl-L-methionine hydrolas
++   2.3e-28  104.2   0.0      3e-28  103.9   0.0    1.1  1  sp|A4X4S2|RSAMH_SALTO    (R)-S-adenosyl-L-methionine hydrolas
++   1.3e-24   91.9   0.0    1.5e-24   91.7   0.0    1.1  1  sp|A4X3Q0|SALL_SALTO     Adenosyl-chloride synthase OS=Salini
++   6.7e-21   79.8   0.0    1.8e-08   39.1   0.0    2.1  2  sp|R4LHX8|FLA_ACTS9      Fluorinase OS=Actinoplanes sp. (stra
++   1.6e-20   78.6   0.0    1.1e-08   39.8   0.0    2.5  2  sp|Q70GK9|FLA_STRCT      Fluorinase OS=Streptantibioticus cat
++   1.8e-19   75.1   0.0    3.4e-08   38.2   0.0    2.3  2  sp|W0W999|FLA_STRSQ      Fluorinase OS=Streptomyces sp. OX=19
++   4.7e-19   73.8   0.0    4.4e-08   37.8   0.0    2.6  2  sp|A0A1G9FQX8|FLA_ACTMZ  Fluorinase OS=Actinopolyspora mzaben
++   5.4e-19   73.5   0.0    3.6e-08   38.1   0.0    2.4  2  sp|W8JNL4|FLA_NOCB7      Fluorinase OS=Nocardia brasiliensis 
+
+
+Domain annotation for each sequence:
+>> sp|O58212|RSAMH_PYRHO  (R)-S-adenosyl-L-methionine hydrolase OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  170.7   0.4   2.3e-53   1.2e-48       3     248 ..       2     253 ..       1     256 [] 0.91
+
+>> sp|Q5SLF5|RSAMH_THET8  (R)-S-adenosyl-L-methionine hydrolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / H
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.2   0.0   2.1e-40   1.1e-35       3     247 ..       4     253 ..       2     255 .] 0.85
+
+>> sp|Q59045|RSAMH_METJA  (R)-S-adenosyl-L-methionine hydrolase OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.6   6.3   9.3e-38   4.9e-33       3     196 ..      13     196 ..      11     262 .. 0.78
+
+>> sp|A8M783|RSAMH_SALAI  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora arenicola (strain CNS-205) OX=391037 GN=S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.5   0.0   9.2e-34   4.8e-29       5     182 ..       9     188 ..       6     199 .. 0.92
+
+>> sp|A4X4S2|RSAMH_SALTO  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.9   0.0   5.7e-33     3e-28       5     182 ..       9     188 ..       6     214 .. 0.93
+
+>> sp|A4X3Q0|SALL_SALTO  Adenosyl-chloride synthase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.7   0.0   2.9e-29   1.5e-24       3     189 ..       6     196 ..       4     247 .. 0.89
+
+>> sp|R4LHX8|FLA_ACTS9  Fluorinase OS=Actinoplanes sp. (strain N902-109) OX=649831 GN=flA3 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.9   0.0     4e-13   2.1e-08       3      83 ..       9      89 ..       7     101 .. 0.93
+   2 !   39.1   0.0   3.5e-13   1.8e-08      84     186 ..     113     219 ..     100     228 .. 0.87
+
+>> sp|Q70GK9|FLA_STRCT  Fluorinase OS=Streptantibioticus cattleyicolor OX=29303 GN=flA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.3   0.0   2.5e-12   1.3e-07       3      84 ..      11      92 ..       9     103 .. 0.94
+   2 !   39.8   0.0     2e-13   1.1e-08      84     187 ..     115     221 ..     103     296 .. 0.87
+
+>> sp|W0W999|FLA_STRSQ  Fluorinase OS=Streptomyces sp. OX=1931 GN=flA1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   0.0   5.8e-12     3e-07       3      84 ..      11      92 ..       9     104 .. 0.94
+   2 !   38.2   0.0   6.4e-13   3.4e-08      85     188 ..     116     222 ..     104     296 .. 0.86
+
+>> sp|A0A1G9FQX8|FLA_ACTMZ  Fluorinase OS=Actinopolyspora mzabensis OX=995066 GN=SAMN04487820_1174 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.8   0.0   8.4e-13   4.4e-08       3      85 ..      10      91 ..       8     102 .. 0.92
+   2 !   33.6   0.0   1.7e-11   8.8e-07      83     186 ..     113     220 ..      93     297 .. 0.83
+
+>> sp|W8JNL4|FLA_NOCB7  Fluorinase OS=Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1) OX=1133849 GN=flA2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.7   0.0     3e-11   1.5e-06       3      82 ..      11      90 ..       9     101 .. 0.93
+   2 !   38.1   0.0   6.9e-13   3.6e-08      78     186 ..     109     221 ..      97     227 .. 0.81
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (251 nodes)
+Target sequences:                     575503  (208906902 residues searched)
+Passed MSV filter:                     13843  (0.0240537); expected 11510.1 (0.02)
+Passed bias filter:                    10533  (0.0183023); expected 11510.1 (0.02)
+Passed Vit filter:                       718  (0.0012476); expected 575.5 (0.001)
+Passed Fwd filter:                        15  (2.60642e-05); expected 5.8 (1e-05)
+Initial search space (Z):             575503  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 6.20u 1.00s 00:00:07.20 Elapsed: 00:00:02.59
+# Mc/sec: 20235.74
+
+@@ New targets included:   11
+@@ New alignment includes: 17 subseqs (was 1), including original query
+@@ Continuing to next round.
+
+@@
+@@ Round:                  2
+@@ Included in MSA:        17 subsequences (query + 16 subseqs from 11 targets)
+@@ Model size:             251 positions
+@@
+
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+     2e-103  350.1   0.1   2.2e-103  350.0   0.1    1.0  1  sp|O58212|RSAMH_PYRHO    (R)-S-adenosyl-L-methionine hydrolas
+    5.9e-88  299.4   0.0    6.7e-88  299.3   0.0    1.0  1  sp|Q5SLF5|RSAMH_THET8    (R)-S-adenosyl-L-methionine hydrolas
+    5.5e-86  293.0   0.1      2e-45  160.2   0.0    2.3  2  sp|Q70GK9|FLA_STRCT      Fluorinase OS=Streptantibioticus cat
+      4e-85  290.2   0.0    8.2e-46  161.4   0.0    2.3  2  sp|A0A1G9FQX8|FLA_ACTMZ  Fluorinase OS=Actinopolyspora mzaben
+    6.4e-85  289.5   0.2    3.9e-45  159.2   0.0    2.2  2  sp|W0W999|FLA_STRSQ      Fluorinase OS=Streptomyces sp. OX=19
+    1.2e-83  285.3   0.0    4.8e-44  155.6   0.0    2.3  2  sp|R4LHX8|FLA_ACTS9      Fluorinase OS=Actinoplanes sp. (stra
+    2.6e-83  284.2   0.0    4.5e-45  158.9   0.0    2.3  2  sp|W8JNL4|FLA_NOCB7      Fluorinase OS=Nocardia brasiliensis 
+      6e-79  269.9   0.0    1.1e-78  269.0   0.0    1.4  1  sp|A4X3Q0|SALL_SALTO     Adenosyl-chloride synthase OS=Salini
+    2.2e-78  268.1   0.0    2.8e-78  267.7   0.0    1.0  1  sp|A4X4S2|RSAMH_SALTO    (R)-S-adenosyl-L-methionine hydrolas
+    3.1e-78  267.6   0.0      4e-78  267.2   0.0    1.0  1  sp|A8M783|RSAMH_SALAI    (R)-S-adenosyl-L-methionine hydrolas
+    1.7e-70  242.2   1.0    2.6e-70  241.7   1.0    1.2  1  sp|Q59045|RSAMH_METJA    (R)-S-adenosyl-L-methionine hydrolas
+
+
+Domain annotation for each sequence:
+>> sp|O58212|RSAMH_PYRHO  (R)-S-adenosyl-L-methionine hydrolase OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  350.0   0.1  4.2e-108  2.2e-103       3     248 ..       2     253 ..       1     256 [] 0.97
+
+>> sp|Q5SLF5|RSAMH_THET8  (R)-S-adenosyl-L-methionine hydrolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / H
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  299.3   0.0   1.3e-92   6.7e-88       3     248 ..       4     254 ..       2     255 .] 0.94
+
+>> sp|Q70GK9|FLA_STRCT  Fluorinase OS=Streptantibioticus cattleyicolor OX=29303 GN=flA PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.4   0.2   4.7e-41   2.4e-36       3      85 ..      11      93 ..       9      96 .. 0.97
+   2 !  160.2   0.0   3.7e-50     2e-45      81     248 ..     112     296 ..     106     298 .. 0.82
+
+>> sp|A0A1G9FQX8|FLA_ACTMZ  Fluorinase OS=Actinopolyspora mzabensis OX=995066 GN=SAMN04487820_1174 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  126.3   0.1   8.2e-40   4.3e-35       3      84 ..      10      91 ..       8      95 .. 0.97
+   2 !  161.4   0.0   1.6e-50   8.2e-46      81     248 ..     111     296 ..     103     298 .. 0.84
+
+>> sp|W0W999|FLA_STRSQ  Fluorinase OS=Streptomyces sp. OX=1931 GN=flA1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.1   0.2   2.3e-40   1.2e-35       3      85 ..      11      93 ..       9      96 .. 0.97
+   2 !  159.2   0.0   7.5e-50   3.9e-45      82     248 ..     113     296 ..     107     298 .. 0.85
+
+>> sp|R4LHX8|FLA_ACTS9  Fluorinase OS=Actinoplanes sp. (strain N902-109) OX=649831 GN=flA3 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.3   0.1   4.1e-40   2.1e-35       3      85 ..       9      91 ..       7      94 .. 0.97
+   2 !  155.6   0.0   9.2e-49   4.8e-44      81     248 ..     110     295 ..     104     297 .. 0.83
+
+>> sp|W8JNL4|FLA_NOCB7  Fluorinase OS=Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1) OX=1133849 GN=flA2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.9   0.1   8.9e-39   4.7e-34       3      83 ..      11      91 ..       9      95 .. 0.97
+   2 !  158.9   0.0   8.7e-50   4.5e-45      80     248 ..     111     297 ..     105     299 .. 0.84
+
+>> sp|A4X3Q0|SALL_SALTO  Adenosyl-chloride synthase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  269.0   0.0   2.2e-83   1.1e-78       3     247 ..       6     268 ..       4     270 .. 0.91
+
+>> sp|A4X4S2|RSAMH_SALTO  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  267.7   0.0   5.4e-83   2.8e-78       3     248 ..       7     258 ..       6     260 .. 0.90
+
+>> sp|A8M783|RSAMH_SALAI  (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora arenicola (strain CNS-205) OX=391037 GN=S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  267.2   0.0   7.7e-83     4e-78       3     248 ..       7     258 ..       6     260 .. 0.91
+
+>> sp|Q59045|RSAMH_METJA  (R)-S-adenosyl-L-methionine hydrolase OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DS
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.7   1.0   4.9e-75   2.6e-70       3     248 ..      13     261 ..      11     263 .] 0.94
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (251 nodes)
+Target sequences:                     575503  (208906902 residues searched)
+Passed MSV filter:                     14263  (0.0247835); expected 11510.1 (0.02)
+Passed bias filter:                    10683  (0.0185629); expected 11510.1 (0.02)
+Passed Vit filter:                       615  (0.00106863); expected 575.5 (0.001)
+Passed Fwd filter:                        17  (2.95394e-05); expected 5.8 (1e-05)
+Initial search space (Z):             575503  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 7.33u 1.39s 00:00:08.72 Elapsed: 00:00:03.49
+# Mc/sec: 14986.97
+
+@@ New targets included:   0
+@@ New alignment includes: 17 subseqs (was 17), including original query
+@@
+@@ CONVERGED (in 2 rounds). 
+@@
+
+# Alignment of 17 hits satisfying inclusion thresholds saved to: results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.sto
+//
+[ok]

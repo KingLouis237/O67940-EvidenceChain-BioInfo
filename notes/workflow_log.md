@@ -972,3 +972,46 @@ Swiss-Prot is not the full homolog universe. It is curated but incomplete for th
 Next:
 
 Run JackHMMER using data/O67940_AQUAE.fasta as query against the local Swiss-Prot FASTA.
+
+## 2026-07-04 — Ran first JackHMMER search against Swiss-Prot
+
+I ran JackHMMER using `data/O67940_AQUAE.fasta` as the query against the local Swiss-Prot database.
+
+Main settings:
+
+- database: `data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta`
+- tool: HMMER 3.4 / JackHMMER
+- iterations: 5
+- E-value threshold: 1e-5
+- CPU: 4
+
+Output files:
+
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.out`
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.tblout`
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.domtblout`
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.sto`
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.parsed_hits.tsv`
+- `logs/05_evolutionary_active_site_context/O67940_vs_swissprot_jackhmmer_N5.log`
+
+Main result:
+
+JackHMMER found 11 non-comment Swiss-Prot sequence hits.
+
+The hits include proteins annotated as:
+
+- `(R)-S-adenosyl-L-methionine hydrolase`
+- `Fluorinase`
+- `Adenosyl-chloride synthase / SalL`
+
+Interpretation:
+
+This supports that O67940_AQUAE sits in a reviewed Swiss-Prot neighborhood related to SAM-dependent halogenase/SAM-hydrolase/fluorinase-chlorinase-like proteins.
+
+Caution:
+
+This is a first controlled pass against Swiss-Prot only. It is useful, but it is not the full homolog universe. The hit list does not prove enzyme activity or substrate specificity.
+
+Next:
+
+Inspect the domain-level output and then decide how to curate the first homolog set for alignment and residue comparison.

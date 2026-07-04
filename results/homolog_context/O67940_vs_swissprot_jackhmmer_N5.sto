@@ -1,0 +1,95 @@
+# STOCKHOLM 1.0
+#=GF ID tr|O67940|O67940_AQUAE-i2
+#=GF DE Uncharacterized protein OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_2196 PE=3 SV=1
+#=GF AU jackhmmer (HMMER 3.4)
+
+#=GS tr|O67940|O67940_AQUAE          DE Uncharacterized protein OS=Aquifex aeolicus (strain VF5) OX=224324 GN=aq_2196 PE=3 SV=1
+#=GS sp|O58212|RSAMH_PYRHO/2-253     DE [subseq from] (R)-S-adenosyl-L-methionine hydrolase OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=PH0463 PE=1 SV=1
+#=GS sp|Q5SLF5|RSAMH_THET8/4-254     DE [subseq from] (R)-S-adenosyl-L-methionine hydrolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=TTHA0338 PE=1 SV=1
+#=GS sp|Q70GK9|FLA_STRCT/11-93       DE [subseq from] Fluorinase OS=Streptantibioticus cattleyicolor OX=29303 GN=flA PE=1 SV=1
+#=GS sp|Q70GK9|FLA_STRCT/112-296     DE [subseq from] Fluorinase OS=Streptantibioticus cattleyicolor OX=29303 GN=flA PE=1 SV=1
+#=GS sp|A0A1G9FQX8|FLA_ACTMZ/10-91   DE [subseq from] Fluorinase OS=Actinopolyspora mzabensis OX=995066 GN=SAMN04487820_1174 PE=1 SV=1
+#=GS sp|A0A1G9FQX8|FLA_ACTMZ/111-296 DE [subseq from] Fluorinase OS=Actinopolyspora mzabensis OX=995066 GN=SAMN04487820_1174 PE=1 SV=1
+#=GS sp|W0W999|FLA_STRSQ/11-93       DE [subseq from] Fluorinase OS=Streptomyces sp. OX=1931 GN=flA1 PE=1 SV=1
+#=GS sp|W0W999|FLA_STRSQ/113-296     DE [subseq from] Fluorinase OS=Streptomyces sp. OX=1931 GN=flA1 PE=1 SV=1
+#=GS sp|R4LHX8|FLA_ACTS9/9-91        DE [subseq from] Fluorinase OS=Actinoplanes sp. (strain N902-109) OX=649831 GN=flA3 PE=1 SV=2
+#=GS sp|R4LHX8|FLA_ACTS9/110-295     DE [subseq from] Fluorinase OS=Actinoplanes sp. (strain N902-109) OX=649831 GN=flA3 PE=1 SV=2
+#=GS sp|W8JNL4|FLA_NOCB7/11-91       DE [subseq from] Fluorinase OS=Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1) OX=1133849 GN=flA2 PE=1 SV=1
+#=GS sp|W8JNL4|FLA_NOCB7/111-297     DE [subseq from] Fluorinase OS=Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1) OX=1133849 GN=flA2 PE=1 SV=1
+#=GS sp|A4X3Q0|SALL_SALTO/6-268      DE [subseq from] Adenosyl-chloride synthase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 / NBRC 105044 / CNB-440) OX=369723 GN=salL PE=1 SV=1
+#=GS sp|A4X4S2|RSAMH_SALTO/7-258     DE [subseq from] (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 / NBRC 105044 / CNB-440) OX=369723 GN=Strop_1405 PE=1 SV=1
+#=GS sp|A8M783|RSAMH_SALAI/7-258     DE [subseq from] (R)-S-adenosyl-L-methionine hydrolase OS=Salinispora arenicola (strain CNS-205) OX=391037 GN=Sare_1364 PE=1 SV=1
+#=GS sp|Q59045|RSAMH_METJA/13-261    DE [subseq from] (R)-S-adenosyl-L-methionine hydrolase OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1651 PE=1 SV=1
+
+tr|O67940|O67940_AQUAE                  MAIVLLTDFGTKDGFVGAVKGVILSI----NPSVQIVDLSHEVDSFNVLEGALLLKAHYSYFPEKSVFVGVVDPGVGSERKGIIVKTEK-YFFVGPDNGLF-DLV--IKE-AKDFEVYEI---KNEKFTLPK---KNNTFHGRDVFAPVAAY--LSKGVKPEEIGPRIEYREKLKF-PEP--K---R---E---KD--FI
+sp|O58212|RSAMH_PYRHO/2-253             --ITLTTDFGLKGPYVGEMKVAMLRI----NPNAKIVDVTHSVTRHSILEGSFVMEQVVKYSPKGTVHVGVIDPGVGTERRAIVIEGDQ-YL-VVPDNGLA-TLP--LKH-IKVKSVYEIIPDKIRKFTGWE---ISSTFHGRDIFGPAGAL--IEKGIHPEEFGREIPVDSIVKLNVEP--R---K---E---GD--VW
+#=GR sp|O58212|RSAMH_PYRHO/2-253     PP ..99**********************....*********************************************************99.98.********.***..***.***********99********...*****************..**********************8899..*...*...*...**..**
+sp|Q5SLF5|RSAMH_THET8/4-254             --VYFLSDFGLEDPYVAVVKAVLAER----APGPAVVDLAHALPPQDLRRAAYALFEALPYLPEGAVVLAVVDPGVGTARRAVA-ALGR-WTYVGPDNGLF-TLAWLLDPPRRAFLLEPP--RPRPKAALPGWAPGEATFHGRDVFAPAAAH--LALGLPPEGLGPEVPVETLARL-PLA--L---T---E-------GP
+#=GR sp|Q5SLF5|RSAMH_THET8/4-254     PP ..89**********************....******************************************************.9***.***********.**9888885666666666..87889888766669****************..**********************.***..9...9...7.......99
+sp|Q70GK9|FLA_STRCT/11-93               --IAFMSDLGTTDDSVAQCKGLMYSI----CPDVTVVDVCHSMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTTTRSVAVRIKQ---------------------------------------------------------------------------------------------------------------
+#=GR sp|Q70GK9|FLA_STRCT/11-93       PP ..99**********************....*******************************************************9986...............................................................................................................
+sp|Q70GK9|FLA_STRCT/112-296             ------------------------------------------------------------------------------------RAEGS-YIYIAPNNGLL-TTV--LEE-HGYLEAYEV---TSPKVIPEQ---PEPTFYSREMVAIPSAH--LAAGFPLSEVGRPLEDHEIVRF-NRP--A---V---E---QDGEAL
+#=GR sp|Q70GK9|FLA_STRCT/112-296     PP ....................................................................................57899.***********.***..***.*********...*********...*****************..**********************.**9..8...7...7...653389
+sp|A0A1G9FQX8|FLA_ACTMZ/10-91           --IAFMSDLGTTDDSVAQCKGLMMSI----CQDVTVVDVCHSMEPWNVEEGARYIVDLPRFFPEGTVFATTTYPATGTTARSVAVRIK----------------------------------------------------------------------------------------------------------------
+#=GR sp|A0A1G9FQX8|FLA_ACTMZ/10-91   PP ..99**********************....*******************************************************975................................................................................................................
+sp|A0A1G9FQX8|FLA_ACTMZ/111-296         ------------------------------------------------------------------------------------RSEGS-YIYIAPNNGLL-TTV--LQE-HGYTEAYEV---SSTDVVPAR---PEPTFYSREMVAIPSAH--LAAGYPLEKVGRKLQDSEIVRF-TPP--QATVS---P---EG--DL
+#=GR sp|A0A1G9FQX8|FLA_ACTMZ/111-296 PP ....................................................................................57899.***********.***..***.*********...*********...*****************..**********************.887..62223...5...78..99
+sp|W0W999|FLA_STRSQ/11-93               --IAFMSDLGTTDDSVAQCKGLMHSI----CPGVTVVDVCHSMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTTTRSVAVRIRQ---------------------------------------------------------------------------------------------------------------
+#=GR sp|W0W999|FLA_STRSQ/11-93       PP ..99**********************....*******************************************************9865...............................................................................................................
+sp|W0W999|FLA_STRSQ/113-296             -------------------------------------------------------------------------------------ADGS-YIYIAPNNGLL-TTV--LEE-HGYIEAYEV---TSTKVIPAN---PEPTFYSREMVAIPSAH--LAAGFPLAEVGRRLDDSEIVRF-HRP--A---V---EI-SGE--AL
+#=GR sp|W0W999|FLA_STRSQ/113-296     PP .....................................................................................6789.***********.***..***.*********...*********...*****************..**********************.*99..8...7...63.379..**
+sp|R4LHX8|FLA_ACTS9/9-91                --IAFMSDLGTTDDSVAQCKGLMLSI----CPGVTIVDVNHSMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTATRSVALRIKQ---------------------------------------------------------------------------------------------------------------
+#=GR sp|R4LHX8|FLA_ACTS9/9-91        PP ..99**********************....*******************************************************9986...............................................................................................................
+sp|R4LHX8|FLA_ACTS9/110-295             ------------------------------------------------------------------------------------RAEGS-YIYIAPNNGLL-TTV--IEE-HGYIEAYEV---SNTKVIPAE---PEPTFYSREMVAIPSAH--LAAGFPLNEVGRALSDDEIVRF-AKP--K---PSTVS---GG--VL
+#=GR sp|R4LHX8|FLA_ACTS9/110-295     PP ....................................................................................57899.***********.***..***.*********...*********...*****************..**********************.888..7...52224...68..9*
+sp|W8JNL4|FLA_NOCB7/11-91               --IAFMSDLGITDDSVAQCKGLMLSV----CPDVTIVDICHTMQPWDVEEGARYIVDLPRLFPEGTVFATTTYPATGTTARSVALRI-----------------------------------------------------------------------------------------------------------------
+#=GR sp|W8JNL4|FLA_NOCB7/11-91       PP ..99**********************....******************************************************986.................................................................................................................
+sp|W8JNL4|FLA_NOCB7/111-297             -----------------------------------------------------------------------------------ERKEGS-YIYIAPNNGLL-TTV--IKE-HGYLEAYEV---SSPEVIPEQ---PEPTFYSREMVALPSAH--LAAGFPLEKVGRRLADDEIVRF-ERK--D---P---ELVADH--DL
+#=GR sp|W8JNL4|FLA_NOCB7/111-297     PP ...................................................................................56899*.***********.***..***.*********...*********...*****************..**********************.766..5...4...422245..78
+sp|A4X3Q0|SALL_SALTO/6-268              --IAFLSDVGSADEAHALCKGVMYGV----APAATIVDITHDVAPFDVREGALFLADVPHSFPAHTVICAYVYPETGTATHTIAVRNEKGQLLVGPNNGLL-SFA--LDA-SPAVECHEV---LSPDVMNQP---VTPTWYGKDIVAACAAH--LAAGTDLAAVGPRIDPKQIVRL-PYA--SA-SE---V---EG--GI
+#=GR sp|A4X3Q0|SALL_SALTO/6-268      PP ..99**********************....***********************************************************99**********.***..***.*********...*********...*****************..**********************.988..62.25...6...79..**
+sp|A4X4S2|RSAMH_SALTO/7-258             --ISFTTDYGLADGFVAACHGVLARL----TPTTRVIDVTHLVPPGDVRRGAAVLAQAVPYLPA-AVHLAVVDPGVGTARRAIALAAGD-GLLVGPDNGLLLDAA--AAL-GGVRAAVEL---TNRDWLGAD---VSATFHGRDIFAPVAAR--LALGAPLADAGPAVEPSTLVRL-PVPLVR---P---E---AD--GF
+#=GR sp|A4X4S2|RSAMH_SALTO/7-258     PP ..89**********************....**********************************.************************.*********954999..999.*********...*********...*****************..**********************.988657...8...9...**..**
+sp|A8M783|RSAMH_SALAI/7-258             --ISFTTDYGLADGFVAACHGVLARL----APTARVIDVTHLVPPGDVRRGAAVLAQTVPYLPA-AVHVAVVDPGVGTARRAIALTAGN-GLLVGPDNGLLLDAA--TAL-GGVDAAVEL---TNPDWLGAR---MSATFHGRDVFAPVAAR--LALGAPLADAGPAVEPGALVRL-PTPLVQ---P---E---TD--GF
+#=GR sp|A8M783|RSAMH_SALAI/7-258     PP ..89**********************....**********************************.************************.*********954999..999.*********...*********...*****************..**********************.999667...8...9...**..**
+sp|Q59045|RSAMH_METJA/13-261            --ITLTTDFGTNEGYVGAMKGRILNILKKYNKDAKIIDISHEIKPFNIYHGAYVLLTAIPYFPP-SVHVAVIDPTVGSERKSIVIETKSGYYLVGPDNGLF-TYV--AEK-LGIKRIIKI---DEERY---K---PSSTFHGRDVYAVVGAEILINNGYDGEELD------EMVKI-DET--K---K-------------
+#=GR sp|Q59045|RSAMH_METJA/13-261    PP ..99*********************99999**********************************.************************99**********.***..***.*********...*****...9...****************9878*********9......9****.***..9...9.............
+#=GC PP_cons                            ..99**********************....******************************************************99999.**********9.***..***.*********...*********...*****************..**********************.998..7...7...7...78..99
+#=GC RF                                 xxxxxxxxxxxxxxxxxxxxxxxxxx....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxx.xxx..xxx.xxxxxxxxx...xxxxxxxxx...xxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxx.xxx..x...x...x...xx..xx
+
+tr|O67940|O67940_AQUAE                  EGEIIYFD-KFGNAITNV-------------PC---GKYAYAE----------FR---EDKLKVVPY--------------FL-AG---ERGKLNATCGSFGFMEIFVPVDNAREKFNLKEGEKIKFFII
+sp|O58212|RSAMH_PYRHO/2-253             ILKVIYID-DFGNVILNL-------------EN--YEKPRTVE----------LL---DFNLRL-PYL-----------ETYG-LV---EKGEMLALPGSHDYLEIAVNMGSAAERLNVKVGDELRV---
+#=GR sp|O58212|RSAMH_PYRHO/2-253     PP ********.*********.............98..8*******..........**...***999.555...........66**.**...************************************98...
+sp|Q5SLF5|RSAMH_THET8/4-254             EGEVLTFD-RFGNAITTL------------LRA---PVGGFVE----------VG---GRRVPVRRT--------------FG-EV---PEGAPVAYLGSAGLLEVAVNRGSAREALGLKEGMPVRL---
+#=GR sp|Q5SLF5|RSAMH_THET8/4-254     PP ********.********9............633...4459***..........**...*********..............**.**...************************************96...
+sp|Q70GK9|FLA_STRCT/11-93               ----------------------------------------------------------------------------------------------------------------------------------
+#=GR sp|Q70GK9|FLA_STRCT/11-93       PP ..................................................................................................................................
+sp|Q70GK9|FLA_STRCT/112-296             VGVVSAIDHPFGNVWTNI-------------HRTDLEKAGIGYGARLRLTLDGVL---PFEAPLTPT--------------FADAG---EIGNIAIYLNSRGYLSIARNAASLAYPYHLKEGMSARV---
+#=GR sp|Q70GK9|FLA_STRCT/112-296     PP ********77********.............552223333332001111000133...344455666..............86267...89********************************9886...
+sp|A0A1G9FQX8|FLA_ACTMZ/10-91           ----------------------------------------------------------------------------------------------------------------------------------
+#=GR sp|A0A1G9FQX8|FLA_ACTMZ/10-91   PP ..................................................................................................................................
+sp|A0A1G9FQX8|FLA_ACTMZ/111-296         SGVVTAIDHPFGNIWTSIHRDNLESAGVGYGTN---LKIVLDD----------VF---PFELPLSPT--------------FADAG---EVGDPVVYVNSRGYLSLARNAASLAYPYNLKEGMSVRV---
+#=GR sp|A0A1G9FQX8|FLA_ACTMZ/111-296 PP ********77********444333332222222...2233334..........44...566777788..............86368...99**********************************97...
+sp|W0W999|FLA_STRSQ/11-93               ----------------------------------------------------------------------------------------------------------------------------------
+#=GR sp|W0W999|FLA_STRSQ/11-93       PP ..................................................................................................................................
+sp|W0W999|FLA_STRSQ/113-296             SGVVTAIDHPFGNIWTNIHRTDLEKAGIGQGKH---LKIILDD----------VL---PFEAPLTPT--------------FADAG---AIGNIAFYLNSRGYLSLARNAASLAYPYNLKAGLKVRV---
+#=GR sp|W0W999|FLA_STRSQ/113-296     PP ********77********655444333322222...2233334..........44...455567777..............87256...789999******************************97...
+sp|R4LHX8|FLA_ACTS9/9-91                ----------------------------------------------------------------------------------------------------------------------------------
+#=GR sp|R4LHX8|FLA_ACTS9/9-91        PP ..................................................................................................................................
+sp|R4LHX8|FLA_ACTS9/110-295             SGVITNIDHPFGNLWTNIHR--------TDLE-----KAGIGYQTQLRLLLDGVL---TFDLPLVPT--------------FADAG---QIGDPVIYINSRGYLALARNAAPLAYPYNLKAGLTVTV---
+#=GR sp|R4LHX8|FLA_ACTS9/110-295     PP ********77********65........5331.....333222111111111145...678899999..............97256...78******************************988865...
+sp|W8JNL4|FLA_NOCB7/11-91               ----------------------------------------------------------------------------------------------------------------------------------
+#=GR sp|W8JNL4|FLA_NOCB7/11-91       PP ..................................................................................................................................
+sp|W8JNL4|FLA_NOCB7/111-297             VGYVTNIDHPFGNVWTNIHRTDLEKLGVGYGTK---LRITLDG----------VL---PFELPLSPT--------------FADAG---EIGAAVAYLSSRGYLALARNAASLAYPYNLKAGISVQV---
+#=GR sp|W8JNL4|FLA_NOCB7/111-297     PP ********77********665444433333222...2334445..........66...778888899..............97367...99*******************************99986...
+sp|A4X3Q0|SALL_SALTO/6-268              RGEVVRIDRAFGNVWTNI-------------PT---HLIGSML----------QD---GERLEVKIEALSDTVLELPFCKTFG-EV---DEGQPLLYLNSRGRLALGLNQSNFIEKWPVVPGDSIT----
+#=GR sp|A4X3Q0|SALL_SALTO/6-268      PP ********66********.............87...7666655..........55...55555543333445555555666**.**...****************************999999886....
+sp|A4X4S2|RSAMH_SALTO/7-258             TAEVLTVD-HFGNVQLAASG---------SLL-----EPLPRS----------LRVERQPAVRV-HT--------------FG-DV---APGELLVHVDSTGQVAVAVNGGRAADLLGVTPGDRLRV---
+#=GR sp|A4X4S2|RSAMH_SALTO/7-258     PP ********.*****877633.........221.....222222..........22000333444.56..............**.**...************************************97...
+sp|A8M783|RSAMH_SALAI/7-258             TAEVLTVD-HFGNVQLAA-------------TG------ALLE----------SL---PRSLRVAHRPAV-------HARTFD-DA---PPGGLLVHVDSAGLVAVAVNGGRAADLLAVTPGDQLRV---
+#=GR sp|A8M783|RSAMH_SALAI/7-258     PP ********.*****6654.............32......3444..........44...444444322223.......3334**.**...************************************97...
+sp|Q59045|RSAMH_METJA/13-261            --RVIHID-RFGNIITNI-------------KK---DEVTFKY----------YD---TIMIKIRHKNGIEK----IIKCKFV-KSYFEEKNNFICLINSEGFLEISKFMDNASKLLNVDYLDEIEI---
+#=GR sp|Q59045|RSAMH_METJA/13-261    PP ..6*****.*********.............**...*******..........*9...99999988778888....8888854.432328899999***********************99888875...
+#=GC PP_cons                            ********.8****9999.............45...5555555..........66...667777777..............98.78...99*******************************99986...
+#=GC RF                                 xxxxxxxx.xxxxxxxxx.............xx...xxxxxxx..........xx...xxxxxxxxx..............xx.xx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
