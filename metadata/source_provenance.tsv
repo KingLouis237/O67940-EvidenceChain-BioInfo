@@ -17,3 +17,4 @@ RCSB PDB2Q6Ohttps://files.rcsb.org/download/2Q6O.cif2026-05-26data/pdb/2Q6O.cifc
 RCSB PDB2Q6Ohttps://files.rcsb.org/download/2Q6O.pdb2026-05-26data/pdb/2Q6O.pdbchlorinase-related reference structure in PDB format
 RCSB PDB1RQPhttps://files.rcsb.org/download/1RQP.cif2026-05-26data/pdb/1RQP.ciffluorinase reference structure in mmCIF format
 RCSB PDB1RQPhttps://files.rcsb.org/download/1RQP.pdb2026-05-26data/pdb/1RQP.pdbfluorinase reference structure in PDB format
+UniProtKB Swiss-Prot FASTA	UniProtKB/Swiss-Prot reviewed protein database	https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz	2026-07-04	data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta.gz	first-pass JackHMMER search database

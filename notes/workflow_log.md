@@ -906,44 +906,69 @@ This step only validates the query input. It does not recover homologs, build an
 
 Install HMMER/JackHMMER inside the `methods_bioinfo` Conda environment so the broader homolog search can be run reproducibly.
 
+## 2026-07-01 — Installed HMMER for homolog search
 
-## 2026-07-01 — Installed HMMER for JackHMMER homolog search
+I installed HMMER inside the methods_bioinfo Conda environment because JackHMMER was missing.
 
-### What was done
-Installed HMMER inside the active methods_bioinfo Conda environment.
+Checked result:
 
-### Why it was done
-The previous tool check showed that MAFFT was available but JackHMMER was missing. JackHMMER is needed for the broader homolog-search step.
+- jackhmmer path: /home/abane_ashu/miniconda3/envs/methods_bioinfo/bin/jackhmmer
+- HMMER version: 3.4
+- MAFFT version: 7.525
 
-### Input files/sources
-Active Conda environment:
+Files updated:
 
-methods_bioinfo
+- environment.yml
+- metadata/environment_before_hmmer_install.yml
 
-Package channels:
+Interpretation:
 
-conda-forge
-bioconda
+The environment is ready for the first homolog-search run.
 
-### Commands used
-```bash
-conda install -y -c conda-forge -c bioconda hmmer
+Caution:
 
-which jackhmmer
-jackhmmer -h 2>&1 | head -15
-conda list | grep -E "^hmmer|^mafft"
+This does not add biological evidence. No homologs have been searched yet.
 
-cp environment.yml metadata/environment_before_hmmer_install.yml
-conda env export --no-builds | grep -v "^prefix:" > environment.yml
-### environment.yml
-metadata/environment_before_hmmer_install.yml
-### Main result
-HMMER was installed in the project Conda environment, making JackHMMER available for the homolog-search module.
+Next:
 
-### Interpretation
+Choose the search database, record it properly, then run JackHMMER.
 
-The environment is now ready for the first broader homolog-search run using data/O67940_AQUAE.fasta as the query.
+## 2026-07-04 — Downloaded Swiss-Prot for first homolog-search pass
 
-### Next step
+I downloaded UniProtKB/Swiss-Prot as the first local database for the publication-upgrade homolog search.
 
-Select and document the homolog-search database, then run JackHMMER using data/O67940_AQUAE.fasta as the query.
+Why this database:
+
+Swiss-Prot is curated and manageable. It is a good first controlled pass before using broader but noisier databases.
+
+Source:
+
+https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz
+
+Local files:
+
+- data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta.gz
+- data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta
+
+Checks:
+
+- download completed
+- gzip integrity check passed
+- uncompressed FASTA created
+- sequence count: 575503
+- first headers inspected
+- O67940 was not found inside Swiss-Prot, which is expected because the query protein is unreviewed/TrEMBL
+- checksums added to metadata/checksums_sha256.txt
+- source recorded in metadata/source_provenance.tsv
+
+Interpretation:
+
+The project now has a local curated protein database for the first JackHMMER search.
+
+Caution:
+
+Swiss-Prot is not the full homolog universe. It is curated but incomplete for this question. Results from this database are a first controlled pass, not the final evolutionary answer.
+
+Next:
+
+Run JackHMMER using data/O67940_AQUAE.fasta as query against the local Swiss-Prot FASTA.

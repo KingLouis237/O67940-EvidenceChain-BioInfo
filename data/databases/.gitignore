@@ -1,0 +1,5 @@
+*.fasta
+*.fasta.gz
+*.h3*
+*.ssi
+uniprot_sprot_*/
