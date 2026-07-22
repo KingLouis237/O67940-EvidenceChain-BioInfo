@@ -1098,3 +1098,26 @@ This was metadata cleanup, not new biological evidence.
 Next:
 
 Continue with the first Swiss-Prot hit curation table.
+
+## 2026-07-04 — Made first Swiss-Prot hit curation table
+
+I made a first curation table for the 11 reviewed Swiss-Prot JackHMMER hits.
+
+Main point:
+
+The hit list was kept whole, but the hits were labelled by annotation group and domain pattern.
+
+This keeps the curation honest before alignment. It avoids keeping only the hits that support one interpretation.
+
+Output:
+
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.initial_curation.tsv`
+- `results/homolog_context/README.md`
+
+Caution:
+
+This is first-pass curation only. It does not prove O67940 function or substrate specificity.
+
+Next:
+
+Prepare a reviewed-reference FASTA for alignment.
