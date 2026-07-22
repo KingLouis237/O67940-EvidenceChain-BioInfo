@@ -1121,3 +1121,29 @@ This is first-pass curation only. It does not prove O67940 function or substrate
 Next:
 
 Prepare a reviewed-reference FASTA for alignment.
+
+## 2026-07-04 — Built reviewed-reference FASTA for alignment
+
+I built a small reviewed/reference FASTA for the next MAFFT alignment.
+
+Input:
+
+- existing O67940 / 2Q6O / 1RQP reference FASTA
+- initial Swiss-Prot hit curation table
+- local Swiss-Prot FASTA database
+
+Output:
+
+- `results/homolog_context/O67940_reviewed_swissprot_reference_set.fasta`
+
+Main result:
+
+The FASTA contains 14 sequences: O67940, 2Q6O chain A, 1RQP chain A, and the 11 curated Swiss-Prot hits.
+
+Caution:
+
+This is a controlled reviewed-reference alignment set, not the final broad homolog universe.
+
+Next:
+
+Run MAFFT on this reviewed-reference FASTA.

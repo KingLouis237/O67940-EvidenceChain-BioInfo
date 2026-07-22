@@ -29,3 +29,16 @@ This supports family-level context, not exact substrate specificity.
 This is not the full homolog universe.
 
 The Swiss-Prot result should be treated as a curated first-pass reference set, not as the final evolutionary analysis.
+
+## Reviewed-reference FASTA
+
+`O67940_reviewed_swissprot_reference_set.fasta` contains the small reviewed/reference set prepared for alignment.
+
+It includes:
+
+- O67940_AQUAE AlphaFold-derived chain sequence
+- 2Q6O chain A
+- 1RQP chain A
+- the 11 curated Swiss-Prot JackHMMER hits
+
+This file is meant for a controlled MAFFT alignment, not for final broad evolutionary sampling.
