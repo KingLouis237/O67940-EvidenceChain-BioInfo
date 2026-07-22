@@ -1,0 +1,17 @@
+target	tlen	qlen	domain_i	domain_of	i_evalue	score	hmm_from	hmm_to	ali_from	ali_to	env_from	env_to	acc	description
+sp|O58212|RSAMH_PYRHO	256	251	1	1	2.2e-103	350.0	3	248	2	253	1	256	0.97	(R)-S-adenosyl-L-methionine hydrolase OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=PH0463 PE=1 SV=1 
+sp|Q5SLF5|RSAMH_THET8	255	251	1	1	6.7e-88	299.3	3	248	4	254	2	255	0.94	(R)-S-adenosyl-L-methionine hydrolase OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=TTHA0338 PE=1 SV=1 
+sp|Q70GK9|FLA_STRCT	299	251	1	2	2.4e-36	130.4	3	85	11	93	9	96	0.97	Fluorinase OS=Streptantibioticus cattleyicolor OX=29303 GN=flA PE=1 SV=1 
+sp|Q70GK9|FLA_STRCT	299	251	2	2	2e-45	160.2	81	248	112	296	106	298	0.82	Fluorinase OS=Streptantibioticus cattleyicolor OX=29303 GN=flA PE=1 SV=1 
+sp|A0A1G9FQX8|FLA_ACTMZ	299	251	1	2	4.3e-35	126.3	3	84	10	91	8	95	0.97	Fluorinase OS=Actinopolyspora mzabensis OX=995066 GN=SAMN04487820_1174 PE=1 SV=1 
+sp|A0A1G9FQX8|FLA_ACTMZ	299	251	2	2	8.2e-46	161.4	81	248	111	296	103	298	0.84	Fluorinase OS=Actinopolyspora mzabensis OX=995066 GN=SAMN04487820_1174 PE=1 SV=1 
+sp|W0W999|FLA_STRSQ	299	251	1	2	1.2e-35	128.1	3	85	11	93	9	96	0.97	Fluorinase OS=Streptomyces sp. OX=1931 GN=flA1 PE=1 SV=1 
+sp|W0W999|FLA_STRSQ	299	251	2	2	3.9e-45	159.2	82	248	113	296	107	298	0.85	Fluorinase OS=Streptomyces sp. OX=1931 GN=flA1 PE=1 SV=1 
+sp|R4LHX8|FLA_ACTS9	298	251	1	2	2.1e-35	127.3	3	85	9	91	7	94	0.97	Fluorinase OS=Actinoplanes sp. (strain N902-109) OX=649831 GN=flA3 PE=1 SV=2 
+sp|R4LHX8|FLA_ACTS9	298	251	2	2	4.8e-44	155.6	81	248	110	295	104	297	0.83	Fluorinase OS=Actinoplanes sp. (strain N902-109) OX=649831 GN=flA3 PE=1 SV=2 
+sp|W8JNL4|FLA_NOCB7	300	251	1	2	4.7e-34	122.9	3	83	11	91	9	95	0.97	Fluorinase OS=Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1) OX=1133849 GN=flA2 PE=1 SV=1 
+sp|W8JNL4|FLA_NOCB7	300	251	2	2	4.5e-45	158.9	80	248	111	297	105	299	0.84	Fluorinase OS=Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1) OX=1133849 GN=flA2 PE=1 SV=1 
+sp|A4X3Q0|SALL_SALTO	283	251	1	1	1.1e-78	269.0	3	247	6	268	4	270	0.91	Adenosyl-chloride synthase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 / NBRC 105044 / CNB-440) OX=369723 GN=salL PE=1 SV=1 
+sp|A4X4S2|RSAMH_SALTO	261	251	1	1	2.8e-78	267.7	3	248	7	258	6	260	0.90	(R)-S-adenosyl-L-methionine hydrolase OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / JCM 13857 / NBRC 105044 / CNB-440) OX=369723 GN=Strop_1405 PE=1 SV=1 
+sp|A8M783|RSAMH_SALAI	261	251	1	1	4e-78	267.2	3	248	7	258	6	260	0.91	(R)-S-adenosyl-L-methionine hydrolase OS=Salinispora arenicola (strain CNS-205) OX=391037 GN=Sare_1364 PE=1 SV=1 
+sp|Q59045|RSAMH_METJA	263	251	1	1	2.6e-70	241.7	3	248	13	261	11	263	0.94	(R)-S-adenosyl-L-methionine hydrolase OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1651 PE=1 SV=1 

@@ -1015,3 +1015,31 @@ This is a first controlled pass against Swiss-Prot only. It is useful, but it is
 Next:
 
 Inspect the domain-level output and then decide how to curate the first homolog set for alignment and residue comparison.
+
+## 2026-07-04 — Inspected JackHMMER domain-level hits
+
+I inspected the JackHMMER domain-level output from the Swiss-Prot search.
+
+Main result:
+
+The Swiss-Prot hits show two patterns.
+
+Most SAM hydrolase / SalL-like hits appear as one broad domain-level match across most of the O67940 query.
+
+The fluorinase hits appear as two domain-level matches, roughly splitting the query into an N-terminal region and a larger C-terminal region.
+
+Output file:
+
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.domain_summary.tsv`
+
+Interpretation:
+
+The Swiss-Prot hit set is relevant, but not uniform. The one-domain SAM hydrolase / SalL-like hits and the split-domain fluorinase hits should be kept separate during curation instead of being treated as identical evidence.
+
+Caution:
+
+This does not prove function or substrate specificity. It only shows how the reviewed Swiss-Prot hits align at the domain level.
+
+Next:
+
+Create a first curation table for the 11 Swiss-Prot hits, keeping annotation type and domain-pattern differences visible.
