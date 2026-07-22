@@ -1147,3 +1147,31 @@ This is a controlled reviewed-reference alignment set, not the final broad homol
 Next:
 
 Run MAFFT on this reviewed-reference FASTA.
+
+## 2026-07-04 — Ran MAFFT on reviewed-reference FASTA
+
+I aligned the 14-sequence reviewed/reference FASTA with MAFFT.
+
+Input:
+
+- `results/homolog_context/O67940_reviewed_swissprot_reference_set.fasta`
+
+Output:
+
+- `results/sequence_alignment/O67940_reviewed_swissprot_reference_set_mafft_alignment.fasta`
+
+Check:
+
+The alignment contains 14 records, and all aligned sequences have length 329.
+
+Interpretation:
+
+This gives a controlled reviewed-reference alignment for residue-level comparison.
+
+Caution:
+
+This is not a final broad evolutionary alignment. It is a curated reference alignment for the next residue-mapping step.
+
+Next:
+
+Summarize pairwise identity and residue conservation patterns from this alignment.
