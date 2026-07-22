@@ -1,20 +1,20 @@
-resourceaccession_or_idurl_or_sourcedate_accessedlocal_output_filepurpose
-UniProtKB FASTAO67940https://rest.uniprot.org/uniprotkb/O67940.fasta2026-05-26data/O67940_AQUAE.fastaquery protein sequence
-UniProtKB JSONO67940https://rest.uniprot.org/uniprotkb/O67940.json2026-05-26data/O67940_uniprot_record.jsoncurrent protein annotation record
-InterPro APIIPR046470https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0464702026-05-26data/interpro_pfam/IPR046470.jsonInterPro domain metadata
-InterPro APIIPR046469https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0464692026-05-26data/interpro_pfam/IPR046469.jsonInterPro domain metadata
-InterPro APIIPR002747https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0027472026-05-26data/interpro_pfam/IPR002747.jsonInterPro family metadata
-InterPro APIIPR023227https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0232272026-05-26data/interpro_pfam/IPR023227.jsonInterPro homologous superfamily metadata
-InterPro APIIPR023228https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR0232282026-05-26data/interpro_pfam/IPR023228.jsonInterPro homologous superfamily metadata
-Pfam via InterPro APIPF20257https://www.ebi.ac.uk/interpro/api/entry/pfam/PF202572026-05-26data/interpro_pfam/PF20257.jsonPfam C-terminal SAM_HAT domain metadata
-Pfam via InterPro APIPF01887https://www.ebi.ac.uk/interpro/api/entry/pfam/PF018872026-05-26data/interpro_pfam/PF01887.jsonPfam N-terminal SAM_HAT domain metadata
-AlphaFoldDB APIO67940https://alphafold.ebi.ac.uk/api/prediction/O679402026-05-26data/alphafold/O67940_alphafold_api_prediction.jsonidentify current AlphaFold model version and download URLs
-AlphaFoldDB PDBO67940API-reported v6 pdbUrl2026-05-26data/alphafold/AF-O67940-F1-model_v6.pdbpredicted structure coordinates for pLDDT extraction and structural comparison
-AlphaFoldDB mmCIFO67940API-reported v6 cifUrl2026-05-26data/alphafold/AF-O67940-F1-model_v6.cifpredicted structure coordinates in modern mmCIF format
-AlphaFoldDB bcifO67940API-reported v6 bcifUrl2026-05-26data/alphafold/AF-O67940-F1-model_v6.bcifbinary CIF structure file
-AlphaFoldDB PAEO67940API-reported v6 paeDocUrl2026-05-26data/alphafold/AF-O67940-F1-predicted_aligned_error_v6.jsonpredicted aligned error matrix for structural confidence analysis
-RCSB PDB2Q6Ohttps://files.rcsb.org/download/2Q6O.cif2026-05-26data/pdb/2Q6O.cifchlorinase-related reference structure in mmCIF format
-RCSB PDB2Q6Ohttps://files.rcsb.org/download/2Q6O.pdb2026-05-26data/pdb/2Q6O.pdbchlorinase-related reference structure in PDB format
-RCSB PDB1RQPhttps://files.rcsb.org/download/1RQP.cif2026-05-26data/pdb/1RQP.ciffluorinase reference structure in mmCIF format
-RCSB PDB1RQPhttps://files.rcsb.org/download/1RQP.pdb2026-05-26data/pdb/1RQP.pdbfluorinase reference structure in PDB format
-UniProtKB Swiss-Prot FASTA	UniProtKB/Swiss-Prot reviewed protein database	https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz	2026-07-04	data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta.gz	first-pass JackHMMER search database
+resource	accession_or_id	url_or_source	date_accessed	local_output_file	purpose
+UniProtKB FASTA	O67940	https://rest.uniprot.org/uniprotkb/O67940.fasta	2026-05-26	data/O67940_AQUAE.fasta	query protein sequence
+UniProtKB JSON	O67940	https://rest.uniprot.org/uniprotkb/O67940.json	2026-05-26	data/O67940_uniprot_record.json	current protein annotation record
+InterPro API	IPR046470	https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR046470	2026-05-26	data/interpro_pfam/IPR046470.json	InterPro domain metadata
+InterPro API	IPR046469	https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR046469	2026-05-26	data/interpro_pfam/IPR046469.json	InterPro domain metadata
+InterPro API	IPR002747	https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR002747	2026-05-26	data/interpro_pfam/IPR002747.json	InterPro family metadata
+InterPro API	IPR023227	https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR023227	2026-05-26	data/interpro_pfam/IPR023227.json	InterPro homologous superfamily metadata
+InterPro API	IPR023228	https://www.ebi.ac.uk/interpro/api/entry/interpro/IPR023228	2026-05-26	data/interpro_pfam/IPR023228.json	InterPro homologous superfamily metadata
+Pfam via InterPro API	PF20257	https://www.ebi.ac.uk/interpro/api/entry/pfam/PF20257	2026-05-26	data/interpro_pfam/PF20257.json	Pfam C-terminal SAM_HAT domain metadata
+Pfam via InterPro API	PF01887	https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01887	2026-05-26	data/interpro_pfam/PF01887.json	Pfam N-terminal SAM_HAT domain metadata
+AlphaFoldDB API	O67940	https://alphafold.ebi.ac.uk/api/prediction/O67940	2026-05-26	data/alphafold/O67940_alphafold_api_prediction.json	identify current AlphaFold model version and download URLs
+AlphaFoldDB PDB	O67940	API-reported v6 pdbUrl	2026-05-26	data/alphafold/AF-O67940-F1-model_v6.pdb	predicted structure coordinates for pLDDT extraction and structural comparison
+AlphaFoldDB mmCIF	O67940	API-reported v6 cifUrl	2026-05-26	data/alphafold/AF-O67940-F1-model_v6.cif	predicted structure coordinates in modern mmCIF format
+AlphaFoldDB bcif	O67940	API-reported v6 bcifUrl	2026-05-26	data/alphafold/AF-O67940-F1-model_v6.bcif	binary CIF structure file
+AlphaFoldDB PAE	O67940	API-reported v6 paeDocUrl	2026-05-26	data/alphafold/AF-O67940-F1-predicted_aligned_error_v6.json	predicted aligned error matrix for structural confidence analysis
+RCSB PDB	2Q6O	https://files.rcsb.org/download/2Q6O.cif	2026-05-26	data/pdb/2Q6O.cif	chlorinase-related reference structure in mmCIF format
+RCSB PDB	2Q6O	https://files.rcsb.org/download/2Q6O.pdb	2026-05-26	data/pdb/2Q6O.pdb	chlorinase-related reference structure in PDB format
+RCSB PDB	1RQP	https://files.rcsb.org/download/1RQP.cif	2026-05-26	data/pdb/1RQP.cif	fluorinase reference structure in mmCIF format
+RCSB PDB	1RQP	https://files.rcsb.org/download/1RQP.pdb	2026-05-26	data/pdb/1RQP.pdb	fluorinase reference structure in PDB format
+UniProtKB Swiss-Prot FASTA	Swiss-Prot current_release	https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz	2026-07-04	data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta.gz	first-pass JackHMMER search database

@@ -1071,3 +1071,30 @@ This is still first-pass curation. It does not prove function, and it is not the
 Next:
 
 Use the curated Swiss-Prot hit list to prepare a small reviewed-reference FASTA for alignment with O67940, 2Q6O, and 1RQP.
+
+## 2026-07-04 — Cleaned metadata tables
+
+I checked the metadata files before continuing with homolog curation.
+
+Main issue:
+
+`metadata/source_provenance.tsv` was not consistently tab-separated. Most older rows were being read as one field instead of six.
+
+Fix:
+
+- backed up the old provenance and checksum files
+- rebuilt `source_provenance.tsv` as a proper six-column TSV
+- deduplicated checksum paths
+- added `metadata/README.md`
+
+Interpretation:
+
+The metadata layer is cleaner before the next biological curation step.
+
+Caution:
+
+This was metadata cleanup, not new biological evidence.
+
+Next:
+
+Continue with the first Swiss-Prot hit curation table.
