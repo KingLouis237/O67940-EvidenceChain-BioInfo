@@ -1043,3 +1043,31 @@ This does not prove function or substrate specificity. It only shows how the rev
 Next:
 
 Create a first curation table for the 11 Swiss-Prot hits, keeping annotation type and domain-pattern differences visible.
+
+## 2026-07-04 — Made first Swiss-Prot hit curation table
+
+I made a first curation table for the 11 Swiss-Prot JackHMMER hits.
+
+Why:
+
+The hit list is useful, but the hits are not all the same. SAM hydrolase-like and SalL-like hits mostly behaved as one broad domain match, while the fluorinase hits were split into two domain matches. I wanted that difference visible before building an alignment.
+
+Output:
+
+- `results/homolog_context/O67940_vs_swissprot_jackhmmer_N5.initial_curation.tsv`
+
+Main result:
+
+All 11 Swiss-Prot hits were kept at this stage, but labelled by annotation group and domain pattern.
+
+Interpretation:
+
+This gives a cleaner starting point for the first homolog set. It avoids cherry-picking only the hits that support one story.
+
+Caution:
+
+This is still first-pass curation. It does not prove function, and it is not the final homolog set.
+
+Next:
+
+Use the curated Swiss-Prot hit list to prepare a small reviewed-reference FASTA for alignment with O67940, 2Q6O, and 1RQP.
