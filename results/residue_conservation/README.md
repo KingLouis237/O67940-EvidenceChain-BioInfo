@@ -22,3 +22,11 @@ This supports a cautious chlorinase/SAM-hydrolase-related residue pattern at thi
 ## Caution
 
 This is a residue-mapping layer from a controlled reviewed-reference alignment. It is not biochemical validation.
+
+## Residue-pattern summary
+
+`O67940_reviewed_reference_residue_pattern_summary.tsv` summarizes the wide residue matrix into a report-friendly table.
+
+The strongest specificity-relevant signal is at O67940 G127. At this position, O67940 matches 2Q6O, SalL, and the SAM hydrolase-major pattern, while 1RQP and the fluorinase-major pattern carry S.
+
+Other positions show a mixed pattern, so this evidence should be treated as supportive but not decisive.

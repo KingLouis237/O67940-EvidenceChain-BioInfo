@@ -1237,3 +1237,27 @@ The active-site pattern is still mixed. This does not prove O67940 function or s
 Next:
 
 Create a compact residue-pattern summary for reporting.
+
+## 2026-07-04 — Summarized reviewed-reference residue patterns
+
+I summarized the reviewed-reference functional residue matrix into a compact report-friendly table.
+
+Output:
+
+- `results/residue_conservation/O67940_reviewed_reference_residue_pattern_summary.tsv`
+
+Main result:
+
+The clearest specificity-relevant signal is at O67940 G127. O67940 matches 2Q6O, SalL, and the SAM hydrolase-major pattern at this position, while 1RQP and the fluorinase-major pattern carry S.
+
+Interpretation:
+
+This supports a cautious residue-level signal away from a direct fluorinase-specific interpretation.
+
+Caution:
+
+The active-site pattern is still mixed across other positions. This evidence is supportive, not definitive.
+
+Next:
+
+Use the reviewed-reference alignment and residue-pattern summary to prepare a short report-ready interpretation section.
