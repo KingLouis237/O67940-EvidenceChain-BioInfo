@@ -1261,3 +1261,23 @@ The active-site pattern is still mixed across other positions. This evidence is 
 Next:
 
 Use the reviewed-reference alignment and residue-pattern summary to prepare a short report-ready interpretation section.
+
+## 2026-07-04 — Wrote residue interpretation note
+
+I wrote a short Markdown interpretation of the reviewed-reference residue mapping.
+
+Output:
+
+- `results/residue_conservation/O67940_reviewed_reference_residue_interpretation.md`
+
+Main point:
+
+The G127 pattern is the strongest specificity-relevant signal. O67940 matches 2Q6O, SalL, and the SAM hydrolase-major pattern at this site, while 1RQP and the fluorinase-major pattern carry S.
+
+Caution:
+
+The broader active-site pattern remains mixed. This supports a cautious interpretation but does not prove chlorinase activity or substrate specificity.
+
+Next:
+
+Use this interpretation to guide the next decision: either broader homolog search or a first phylogeny from the reviewed-reference alignment.
