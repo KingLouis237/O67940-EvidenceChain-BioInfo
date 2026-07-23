@@ -1205,3 +1205,35 @@ This is based on the controlled reviewed-reference alignment only. It is not yet
 Next:
 
 Map selected functional residues across this reviewed-reference alignment.
+
+## 2026-07-04 — Mapped functional residues across reviewed-reference alignment
+
+I mapped the focal O67940 functional-site positions across the 14-sequence reviewed-reference MAFFT alignment.
+
+Input:
+
+- `results/residue_mapping/functional_residue_mapping_mafft.tsv`
+- `results/sequence_alignment/O67940_reviewed_swissprot_reference_set_mafft_alignment.fasta`
+
+Output:
+
+- `results/residue_conservation/O67940_reviewed_reference_functional_residue_mapping_long.tsv`
+- `results/residue_conservation/O67940_reviewed_reference_functional_residue_matrix.tsv`
+
+Main result:
+
+The mapping covered 11 O67940 positions across 14 sequences.
+
+The strongest specificity-relevant pattern is at O67940 G127. This position matches 2Q6O, SalL, and the SAM hydrolase-like hits, while 1RQP and the fluorinase hits mostly carry S.
+
+Interpretation:
+
+This supports a cautious residue-level signal away from a direct fluorinase-specific interpretation.
+
+Caution:
+
+The active-site pattern is still mixed. This does not prove O67940 function or substrate specificity.
+
+Next:
+
+Create a compact residue-pattern summary for reporting.

@@ -1,0 +1,12 @@
+O67940_position	O67940_expected_residue	alignment_column_1based	site_note	source_mapping_rows	O67940_AQUAE_AlphaFold_chainA	2Q6O_chainA	1RQP_chainA	RSAMH_PYRHO	RSAMH_THET8	FLA_STRCT	FLA_ACTMZ	FLA_STRSQ	FLA_ACTS9	FLA_NOCB7	SALL_SALTO	RSAMH_SALTO	RSAMH_SALAI	RSAMH_METJA
+8	D	18	functional_site	2	D	D	D	D	D	D	D	D	D	D	D	D	D	D
+15	F	25	functional_site	2	F	A	S	Y	Y	S	S	S	S	S	A	F	F	Y
+67	V	81	catalytic_site_Tyr70Thr_mutation_position	2	V	T	T	V	V	T	T	T	T	T	Y	V	V	V
+69	D	83	functional_site	2	D	Y	Y	D	D	Y	Y	Y	Y	Y	Y	D	D	D
+127	G	172	catalytic_site_specificity_relevant	2	G	G	S	G	G	S	S	S	S	S	G	G	G	G
+177	D	227	functional_site	2	D	D	D	D	D	D	D	D	D	D	D	D	D	D
+181	N	232	functional_site	2	N	N	N	N	N	N	N	N	N	N	N	N	N	N
+221	S	288	functional_site	2	S	S	S	S	S	S	S	S	S	S	S	S	S	S
+222	F	289	functional_site	2	F	R	R	H	A	R	R	R	R	R	R	T	A	E
+229	V	296	functional_site	2	V	L	R	V	V	R	R	R	R	R	L	V	V	K
+231	V	298	functional_site	2	V	Q	A	M	R	A	A	A	A	A	Q	G	G	M
