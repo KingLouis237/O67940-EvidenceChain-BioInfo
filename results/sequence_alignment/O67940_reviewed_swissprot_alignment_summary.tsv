@@ -1,0 +1,14 @@
+target_label	annotation_group	domain_pattern	curation_decision	alignment_length	compared_non_gap_positions	identical_positions	pairwise_identity_percent	query_gap_only_positions	target_gap_only_positions	both_gap_positions	header
+RSAMH_METJA	SAM_hydrolase	single_domain_match	include	329	231	95	41.13	32	20	46	RSAMH_METJA | sp|Q59045|RSAMH_METJA | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+RSAMH_PYRHO	SAM_hydrolase	single_domain_match	include	329	238	92	38.66	18	13	60	RSAMH_PYRHO | sp|O58212|RSAMH_PYRHO | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+RSAMH_THET8	SAM_hydrolase	single_domain_match	include	329	243	83	34.16	12	8	66	RSAMH_THET8 | sp|Q5SLF5|RSAMH_THET8 | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+RSAMH_SALAI	SAM_hydrolase	single_domain_match	include	329	240	78	32.50	21	11	57	RSAMH_SALAI | sp|A8M783|RSAMH_SALAI | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+RSAMH_SALTO	SAM_hydrolase	single_domain_match	include	329	240	77	32.08	21	11	57	RSAMH_SALTO | sp|A4X4S2|RSAMH_SALTO | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+FLA_ACTS9	fluorinase	split_domain_match	include_with_caution	329	251	74	29.48	47	0	31	FLA_ACTS9 | sp|R4LHX8|FLA_ACTS9 | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+FLA_STRSQ	fluorinase	split_domain_match	include_with_caution	329	251	72	28.69	48	0	30	FLA_STRSQ | sp|W0W999|FLA_STRSQ | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+SALL_SALTO	SalL_chlorinase_related	single_domain_match	include	329	251	72	28.69	32	0	46	SALL_SALTO | sp|A4X3Q0|SALL_SALTO | group=SalL_chlorinase_related | domain_pattern=single_domain_match | decision=include
+2Q6O_chainA	structural_reference	not_applicable	reference	329	248	71	28.63	21	3	57	2Q6O_chainA | Reference chlorinase-related structure, chain A | source=data/pdb/2Q6O.pdb
+FLA_STRCT	fluorinase	split_domain_match	include_with_caution	329	251	71	28.29	48	0	30	FLA_STRCT | sp|Q70GK9|FLA_STRCT | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+FLA_NOCB7	fluorinase	split_domain_match	include_with_caution	329	251	70	27.89	49	0	29	FLA_NOCB7 | sp|W8JNL4|FLA_NOCB7 | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+1RQP_chainA	structural_reference	not_applicable	reference	329	248	69	27.82	43	3	35	1RQP_chainA | Reference fluorinase structure, chain A | source=data/pdb/1RQP.pdb
+FLA_ACTMZ	fluorinase	split_domain_match	include_with_caution	329	251	68	27.09	48	0	30	FLA_ACTMZ | sp|A0A1G9FQX8|FLA_ACTMZ | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution

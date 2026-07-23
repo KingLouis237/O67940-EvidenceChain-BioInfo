@@ -1175,3 +1175,33 @@ This is not a final broad evolutionary alignment. It is a curated reference alig
 Next:
 
 Summarize pairwise identity and residue conservation patterns from this alignment.
+
+## 2026-07-04 — Summarized reviewed-reference MAFFT alignment
+
+I summarized pairwise identity between O67940 and the other 13 sequences in the reviewed-reference MAFFT alignment.
+
+Output:
+
+- `results/sequence_alignment/O67940_reviewed_swissprot_alignment_summary.tsv`
+
+Main result:
+
+The highest pairwise identities to O67940 were in the SAM hydrolase group, with RSAMH_METJA at 41.13%.
+
+The chlorinase/fluorinase structural references remained lower and close to each other:
+
+- SALL_SALTO: 28.69%
+- 2Q6O_chainA: 28.63%
+- 1RQP_chainA: 27.82%
+
+Interpretation:
+
+This supports a broader SAM-related homologous context. It also shows that sequence identity alone does not justify direct substrate-specific transfer from 2Q6O or 1RQP.
+
+Caution:
+
+This is based on the controlled reviewed-reference alignment only. It is not yet a full phylogenetic analysis.
+
+Next:
+
+Map selected functional residues across this reviewed-reference alignment.
