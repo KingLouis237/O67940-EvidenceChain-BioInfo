@@ -1306,3 +1306,21 @@ This prepares a small reviewed-reference tree input. It is not a final broad evo
 Next:
 
 Check available tree-building tools and run a first reviewed-reference phylogeny.
+
+## 2026-07-04 — Installed FastTree for reviewed-reference phylogeny
+
+I checked for available tree-building tools and none were present in the active environment.
+
+I installed FastTree through Conda/Bioconda for the first reviewed-reference context tree.
+
+Why FastTree:
+
+This next tree uses only the small 14-sequence reviewed-reference alignment. The goal is to inspect broad placement in this curated set, not to claim a final phylogenetic reconstruction.
+
+Caution:
+
+FastTree output will be treated as a first contextual tree. A broader or publication-final phylogeny may require a larger curated homolog set and a more formal tree workflow.
+
+Next:
+
+Run FastTree on the cleaned-label reviewed-reference alignment.

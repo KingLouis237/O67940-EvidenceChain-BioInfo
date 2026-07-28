@@ -1,0 +1,12 @@
+name: methods_bioinfo
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - tmalign=20220227
+  - mafft
+  - matplotlib
+  - hmmer
+prefix: /home/abane_ashu/miniconda3/envs/methods_bioinfo
