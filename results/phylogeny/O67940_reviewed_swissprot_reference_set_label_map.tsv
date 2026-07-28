@@ -1,0 +1,15 @@
+short_label	original_header
+O67940_AQUAE_AlphaFold_chainA	O67940_AQUAE_AlphaFold_chainA | AlphaFoldDB v6 predicted structure for O67940_AQUAE | source=data/alphafold/AF-O67940-F1-model_v6.pdb
+2Q6O_chainA	2Q6O_chainA | Reference chlorinase-related structure, chain A | source=data/pdb/2Q6O.pdb
+1RQP_chainA	1RQP_chainA | Reference fluorinase structure, chain A | source=data/pdb/1RQP.pdb
+RSAMH_PYRHO	RSAMH_PYRHO | sp|O58212|RSAMH_PYRHO | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+RSAMH_THET8	RSAMH_THET8 | sp|Q5SLF5|RSAMH_THET8 | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+FLA_STRCT	FLA_STRCT | sp|Q70GK9|FLA_STRCT | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+FLA_ACTMZ	FLA_ACTMZ | sp|A0A1G9FQX8|FLA_ACTMZ | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+FLA_STRSQ	FLA_STRSQ | sp|W0W999|FLA_STRSQ | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+FLA_ACTS9	FLA_ACTS9 | sp|R4LHX8|FLA_ACTS9 | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+FLA_NOCB7	FLA_NOCB7 | sp|W8JNL4|FLA_NOCB7 | group=fluorinase | domain_pattern=split_domain_match | decision=include_with_caution
+SALL_SALTO	SALL_SALTO | sp|A4X3Q0|SALL_SALTO | group=SalL_chlorinase_related | domain_pattern=single_domain_match | decision=include
+RSAMH_SALTO	RSAMH_SALTO | sp|A4X4S2|RSAMH_SALTO | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+RSAMH_SALAI	RSAMH_SALAI | sp|A8M783|RSAMH_SALAI | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include
+RSAMH_METJA	RSAMH_METJA | sp|Q59045|RSAMH_METJA | group=SAM_hydrolase | domain_pattern=single_domain_match | decision=include

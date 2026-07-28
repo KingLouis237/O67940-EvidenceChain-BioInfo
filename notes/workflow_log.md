@@ -1281,3 +1281,28 @@ The broader active-site pattern remains mixed. This supports a cautious interpre
 Next:
 
 Use this interpretation to guide the next decision: either broader homolog search or a first phylogeny from the reviewed-reference alignment.
+
+## 2026-07-04 — Prepared phylogeny-safe reviewed-reference alignment
+
+I created a cleaned-label version of the 14-sequence reviewed-reference MAFFT alignment for tree building.
+
+Input:
+
+- `results/sequence_alignment/O67940_reviewed_swissprot_reference_set_mafft_alignment.fasta`
+
+Outputs:
+
+- `results/phylogeny/O67940_reviewed_swissprot_reference_set_phylogeny_input.fasta`
+- `results/phylogeny/O67940_reviewed_swissprot_reference_set_label_map.tsv`
+
+Why:
+
+The original alignment headers contain spaces, pipes, and metadata fields. These are useful for interpretation, but they can make Newick tree labels messy. The cleaned FASTA keeps simple labels, while the label map preserves the full metadata.
+
+Caution:
+
+This prepares a small reviewed-reference tree input. It is not a final broad evolutionary dataset.
+
+Next:
+
+Check available tree-building tools and run a first reviewed-reference phylogeny.
