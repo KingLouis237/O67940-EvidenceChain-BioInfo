@@ -1324,3 +1324,27 @@ FastTree output will be treated as a first contextual tree. A broader or publica
 Next:
 
 Run FastTree on the cleaned-label reviewed-reference alignment.
+
+## 2026-07-30 — Wrote reviewed-reference phylogeny interpretation
+
+I wrote a short interpretation note for the first reviewed-reference FastTree result.
+
+Output:
+
+- `results/phylogeny/O67940_reviewed_reference_phylogeny_interpretation.md`
+
+Main point:
+
+O67940_AQUAE groups closest to RSAMH_METJA in the small reviewed-reference tree. 2Q6O/SALL_SALTO and 1RQP/FLA_STRCT form close reference pairs.
+
+Interpretation:
+
+The tree is consistent with the pairwise identity and residue-pattern layers. It supports broad SAM-related placement and does not support direct fluorinase-specific annotation.
+
+Caution:
+
+This is a small reviewed-reference context tree only. It is not a final broad phylogenetic reconstruction.
+
+Next:
+
+Decide whether to expand to a broader homolog search for a larger curated phylogeny.

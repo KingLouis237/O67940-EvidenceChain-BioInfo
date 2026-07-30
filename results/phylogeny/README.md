@@ -22,3 +22,13 @@ This reviewed-reference tree input contains:
 Caution:
 
 This is a small reviewed-reference phylogeny input, not a final broad evolutionary dataset.
+
+## Phylogeny interpretation
+
+`O67940_reviewed_reference_phylogeny_interpretation.md` summarizes the first reviewed-reference tree.
+
+Main point:
+
+O67940_AQUAE groups closest to RSAMH_METJA in this small tree, while 2Q6O/SALL_SALTO and 1RQP/FLA_STRCT form close reference pairs.
+
+The tree supports broad SAM-related placement, but it is not a final evolutionary reconstruction.
