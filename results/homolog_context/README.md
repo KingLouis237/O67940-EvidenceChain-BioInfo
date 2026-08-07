@@ -42,3 +42,19 @@ It includes:
 - the 11 curated Swiss-Prot JackHMMER hits
 
 This file is meant for a controlled MAFFT alignment, not for final broad evolutionary sampling.
+
+## Broader UniProtKB Pfam candidate-space survey
+
+`O67940_uniprot_pfam_broader_candidate_space_survey.tsv` records API result counts for proteins carrying both PF01887 and PF20257, with additional length, review-status, taxonomy, and protein-name filters.
+
+Main findings:
+
+- 4432 entries matched the initial domain and length query
+- only 11 were reviewed
+- 4421 were unreviewed
+- tighter length limits reduced the set only slightly
+- most candidates were bacterial, with a smaller archaeal component
+
+The fluorinase and chlorinase protein-name counts were nearly identical. These labels must therefore be checked for overlap and must not be treated as independent functional classes.
+
+This survey defines a candidate space. It is not itself a final homolog set.

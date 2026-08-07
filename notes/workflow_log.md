@@ -1348,3 +1348,25 @@ This is a small reviewed-reference context tree only. It is not a final broad ph
 Next:
 
 Decide whether to expand to a broader homolog search for a larger curated phylogeny.
+
+## 2026-07-30 — Surveyed broader UniProtKB Pfam candidate space
+
+I queried UniProtKB for non-fragment proteins carrying both PF01887 and PF20257.
+
+Output:
+
+- `results/homolog_context/O67940_uniprot_pfam_broader_candidate_space_survey.tsv`
+
+Main result:
+
+The initial length-filtered query returned 4432 candidates: 11 reviewed and 4421 unreviewed. Tightening the length range did little to reduce the set.
+
+The fluorinase and chlorinase protein-name counts were almost identical, suggesting extensive label overlap. These names will not be used as independent functional classes.
+
+Caution:
+
+This is a Pfam-constrained candidate survey, not a final homolog set or functional classification.
+
+Next:
+
+Measure overlap among the protein-name queries before downloading broader metadata.

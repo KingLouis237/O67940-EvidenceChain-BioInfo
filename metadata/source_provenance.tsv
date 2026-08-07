@@ -18,3 +18,4 @@ RCSB PDB	2Q6O	https://files.rcsb.org/download/2Q6O.pdb	2026-05-26	data/pdb/2Q6O.
 RCSB PDB	1RQP	https://files.rcsb.org/download/1RQP.cif	2026-05-26	data/pdb/1RQP.cif	fluorinase reference structure in mmCIF format
 RCSB PDB	1RQP	https://files.rcsb.org/download/1RQP.pdb	2026-05-26	data/pdb/1RQP.pdb	fluorinase reference structure in PDB format
 UniProtKB Swiss-Prot FASTA	Swiss-Prot current_release	https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz	2026-07-04	data/databases/uniprot_sprot_2026-07-04/uniprot_sprot.fasta.gz	first-pass JackHMMER search database
+UniProtKB REST API survey	PF01887+PF20257 candidate space	https://rest.uniprot.org/uniprotkb/search	2026-07-30	results/homolog_context/O67940_uniprot_pfam_broader_candidate_space_survey.tsv	Broader Pfam-constrained homolog candidate counts; exact queries stored in output

@@ -1,0 +1,11 @@
+label	count	query
+pfam_both_len_200_350_all	4432	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350])
+pfam_both_len_200_350_reviewed	11	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350]) AND (reviewed:true)
+pfam_both_len_200_350_unreviewed	4421	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350]) AND (reviewed:false)
+pfam_both_len_220_320_all	4397	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[220 TO 320])
+pfam_both_len_230_310_all	4351	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[230 TO 310])
+pfam_both_len_200_350_bacteria	3991	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350]) AND (taxonomy_id:2)
+pfam_both_len_200_350_archaea	431	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350]) AND (taxonomy_id:2157)
+pfam_both_len_200_350_fluorinase_name	2033	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350]) AND (protein_name:fluorinase)
+pfam_both_len_200_350_chlorinase_name	2032	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350]) AND (protein_name:chlorinase)
+pfam_both_len_200_350_hydrolase_name	113	(xref:pfam-PF01887) AND (xref:pfam-PF20257) AND (fragment:false) AND (length:[200 TO 350]) AND (protein_name:hydrolase)
