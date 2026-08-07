@@ -1,0 +1,11 @@
+comparison	count
+fluorinase_total	2033
+chlorinase_total	2032
+hydrolase_total	113
+fluorinase_and_chlorinase	2017
+fluorinase_and_hydrolase	1
+chlorinase_and_hydrolase	1
+all_three	1
+fluorinase_only	16
+chlorinase_only	15
+hydrolase_only	112

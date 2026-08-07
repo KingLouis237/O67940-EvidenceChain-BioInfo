@@ -58,3 +58,19 @@ Main findings:
 The fluorinase and chlorinase protein-name counts were nearly identical. These labels must therefore be checked for overlap and must not be treated as independent functional classes.
 
 This survey defines a candidate space. It is not itself a final homolog set.
+
+## UniProtKB protein-name query overlap
+
+`O67940_uniprot_name_query_overlap_summary.tsv` measures accession overlap among the fluorinase, chlorinase, and hydrolase protein-name queries within the PF01887/PF20257 candidate space.
+
+Main result:
+
+The fluorinase and chlorinase queries are almost completely overlapping. Of 2033 fluorinase-query entries and 2032 chlorinase-query entries, 2017 occur in both sets.
+
+Only 16 entries were fluorinase-only and 15 were chlorinase-only.
+
+The hydrolase query behaved differently: 112 of 113 entries were hydrolase-only.
+
+Interpretation:
+
+Protein-name searches cannot be treated as independent fluorinase and chlorinase functional classes in this candidate space. These labels will be retained as metadata, but broader homolog selection will be based on sequence similarity, coverage, taxonomy, and redundancy rather than annotation names alone.

@@ -1370,3 +1370,21 @@ This is a Pfam-constrained candidate survey, not a final homolog set or function
 Next:
 
 Measure overlap among the protein-name queries before downloading broader metadata.
+
+## 2026-08-07 — Measured UniProtKB protein-name query overlap
+
+I compared accession sets returned by the fluorinase, chlorinase, and hydrolase protein-name queries within the broader PF01887/PF20257 candidate space.
+
+Main result:
+
+The fluorinase and chlorinase result sets were almost completely overlapping: 2017 entries occurred in both sets, leaving only 16 fluorinase-only and 15 chlorinase-only entries.
+
+The hydrolase set was much more distinct, with 112 of 113 entries unique to that query.
+
+Interpretation:
+
+Fluorinase and chlorinase protein-name searches cannot be used as independent functional classes here. Broader homolog selection will therefore rely on sequence evidence rather than these annotation names.
+
+Next:
+
+Download the complete PF01887/PF20257 candidate metadata and sequences, then rank candidates by direct similarity to O67940.
