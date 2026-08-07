@@ -1,0 +1,11 @@
+rank	accession	entry_name	full_evalue	full_score	query_coverage	target_coverage	organism
+10	C4FLE1	C4FLE1_9AQUI	2.3e-82	274.2	0.9721	0.9685	Sulfurihydrogenibium yellowstonense SS-5
+25	Q8ZSQ8	Q8ZSQ8_PYRAE	1.9e-61	205.7	0.9841	0.9807	Pyrobaculum aerophilum (strain ATCC 51768 / DSM 7523 / JCM 9630 / CIP 104966 / NBRC 100827 / IM2)
+50	B1YDJ3	B1YDJ3_PYRNV	3.4e-56	188.5	0.9801	0.9690	Pyrobaculum neutrophilum (strain DSM 2338 / JCM 9278 / NBRC 100436 / V24Sta) (Thermoproteus neutrophilus)
+100	I3IKH9	I3IKH9_9BACT	2.6e-52	175.8	0.9243	0.9605	Candidatus Jettenia caeni
+250	A0A0M8JSG2	A0A0M8JSG2_9CHLR	2e-48	163.0	0.9801	0.9552	Levilinea saccharolytica
+500	A0AA35W2T7	A0AA35W2T7_GEOBA	9.8e-44	147.7	0.7371	0.7003	Geodia barretti (Barrett's horny sponge)
+861	Q8X8P4	Q8X8P4_ECO57	2.1e-38	130.2	0.7410	0.6400	Escherichia coli O157:H7
+1000	A0ABS0F808	A0ABS0F808_9FLAO	1.7e-37	127.3	0.7371	0.6727	Kaistella gelatinilytica
+2000	A0A317DJU3	A0A317DJU3_9ACTN	4.4e-33	112.8	0.7291	0.6679	Micromonospora acroterricola
+4431	Q5M5Y8	Q5M5Y8_STRT2	5.4e-08	30.6	0.4303	0.5622	Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311)

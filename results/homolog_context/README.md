@@ -74,3 +74,20 @@ The hydrolase query behaved differently: 112 of 113 entries were hydrolase-only.
 Interpretation:
 
 Protein-name searches cannot be treated as independent fluorinase and chlorinase functional classes in this candidate space. These labels will be retained as metadata, but broader homolog selection will be based on sequence similarity, coverage, taxonomy, and redundancy rather than annotation names alone.
+
+## Broader PHMMER analysis
+
+The PF01887/PF20257 UniProtKB candidate set was ranked directly against O67940 using PHMMER.
+
+Detailed outputs are in:
+
+- `broader_phmmer/`
+
+This directory contains the raw PHMMER tables, parsed ranking, coverage and score diagnostics, reviewed-reference checks, rank checkpoints, and the interpretation Markdown.
+
+The analysis showed that neither a strict high-coverage rule nor a simple top-N PHMMER ranking provides a defensible way to define the broader phylogenetic set.
+
+See:
+
+- `O67940_broader_homolog_strategy.md`
+- `broader_phmmer/O67940_broader_phmmer_interpretation.md`

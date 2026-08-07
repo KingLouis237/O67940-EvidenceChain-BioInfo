@@ -1,0 +1,13 @@
+Started: Fri Aug  7 16:07:01 CEST 2026
+Query: data/O67940_AQUAE.fasta
+Database: data/databases/O67940_uniprot_pfam_candidates/candidate_sequences.fasta
+PHMMER:
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+
+Parameters: --cpu 4 -E 1e-3 --domE 1e-3 --noali
+
+
+Finished: Fri Aug  7 16:07:06 CEST 2026

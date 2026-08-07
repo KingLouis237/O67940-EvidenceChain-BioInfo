@@ -1349,7 +1349,7 @@ Next:
 
 Decide whether to expand to a broader homolog search for a larger curated phylogeny.
 
-## 2026-07-30 — Surveyed broader UniProtKB Pfam candidate space
+## 2026-08-07 — Surveyed broader UniProtKB Pfam candidate space
 
 I queried UniProtKB for non-fragment proteins carrying both PF01887 and PF20257.
 
@@ -1388,3 +1388,15 @@ Fluorinase and chlorinase protein-name searches cannot be used as independent fu
 Next:
 
 Download the complete PF01887/PF20257 candidate metadata and sequences, then rank candidates by direct similarity to O67940.
+
+## 2026-08-07 — Broader UniProtKB candidate set and PHMMER ranking
+
+Downloaded and validated the 4432-sequence PF01887/PF20257 UniProtKB candidate set, then ranked it against O67940 with PHMMER.
+
+PHMMER returned 4432 hits (4431 non-self). Diagnostic checks recovered all 11 reviewed anchors and showed that neither a strict coverage cutoff nor a simple top-N ranking is appropriate.
+
+Details:
+- `results/homolog_context/O67940_broader_homolog_strategy.md`
+- `results/homolog_context/broader_phmmer/O67940_broader_phmmer_interpretation.md`
+
+Next: inspect taxonomic outliers and redundancy before broader phylogenetic sampling.
