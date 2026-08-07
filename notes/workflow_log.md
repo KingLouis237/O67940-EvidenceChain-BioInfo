@@ -1400,3 +1400,13 @@ Details:
 - `results/homolog_context/broader_phmmer/O67940_broader_phmmer_interpretation.md`
 
 Next: inspect taxonomic outliers and redundancy before broader phylogenetic sampling.
+
+## 2026-08-07 — Audited non-prokaryotic broader-homolog candidates
+
+Ten PF01887/PF20257 candidates fell outside Bacteria and Archaea: four Entamoeba, four Geodia barretti, and two ciliates.
+
+All are unreviewed and inferred from homology, but several show strong PHMMER similarity to O67940. They will not be removed before redundancy analysis.
+
+Detailed audit:
+
+- `results/homolog_context/O67940_non_prokaryotic_candidate_taxonomic_audit.md`

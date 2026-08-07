@@ -1,0 +1,11 @@
+Entry	Entry Name	Reviewed	Protein names	Gene Names	Organism	Organism (ID)	Length
+A0AAU9JH50	A0AAU9JH50_9CILI	unreviewed	Uncharacterized protein	BSTOLATCC_MIC40987	Blepharisma stoltei	1481888	260
+B0E8J3	B0E8J3_ENTDS	unreviewed	DUF62-containing protein	EDI_126890	Entamoeba dispar (strain ATCC PRA-260 / SAW760)	370354	248
+C4M0V6	C4M0V6_ENTH1	unreviewed	DUF62-containing protein	EHI_100370	Entamoeba histolytica (strain ATCC 30459 / HM-1:IMSS / ABRM)	294381	248
+L7FJS4	L7FJS4_ENTIV	unreviewed	Adenosyl-chloride synthase	EIN_284120	Entamoeba invadens IP1	370355	259
+A0ABQ0DRK1	A0ABQ0DRK1_9EUKA	unreviewed	DUF62-containing protein	ENUP19_0252G0043	Entamoeba nuttalli	412467	248
+A0AA35R949	A0AA35R949_GEOBA	unreviewed	Chlorinase MJ1651	GBAR_LOCUS5053	Geodia barretti (Barrett's horny sponge)	519541	222
+A0AA35STV5	A0AA35STV5_GEOBA	unreviewed	Chlorinase MJ1651	GBAR_LOCUS19781	Geodia barretti (Barrett's horny sponge)	519541	253
+A0AA35W2T7	A0AA35W2T7_GEOBA	unreviewed	Chlorinase MJ1651	GBAR_LOCUS2377	Geodia barretti (Barrett's horny sponge)	519541	287
+A0AA35WYZ5	A0AA35WYZ5_GEOBA	unreviewed	Chlorinase MJ1651	GBAR_LOCUS18075	Geodia barretti (Barrett's horny sponge)	519541	284
+A0A1R2CBJ5	A0A1R2CBJ5_9CILI	unreviewed	SAM-dependent chlorinase/fluorinase	SteCoe_12095	Stentor coeruleus	5963	258
