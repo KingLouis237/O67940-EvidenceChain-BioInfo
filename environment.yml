@@ -31,6 +31,7 @@ dependencies:
   - gsl=2.7
   - harfbuzz=14.2.0
   - hmmer=3.4
+  - fasttree=2.2.0
   - icu=78.3
   - keyutils=1.6.3
   - kiwisolver=1.5.0
