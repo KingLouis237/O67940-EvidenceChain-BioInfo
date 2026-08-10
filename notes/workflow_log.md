@@ -1410,3 +1410,13 @@ All are unreviewed and inferred from homology, but several show strong PHMMER si
 Detailed audit:
 
 - `results/homolog_context/O67940_non_prokaryotic_candidate_taxonomic_audit.md`
+
+## 2026-08-09 — Broader-candidate redundancy sensitivity analysis
+
+MMseqs2 clustering was compared at 95%, 90%, 80%, and 70% identity with 80% bidirectional coverage.
+
+The 90% threshold was retained for redundancy pruning: it produced 2858 clusters while keeping O67940 and all reviewed anchors in distinct clusters. Lower thresholds began merging reviewed-reference diversity.
+
+Details:
+
+- `results/homolog_context/redundancy_mmseqs/O67940_mmseqs_redundancy_interpretation.md`

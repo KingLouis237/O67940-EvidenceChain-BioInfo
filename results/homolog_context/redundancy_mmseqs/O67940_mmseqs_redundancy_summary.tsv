@@ -1,0 +1,5 @@
+identity_threshold	coverage_threshold	input_records	unique_input_sequences	exact_duplicate_excess_records	assignment_rows	unique_members	duplicate_member_assignments	cluster_count	singleton_clusters	multi_member_clusters	largest_cluster	median_cluster_size	mean_cluster_size	p90_cluster_size
+0.95	0.80	4432	4365	67	4432	4432	0	3606	3183	423	31	1.00	1.2291	2
+0.90	0.80	4432	4365	67	4432	4432	0	2858	2264	594	36	1.00	1.5507	2
+0.80	0.80	4432	4365	67	4432	4432	0	1816	1251	565	62	1.00	2.4405	4
+0.70	0.80	4432	4365	67	4432	4432	0	1181	705	476	64	1.00	3.7528	8

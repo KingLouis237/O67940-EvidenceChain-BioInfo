@@ -91,3 +91,35 @@ See:
 
 - `O67940_broader_homolog_strategy.md`
 - `broader_phmmer/O67940_broader_phmmer_interpretation.md`
+
+## Redundancy analysis
+
+The 4432-sequence broader candidate set was evaluated for sequence redundancy with MMseqs2 before choosing sequences for broader phylogenetic analysis.
+
+Clustering was compared at 95%, 90%, 80%, and 70% sequence identity, with 80% bidirectional sequence coverage.
+
+The resulting cluster counts were:
+
+- 95% identity: 3606 clusters
+- 90% identity: 2858 clusters
+- 80% identity: 1816 clusters
+- 70% identity: 1181 clusters
+
+A 90% identity threshold was retained for the first redundancy-pruning step.
+
+This was not chosen as a universal protein-family cutoff. In this dataset it provided substantial redundancy reduction while keeping O67940 and all 11 reviewed Swiss-Prot anchors in separate clusters. At 80% and 70%, several reviewed reference proteins began to collapse into shared clusters.
+
+O67940 remained a singleton even at 70% identity with 80% bidirectional coverage. This does not contradict the broader homology evidence: the clustering step asks whether sequences are sufficiently similar to be treated as redundant, whereas PHMMER, domain, and structural analyses address broader homologous relationships.
+
+The 10 non-prokaryotic candidates were also followed across the clustering thresholds. Three Entamoeba records clustered together at 90%, while L7FJS4, the four Geodia records, and the two ciliate records remained separate under the tested criteria. This does not establish their biological origin, but shows that they cannot all be dismissed simply as near-identical duplicates.
+
+Main files:
+
+- `O67940_redundancy_clustering_strategy.md`
+- `redundancy_mmseqs/O67940_mmseqs_redundancy_summary.tsv`
+- `redundancy_mmseqs/O67940_mmseqs_anchor_cluster_membership.tsv`
+- `redundancy_mmseqs/O67940_mmseqs_non_prokaryotic_cluster_membership.tsv`
+- `redundancy_mmseqs/O67940_exact_duplicate_sequence_groups.tsv`
+- `redundancy_mmseqs/O67940_mmseqs_redundancy_interpretation.md`
+
+The MMseqs2 representative of a cluster is not automatically treated as the preferred biological representative. Reviewed anchors and other explicitly important sequences will be retained deliberately during final phylogenetic sampling.
