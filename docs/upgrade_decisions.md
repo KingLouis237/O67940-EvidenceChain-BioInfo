@@ -96,3 +96,61 @@ Some reviewed proteins belong to clusters whose MMseqs2 representative is an unr
 The automatically selected cluster representative will therefore not automatically replace reviewed or structurally important references.
 
 O67940 and reviewed anchors will be retained explicitly during construction of the final homolog set.
+
+## Execution-plan review decisions
+
+### DALI precedes the final anchor freeze, not because the cluster table technically depends on it
+
+An independent methodological review highlighted the ordering of the remaining workflow.
+
+DALI is retained before final representative selection because it may reveal additional experimentally characterized structural neighbours that should be considered before phylogenetic inputs are frozen.
+
+This is a reasoned workflow ordering rather than a strict technical dependency: the cluster master table could be built before DALI and subsequently updated.
+
+### Ordinary cluster representatives will not default to PHMMER-best members
+
+Selecting the strongest PHMMER member from every 90% cluster would systematically favour sequences most similar to O67940.
+
+That would introduce query-centred bias into a step whose purpose is redundancy representation.
+
+The working rule is therefore:
+
+- retain O67940 explicitly;
+- retain independently verified functional/structural anchors explicitly;
+- otherwise use the deterministic MMseqs2 representative.
+
+PHMMER rank remains evidence and metadata rather than the default representative-selection criterion.
+
+### The full 2858-cluster set will be tested before additional sampling
+
+The 2858 clusters will not be reduced solely to make the final tree easier to visualize.
+
+The full representative set will first be evaluated for alignment quality, sequence comparability, phylogenetic information and computational feasibility.
+
+Additional balanced sampling will be introduced only if a documented methodological problem requires it.
+
+Successful computation alone is not sufficient evidence that the full set is scientifically appropriate.
+
+### Global and tree-aware residue analyses are separated
+
+Global residue frequencies require the final MSA but not a phylogenetic tree.
+
+Clade- or neighbourhood-aware residue interpretation requires a supported phylogeny.
+
+Global conservation will therefore be examined after final alignment QC, with phylogenetically informed interpretation performed only after the supported tree is available.
+
+### Phylogenetic software major version will be checked at execution time
+
+The scientific plan requires maximum-likelihood phylogenetic inference, justified substitution-model selection and appropriate support assessment.
+
+It does not require a particular IQ-TREE major version in advance.
+
+The exact stable/local implementation and version will be checked and recorded when the formal phylogenetic analysis begins.
+
+### PLM analysis is not currently justified
+
+Protein-language-model embeddings will not be added as a generic modernization layer.
+
+They will be considered only if a later, explicitly defined scientific question requires information not adequately addressed by the existing sequence, structural and phylogenetic evidence.
+
+This preserves the project rule that scientific questions determine methods, rather than methods generating new scope.

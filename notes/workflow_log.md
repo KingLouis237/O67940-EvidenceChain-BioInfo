@@ -1420,3 +1420,17 @@ The 90% threshold was retained for redundancy pruning: it produced 2858 clusters
 Details:
 
 - `results/homolog_context/redundancy_mmseqs/O67940_mmseqs_redundancy_interpretation.md`
+
+## 2026-08-25 — Remaining execution plan reviewed and frozen
+
+The publication-upgrade roadmap was revised after an independent methodological review.
+
+Key clarifications concern DALI ordering, neutral cluster-representative selection, full-set analysis before additional sampling, separation of global and tree-aware residue analysis, and avoiding method additions without a defined scientific question.
+
+Canonical plan:
+
+- `docs/publication_upgrade_remaining_execution_plan.md`
+
+Review record:
+
+- `docs/review_notes/2026-08-25_execution_plan_independent_review.md`
