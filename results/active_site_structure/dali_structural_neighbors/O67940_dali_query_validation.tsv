@@ -1,0 +1,2 @@
+chain	pdb_ca_residues	fasta_length	sequence_exact_match	first_residue_number	last_residue_number	numbering_contiguous	first_mismatch	mean_ca_plddt	min_ca_plddt	max_ca_plddt
+A	251	251	yes	1	251	yes		96.7048	77.56	98.88

@@ -86,3 +86,75 @@ They should not be interpreted as evidence that O67940 has:
 - Zhang Y, Skolnick J. TM-align: a protein structure alignment algorithm based on the TM-score. Nucleic Acids Research. 2005;33:2302-2309.
 - Holm L. Dali server: structural unification of protein families. Nucleic Acids Research. 2022;50:W210-W215.
 - RCSB PDB. Guide to Understanding PDB Data: Biological Assemblies.
+
+## DALI query validation
+
+The AlphaFoldDB v6 PDB file
+
+`data/alphafold/AF-O67940-F1-model_v6.pdb`
+
+was validated before use as the DALI protomer-level structural-search query.
+
+Validation showed:
+
+- one coordinate chain: A;
+- 251 C-alpha residues;
+- exact sequence identity with `data/O67940_AQUAE.fasta`;
+- residue numbering 1-251;
+- contiguous residue numbering;
+- mean C-alpha pLDDT 96.7048;
+- minimum C-alpha pLDDT 77.56.
+
+The PDB SHA256 is:
+
+`0bda0c9e85d92c562f1f82445d8c9e528b6cdc72499d5cbf9812960fddc6fa64`
+
+An independent sequence extraction also recovered 251 residues and an exact match to the project FASTA.
+
+This validates the identity and integrity of the structure used for protomer-level structural searching.
+
+It does not validate the AlphaFold coordinates experimentally and does not provide evidence for the biological oligomeric state of O67940.
+
+Validation output:
+
+`results/active_site_structure/dali_structural_neighbors/O67940_dali_query_validation.tsv`
+
+Validation script:
+
+`scripts/05_evolutionary_active_site_context/validate_dali_query_structure.py`
+
+## DALI query validation
+
+Before structural-neighbour searching, the AlphaFoldDB v6 PDB file
+
+`data/alphafold/AF-O67940-F1-model_v6.pdb`
+
+was checked against the canonical project sequence.
+
+The validation found:
+
+- one coordinate chain: A;
+- 251 C-alpha residues;
+- exact sequence identity with `data/O67940_AQUAE.fasta`;
+- residue numbering from 1 to 251;
+- contiguous residue numbering;
+- mean C-alpha pLDDT of 96.7048;
+- minimum C-alpha pLDDT of 77.56.
+
+The PDB SHA256 is:
+
+`0bda0c9e85d92c562f1f82445d8c9e528b6cdc72499d5cbf9812960fddc6fa64`
+
+A separate direct extraction of the chain-A sequence independently recovered 251 residues and an exact match to the project FASTA.
+
+The file is therefore accepted as the O67940 protomer query for the DALI structural-neighbour search.
+
+This validation establishes query identity and file integrity. It does not experimentally validate the AlphaFold coordinates and does not provide evidence for the biological oligomeric state of O67940.
+
+Validation script:
+
+`scripts/05_evolutionary_active_site_context/validate_dali_query_structure.py`
+
+Validation output:
+
+`results/active_site_structure/dali_structural_neighbors/O67940_dali_query_validation.tsv`

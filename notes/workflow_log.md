@@ -1448,3 +1448,27 @@ Details:
 - `results/active_site_structure/README.md`
 - `docs/upgrade_decisions.md`
 - `docs/publication_upgrade_remaining_execution_plan.md`
+
+## 2026-08-26 — O67940 DALI query validated
+
+The AlphaFoldDB v6 PDB was validated as the O67940 protomer-level DALI query.
+
+Chain A contains 251 residues, matches the project FASTA exactly, and is numbered continuously from 1 to 251. An independent sequence extraction reproduced the exact match.
+
+This validates query identity and integrity, not experimental structure or oligomeric state.
+
+Output:
+
+- `results/active_site_structure/dali_structural_neighbors/O67940_dali_query_validation.tsv`
+
+## 2026-08-26 — O67940 DALI query validated
+
+The AlphaFoldDB v6 PDB was validated as the protomer-level DALI query.
+
+Chain A contains 251 residues, is numbered continuously from 1 to 251, and matches the canonical O67940 project FASTA exactly. A separate sequence extraction independently reproduced the exact match.
+
+This validates query identity and integrity, not experimental structure or oligomeric state.
+
+Output:
+
+- `results/active_site_structure/dali_structural_neighbors/O67940_dali_query_validation.tsv`
