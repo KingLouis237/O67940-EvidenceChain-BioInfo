@@ -154,3 +154,65 @@ Protein-language-model embeddings will not be added as a generic modernization l
 They will be considered only if a later, explicitly defined scientific question requires information not adequately addressed by the existing sequence, structural and phylogenetic evidence.
 
 This preserves the project rule that scientific questions determine methods, rather than methods generating new scope.
+
+### Structural representation depends on the biological question
+
+The structural analysis uses different representations for different biological questions.
+
+Using one representation throughout would confound protomer tertiary structure, local active-site geometry, and quaternary organization.
+
+**Protomer-level tertiary structure**
+
+Single-chain/protomer comparisons are used for TM-align, DALI, and equivalent fold-level analyses.
+
+For O67940, the AlphaFold monomer is the candidate protomer representation. Its exact PDB sequence, chain composition, residue numbering, and provenance must be validated before it is used as the DALI query.
+
+For experimental references, a particular chain will not be treated as representative solely because it is chain A.
+
+These comparisons address similarity of tertiary architecture independently of differences in oligomeric organization.
+
+**Representative-protomer QC**
+
+Before detailed local comparison, equivalent protein copies within the verified 2Q6O and 1RQP biological assemblies will be compared.
+
+This check will consider whether protomers are effectively equivalent or whether ligand occupancy, interface environment, construct differences, mutations, missing residues, or conformational differences make one copy non-representative.
+
+If the protomers are effectively equivalent, one documented representative chain may be used.
+
+If meaningful differences are present, those differences will be retained rather than choosing a single chain by convention.
+
+**Local ligand and active-site structure**
+
+Local functional interpretation will use experimentally determined ligand-bound reference structures where available.
+
+Mapped O67940 residues will be compared with structurally corresponding residues, neighbouring residues, ligand positions, and local pocket geometry in 2Q6O, 1RQP, and any later validated structural anchor.
+
+Global structural similarity alone will not be treated as evidence of equivalent local chemistry.
+
+**Quaternary and interface structure**
+
+Where the characterized functional site involves neighbouring protomers, the verified biological assemblies of the experimental reference structures will be examined.
+
+The biological assembly will be distinguished from the crystallographic asymmetric unit and from simply taking every chain present in a deposited coordinate file.
+
+**Interpretation of the existing chain-A TM-align results**
+
+The previous O67940-versus-2Q6O and O67940-versus-1RQP chain-A TM-align results remain valid as protomer-level tertiary-structure evidence.
+
+They do not by themselves establish:
+
+- conservation of quaternary architecture;
+- conservation of an interface-formed active site;
+- equivalent ligand-pocket geometry;
+- identical substrate specificity;
+- the oligomeric state of O67940.
+
+**O67940 oligomeric state remains unresolved**
+
+The current AlphaFoldDB structure of O67940 is a monomeric prediction.
+
+It does not establish whether O67940 is monomeric, trimeric, hexameric, or adopts another biological assembly.
+
+If the O67940 monomer is later superposed onto a protomer within an experimentally characterized assembly, that comparison may test compatibility with an analogous interface geometry.
+
+It will not be treated as evidence that O67940 actually forms that oligomer.

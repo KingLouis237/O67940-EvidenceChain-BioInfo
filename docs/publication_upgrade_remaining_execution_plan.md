@@ -50,9 +50,15 @@ O67940 and all eleven reviewed anchors remain in separate clusters at this thres
 
 ## Step 1 — bounded DALI structural-neighbour search
 
+### Structural level
+
+This step is a protomer-level tertiary-structure search.
+
+The 251-residue O67940 AlphaFold monomer will be used as the query only after its PDB sequence, chain composition, residue numbering, provenance, and checksum have been validated. DALI results are interpreted as structural-neighbour evidence for protomer/domain-level tertiary structure, not as evidence of conserved quaternary organization.
+
 ### Question
 
-What experimentally determined structures are independently recovered as close structural neighbours of the O67940 AlphaFold model?
+What experimentally determined protein structures are independently recovered as close protomer/domain-level structural neighbours of the O67940 AlphaFold model?
 
 ### Why
 
@@ -341,6 +347,44 @@ Do not label unreviewed clades functionally from UniProt protein names alone.
 ---
 
 ## Step 12 — PyMOL local structural / active-site / interface analysis
+
+### Structural representation hierarchy
+
+The structural representation depends on the biological question.
+
+**Protomer-level tertiary structure**
+
+Use single protein chains/protomers for TM-align, DALI, and equivalent fold-level comparisons.
+
+This level asks whether the underlying tertiary architecture is conserved while keeping quaternary-structure differences separate.
+
+A reference chain will not be treated as representative merely because it is chain A.
+
+**Representative-protomer QC**
+
+Before detailed local analysis, compare equivalent protein copies within the verified 2Q6O and 1RQP biological assemblies.
+
+Check whether protomers are effectively equivalent or whether ligand occupancy, interface environment, mutations, construct differences, missing residues, or conformational differences make one copy non-representative.
+
+If equivalent, retain one documented representative protomer.
+
+If meaningful differences exist, preserve those differences in the analysis.
+
+**Local ligand and active-site structure**
+
+Use ligand-bound experimental reference structures to examine residue equivalence, neighbouring residues, ligand contacts, and pocket geometry.
+
+This level asks whether structurally corresponding positions occupy comparable local chemical environments.
+
+**Quaternary and interface structure**
+
+Use verified biological assemblies of experimental reference structures when examining functional sites formed at monomer interfaces.
+
+Do not equate the crystallographic asymmetric unit with the biological assembly without verification.
+
+O67940 currently has a monomeric AlphaFold prediction. This does not establish its biological oligomeric state.
+
+Superposing O67940 onto a protomer within an experimental oligomer may test geometric compatibility with the reference interface, but cannot demonstrate that O67940 forms the same oligomer.
 
 Use:
 

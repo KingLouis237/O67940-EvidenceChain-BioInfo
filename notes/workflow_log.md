@@ -1434,3 +1434,17 @@ Canonical plan:
 Review record:
 
 - `docs/review_notes/2026-08-25_execution_plan_independent_review.md`
+
+## 2026-08-26 — Structural representation strategy refined
+
+Structural analysis was separated into three evidence levels: protomer tertiary structure, local ligand/pocket structure, and biological-assembly/interface structure.
+
+The existing chain-A TM-align results remain valid for protomer-level comparison. Later interface interpretation will use verified experimental biological assemblies, and reference protomer equivalence will be checked before treating any chain as representative.
+
+The O67940 AlphaFold monomer is not treated as evidence of its biological oligomeric state.
+
+Details:
+
+- `results/active_site_structure/README.md`
+- `docs/upgrade_decisions.md`
+- `docs/publication_upgrade_remaining_execution_plan.md`
