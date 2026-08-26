@@ -1472,3 +1472,15 @@ This validates query identity and integrity, not experimental structure or oligo
 Output:
 
 - `results/active_site_structure/dali_structural_neighbors/O67940_dali_query_validation.tsv`
+
+## 2026-08-26 — DALI search strategy frozen
+
+The DALI structural-neighbour search was defined before inspecting results.
+
+The validated O67940 protomer will be searched against both the full experimental PDB and PDB25. The two views are complementary: full PDB preserves exact structural neighbours, while PDB25 reduces sequence redundancy.
+
+2Q6O and 1RQP remain predefined historical references and will be evaluated separately rather than counted as independent discoveries.
+
+Strategy:
+
+- `results/active_site_structure/dali_structural_neighbors/O67940_dali_search_strategy.md`

@@ -216,3 +216,22 @@ It does not establish whether O67940 is monomeric, trimeric, hexameric, or adopt
 If the O67940 monomer is later superposed onto a protomer within an experimentally characterized assembly, that comparison may test compatibility with an analogous interface geometry.
 
 It will not be treated as evidence that O67940 actually forms that oligomer.
+
+### DALI will use complementary full-PDB and PDB25 searches
+
+The structural-neighbour search will use both the full experimental PDB and the sequence-redundancy-controlled PDB25 view.
+
+The full PDB is retained because it maximizes recovery of exact experimental structures and closely related entries.
+
+PDB25 is retained because dense deposition of closely related proteins can dominate full-PDB result lists and obscure broader structural-family relationships.
+
+Neither view is treated as independently stronger evidence of function.
+
+The two searches are interpreted together:
+
+- full PDB for comprehensive/exact structural-neighbour recovery;
+- PDB25 for a de-redundant structural-family view.
+
+2Q6O and 1RQP remain predefined historical references and will be evaluated separately under DALI rather than counted as independent discoveries.
+
+A DALI Z-score will not be converted into a universal functional or homology threshold. Structural similarity will be evaluated together with aligned length, coverage, domain correspondence, experimental characterization, ligand context, and biological assembly.
