@@ -1,0 +1,26 @@
+raw_file	query	hit_count	returned_records	record_identifiers	publication_years
+europepmc_AAC07908.json	"""AAC07908"""	0	0		
+europepmc_AAC07908_1.json	"""AAC07908.1"""	0	0		
+europepmc_AQ_2196_upper.json	"""AQ_2196"""	0	0		
+europepmc_H70488.json	"""H70488"" AND ""Aquifex"""	0	0		
+europepmc_KEGG_locus.json	"""aae:aq_2196"""	0	0		
+europepmc_O67940.json	"""O67940"""	1	1	18818720	2008
+europepmc_O67940_AQUAE.json	"""O67940_AQUAE"""	1	1	18818720	2008
+europepmc_PATRIC_locus.json	"""fig|224324.8.peg.1700"""	0	0		
+europepmc_STRING_locus.json	"""224324.aq_2196"""	0	0		
+europepmc_WP_010881445_1.json	"""WP_010881445.1"""	0	0		
+europepmc_alias_NP_214509.json	"""NP_214509"""	0	0		
+europepmc_alias_NP_214509_1.json	"""NP_214509.1"""	0	0		
+europepmc_alias_PATRIC_20961220.json	"""20961220"" AND ""Aquifex"""	0	0		
+europepmc_alias_SEED_224324_1_peg_1524.json	"""fig|224324.1.peg.1524"""	0	0		
+europepmc_alias_SEED_224324_8_peg_1700.json	"""fig|224324.8.peg.1700"""	0	0		
+europepmc_alias_WP_010881445.json	"""WP_010881445"""	0	0		
+europepmc_aq2196_compact.json	"""aq2196"""	0	0		
+europepmc_aq_2196.json	"""aq_2196"""	0	0		
+europepmc_aquifex_aq2196.json	"""Aquifex aeolicus"" AND ""aq_2196"""	0	0		
+europepmc_aquifex_chlorinase.json	"""Aquifex aeolicus"" AND chlorinase"	1	1	18818720	2008
+europepmc_aquifex_fluorinase.json	"""Aquifex aeolicus"" AND fluorinase"	1	1	18818720	2008
+europepmc_aquifex_halogenase.json	"""Aquifex aeolicus"" AND halogenase"	7	7	39564484;36000868;18818720;24883430;33404015;11959542;PMC7088348	2024;2022;2008;2014;2021;2002;2007
+europepmc_aquifex_hydroxide_adenosyltransferase.json	"""Aquifex aeolicus"" AND ""hydroxide adenosyltransferase"""	0	0		
+europepmc_aquifex_o67940.json	"""Aquifex aeolicus"" AND ""O67940"""	1	1	18818720	2008
+europepmc_aquifex_sam_hydrolase.json	"""Aquifex aeolicus"" AND ""SAM hydrolase"""	0	0		

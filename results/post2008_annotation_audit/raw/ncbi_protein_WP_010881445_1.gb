@@ -1,0 +1,62 @@
+LOCUS       WP_010881445             251 aa            linear   BCT 17-FEB-2025
+DEFINITION  SAM hydrolase/SAM-dependent halogenase family protein [Aquifex
+            aeolicus].
+ACCESSION   WP_010881445
+VERSION     WP_010881445.1
+KEYWORDS    RefSeq.
+SOURCE      Aquifex aeolicus
+  ORGANISM  Aquifex aeolicus
+            Bacteria; Pseudomonadati; Aquificota; Aquificia; Aquificales;
+            Aquificaceae; Aquifex.
+REFERENCE   1  (residues 1 to 251)
+  AUTHORS   Kornfuehrer,T., Romanowski,S., de Crecy-Lagard,V., Hanson,A.D. and
+            Eustaquio,A.S.
+  TITLE     An Enzyme Containing the Conserved Domain of Unknown Function DUF62
+            Acts as a Stereoselective (Rs,Sc)-S-Adenosylmethionine Hydrolase
+  JOURNAL   Chembiochem 21 (24), 3495-3499 (2020)
+   PUBMED   32776704
+REFERENCE   2  (residues 1 to 251)
+  AUTHORS   Deng,H. and O'Hagan,D.
+  TITLE     The fluorinase, the chlorinase and the duf-62 enzymes
+  JOURNAL   Curr Opin Chem Biol 12 (5), 582-592 (2008)
+   PUBMED   18675376
+REFERENCE   3  (residues 1 to 251)
+  AUTHORS   Eustaquio,A.S., Pojer,F., Noel,J.P. and Moore,B.S.
+  TITLE     Discovery and characterization of a marine bacterial SAM-dependent
+            chlorinase
+  JOURNAL   Nat Chem Biol 4 (1), 69-74 (2008)
+   PUBMED   18059261
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: Conserved Domain (CDD)
+            Evidence Accession :: Domain architecture ID 10004885
+            Evidence Source    :: NCBI SPARCLE
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..251
+                     /organism="Aquifex aeolicus"
+                     /db_xref="taxon:63363"
+     Protein         1..251
+                     /product="SAM hydrolase/SAM-dependent halogenase family
+                     protein"
+                     /GO_function="GO:0003824 - catalytic activity [Evidence
+                     IEA]"
+                     /calculated_mol_wt=28191
+     Region          3..250
+                     /region_name="COG1912"
+                     /note="Stereoselective (R,S)-S-adenosylmethionine
+                     hydrolase (adenosine-forming) [Coenzyme transport and
+                     metabolism, Defense mechanisms]"
+                     /db_xref="CDD:441516"
+ORIGIN      
+        1 maivlltdfg tkdgfvgavk gvilsinpsv qivdlshevd sfnvlegall lkahysyfpe
+       61 ksvfvgvvdp gvgserkgii vktekyffvg pdnglfdlvi keakdfevye iknekftlpk
+      121 knntfhgrdv fapvaaylsk gvkpeeigpr ieyreklkfp epkrekdfie geiiyfdkfg
+      181 naitnvpcgk yayaefredk lkvvpyflag ergklnatcg sfgfmeifvp vdnarekfnl
+      241 kegekikffi i
+//
+

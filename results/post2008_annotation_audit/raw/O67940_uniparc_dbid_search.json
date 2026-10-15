@@ -1,0 +1,141 @@
+{
+  "results": [
+    {
+      "uniParcId": "UPI0000056808",
+      "crossReferenceCount": 11,
+      "commonTaxons": [
+        {
+          "topLevel": "cellular organisms",
+          "commonTaxon": "Aquifex aeolicus",
+          "commonTaxonId": 63363
+        }
+      ],
+      "uniProtKBAccessions": [
+        "O67940"
+      ],
+      "sequence": {
+        "value": "MAIVLLTDFGTKDGFVGAVKGVILSINPSVQIVDLSHEVDSFNVLEGALLLKAHYSYFPEKSVFVGVVDPGVGSERKGIIVKTEKYFFVGPDNGLFDLVIKEAKDFEVYEIKNEKFTLPKKNNTFHGRDVFAPVAAYLSKGVKPEEIGPRIEYREKLKFPEPKREKDFIEGEIIYFDKFGNAITNVPCGKYAYAEFREDKLKVVPYFLAGERGKLNATCGSFGFMEIFVPVDNAREKFNLKEGEKIKFFII",
+        "length": 251,
+        "molWeight": 28322,
+        "crc64": "FB8088D931DCC7B7",
+        "md5": "A7FD3A7D3D0EFE928F0C745A2569BD9D"
+      },
+      "sequenceFeatures": [
+        {
+          "interproGroup": {
+            "id": "IPR046469",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain"
+          },
+          "database": "Pfam",
+          "databaseId": "PF01887",
+          "locations": [
+            {
+              "start": 3,
+              "end": 148
+            }
+          ]
+        },
+        {
+          "interproGroup": {
+            "id": "IPR002747",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase"
+          },
+          "database": "PANTHER",
+          "databaseId": "PTHR35092",
+          "locations": [
+            {
+              "start": 2,
+              "end": 249
+            }
+          ]
+        },
+        {
+          "interproGroup": {
+            "id": "IPR002747",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase"
+          },
+          "database": "PIRSF",
+          "databaseId": "PIRSF006779",
+          "locations": [
+            {
+              "start": 2,
+              "end": 249
+            }
+          ]
+        },
+        {
+          "interproGroup": {
+            "id": "IPR023227",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain superfamily"
+          },
+          "database": "SUPFAM",
+          "databaseId": "SSF101852",
+          "locations": [
+            {
+              "start": 161,
+              "end": 248
+            }
+          ]
+        },
+        {
+          "interproGroup": {
+            "id": "IPR023228",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain superfamily"
+          },
+          "database": "SUPFAM",
+          "databaseId": "SSF102522",
+          "locations": [
+            {
+              "start": 3,
+              "end": 160
+            }
+          ]
+        },
+        {
+          "interproGroup": {
+            "id": "IPR046470",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain"
+          },
+          "database": "Pfam",
+          "databaseId": "PF20257",
+          "locations": [
+            {
+              "start": 171,
+              "end": 246
+            }
+          ]
+        },
+        {
+          "interproGroup": {
+            "id": "IPR023227",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain superfamily"
+          },
+          "database": "Gene3D",
+          "databaseId": "G3DSA:2.40.30.90",
+          "locations": [
+            {
+              "start": 163,
+              "end": 248
+            }
+          ]
+        },
+        {
+          "interproGroup": {
+            "id": "IPR023228",
+            "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain superfamily"
+          },
+          "database": "Gene3D",
+          "databaseId": "G3DSA:3.40.50.10790",
+          "locations": [
+            {
+              "start": 1,
+              "end": 159
+            }
+          ]
+        }
+      ],
+      "oldestCrossRefCreated": "1998-08-01",
+      "mostRecentCrossRefUpdated": "2026-09-02"
+    }
+  ]
+}

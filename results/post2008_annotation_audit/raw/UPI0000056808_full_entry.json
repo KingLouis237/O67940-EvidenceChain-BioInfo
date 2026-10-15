@@ -1,0 +1,278 @@
+{
+  "uniParcId": "UPI0000056808",
+  "uniParcCrossReferences": [
+    {
+      "database": "UniProtKB/TrEMBL",
+      "id": "O67940",
+      "versionI": 1,
+      "version": 1,
+      "active": true,
+      "created": "1998-08-01",
+      "lastUpdated": "2026-09-02",
+      "geneName": "aq_2196",
+      "proteinName": "Uncharacterized protein",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      },
+      "proteomes": [
+        {
+          "id": "UP000000798",
+          "component": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "WP_010881445",
+      "versionI": 1,
+      "version": 1,
+      "active": true,
+      "created": "2013-07-19",
+      "lastUpdated": "2026-03-16",
+      "proteinName": "SAM hydrolase/SAM-dependent halogenase family protein",
+      "organism": {
+        "scientificName": "Aquifex aeolicus",
+        "taxonId": 63363
+      },
+      "ncbiGi": "499183905"
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_214509",
+      "versionI": 1,
+      "version": 1,
+      "active": false,
+      "created": "2004-07-08",
+      "lastUpdated": "2020-05-04",
+      "geneName": "aq_2196",
+      "proteinName": "hypothetical protein",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      },
+      "ncbiGi": "15607127"
+    },
+    {
+      "database": "EMBL",
+      "id": "AAC07908",
+      "versionI": 1,
+      "version": 1,
+      "active": true,
+      "created": "2003-03-12",
+      "lastUpdated": "2024-07-17",
+      "geneName": "aq_2196",
+      "proteinName": "Uncharacterized protein",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      },
+      "ncbiGi": "2984390",
+      "proteomes": [
+        {
+          "id": "UP000000798",
+          "component": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblBacteria",
+      "id": "AAC07908",
+      "versionI": 1,
+      "active": true,
+      "created": "2013-01-21",
+      "lastUpdated": "2026-01-14",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      }
+    },
+    {
+      "database": "SEED",
+      "id": "fig|224324.1.peg.1524",
+      "versionI": 1,
+      "active": true,
+      "created": "2013-03-19",
+      "lastUpdated": "2013-03-19",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      }
+    },
+    {
+      "database": "SEED",
+      "id": "fig|224324.8.peg.1700",
+      "versionI": 1,
+      "active": true,
+      "created": "2013-03-19",
+      "lastUpdated": "2013-03-19",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      }
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|224324.8.peg.1700",
+      "versionI": 1,
+      "active": true,
+      "created": "2016-04-06",
+      "lastUpdated": "2017-02-18",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      }
+    },
+    {
+      "database": "PIRARC",
+      "id": "H70488",
+      "versionI": 1,
+      "active": false,
+      "created": "2003-03-31",
+      "lastUpdated": "2003-04-04"
+    },
+    {
+      "database": "PIR",
+      "id": "H70488",
+      "versionI": 1,
+      "active": false,
+      "created": "2003-04-11",
+      "lastUpdated": "2005-01-04"
+    },
+    {
+      "database": "PATRIC",
+      "id": "20961220",
+      "versionI": 1,
+      "active": false,
+      "created": "2013-03-18",
+      "lastUpdated": "2014-07-08",
+      "organism": {
+        "scientificName": "Aquifex aeolicus (strain VF5)",
+        "taxonId": 224324
+      }
+    }
+  ],
+  "sequence": {
+    "value": "MAIVLLTDFGTKDGFVGAVKGVILSINPSVQIVDLSHEVDSFNVLEGALLLKAHYSYFPEKSVFVGVVDPGVGSERKGIIVKTEKYFFVGPDNGLFDLVIKEAKDFEVYEIKNEKFTLPKKNNTFHGRDVFAPVAAYLSKGVKPEEIGPRIEYREKLKFPEPKREKDFIEGEIIYFDKFGNAITNVPCGKYAYAEFREDKLKVVPYFLAGERGKLNATCGSFGFMEIFVPVDNAREKFNLKEGEKIKFFII",
+    "length": 251,
+    "molWeight": 28322,
+    "crc64": "FB8088D931DCC7B7",
+    "md5": "A7FD3A7D3D0EFE928F0C745A2569BD9D"
+  },
+  "sequenceFeatures": [
+    {
+      "interproGroup": {
+        "id": "IPR046469",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain"
+      },
+      "database": "Pfam",
+      "databaseId": "PF01887",
+      "locations": [
+        {
+          "start": 3,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "interproGroup": {
+        "id": "IPR002747",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase"
+      },
+      "database": "PANTHER",
+      "databaseId": "PTHR35092",
+      "locations": [
+        {
+          "start": 2,
+          "end": 249
+        }
+      ]
+    },
+    {
+      "interproGroup": {
+        "id": "IPR002747",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase"
+      },
+      "database": "PIRSF",
+      "databaseId": "PIRSF006779",
+      "locations": [
+        {
+          "start": 2,
+          "end": 249
+        }
+      ]
+    },
+    {
+      "interproGroup": {
+        "id": "IPR023227",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain superfamily"
+      },
+      "database": "SUPFAM",
+      "databaseId": "SSF101852",
+      "locations": [
+        {
+          "start": 161,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "interproGroup": {
+        "id": "IPR023228",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain superfamily"
+      },
+      "database": "SUPFAM",
+      "databaseId": "SSF102522",
+      "locations": [
+        {
+          "start": 3,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "interproGroup": {
+        "id": "IPR046470",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain"
+      },
+      "database": "Pfam",
+      "databaseId": "PF20257",
+      "locations": [
+        {
+          "start": 171,
+          "end": 246
+        }
+      ]
+    },
+    {
+      "interproGroup": {
+        "id": "IPR023227",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, C-terminal domain superfamily"
+      },
+      "database": "Gene3D",
+      "databaseId": "G3DSA:2.40.30.90",
+      "locations": [
+        {
+          "start": 163,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "interproGroup": {
+        "id": "IPR023228",
+        "name": "S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal domain superfamily"
+      },
+      "database": "Gene3D",
+      "databaseId": "G3DSA:3.40.50.10790",
+      "locations": [
+        {
+          "start": 1,
+          "end": 159
+        }
+      ]
+    }
+  ],
+  "oldestCrossRefCreated": "1998-08-01",
+  "mostRecentCrossRefUpdated": "2026-09-02"
+}

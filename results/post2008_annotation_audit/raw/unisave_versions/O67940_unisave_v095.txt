@@ -1,0 +1,73 @@
+ID   O67940_AQUAE            Unreviewed;       251 AA.
+AC   O67940;
+DT   01-AUG-1998, integrated into UniProtKB/TrEMBL.
+DT   01-AUG-1998, sequence version 1.
+DT   22-FEB-2023, entry version 95.
+DE   RecName: Full=Adenosyl-chloride synthase {ECO:0000256|Google:ProtNLM};
+GN   ORFNames=aq_2196 {ECO:0000313|EMBL:AAC07908.1};
+OS   Aquifex aeolicus (strain VF5).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=224324 {ECO:0000313|EMBL:AAC07908.1, ECO:0000313|Proteomes:UP000000798};
+RN   [1] {ECO:0000313|EMBL:AAC07908.1, ECO:0000313|Proteomes:UP000000798}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5 {ECO:0000313|EMBL:AAC07908.1,
+RC   ECO:0000313|Proteomes:UP000000798};
+RX   PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olson G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex aeolicus.";
+RL   Nature 392:353-358(1998).
+CC   -!- SIMILARITY: Belongs to the SAM hydrolase / SAM-dependent halogenase
+CC       family. {ECO:0000256|ARBA:ARBA00024035}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000657; AAC07908.1; -; Genomic_DNA.
+DR   PIR; H70488; H70488.
+DR   RefSeq; NP_214509.1; NC_000918.1.
+DR   RefSeq; WP_010881445.1; NC_000918.1.
+DR   AlphaFoldDB; O67940; -.
+DR   SMR; O67940; -.
+DR   STRING; 224324.aq_2196; -.
+DR   EnsemblBacteria; AAC07908; AAC07908; aq_2196.
+DR   KEGG; aae:aq_2196; -.
+DR   PATRIC; fig|224324.8.peg.1700; -.
+DR   eggNOG; COG1912; Bacteria.
+DR   HOGENOM; CLU_059734_1_1_0; -.
+DR   InParanoid; O67940; -.
+DR   OMA; EIPYQKA; -.
+DR   OrthoDB; 9792195at2; -.
+DR   Proteomes; UP000000798; Chromosome.
+DR   Gene3D; 2.40.30.90; Bacterial fluorinating enzyme like; 1.
+DR   Gene3D; 3.40.50.10790; S-adenosyl-l-methionine hydroxide adenosyltransferase, N-terminal; 1.
+DR   InterPro; IPR046470; SAM_HAT_C.
+DR   InterPro; IPR046469; SAM_HAT_N.
+DR   InterPro; IPR002747; SAM_OH_AdoTrfase.
+DR   InterPro; IPR023227; SAM_OH_AdoTrfase_C_sf.
+DR   InterPro; IPR023228; SAM_OH_AdoTrfase_N_sf.
+DR   PANTHER; PTHR35092; CHLORINASE MJ1651; 1.
+DR   PANTHER; PTHR35092:SF1; CHLORINASE MJ1651; 1.
+DR   Pfam; PF20257; SAM_HAT_C; 1.
+DR   Pfam; PF01887; SAM_HAT_N; 1.
+DR   PIRSF; PIRSF006779; UCP006779; 1.
+DR   SUPFAM; SSF101852; Bacterial fluorinating enzyme, C-terminal domain; 1.
+DR   SUPFAM; SSF102522; Bacterial fluorinating enzyme, N-terminal domain; 1.
+PE   3: Inferred from homology;
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000798}.
+FT   DOMAIN          3..148
+FT                   /note="S-adenosyl-l-methionine hydroxide
+FT                   adenosyltransferase N-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF01887"
+FT   DOMAIN          171..246
+FT                   /note="S-adenosyl-l-methionine hydroxide
+FT                   adenosyltransferase C-terminal"
+FT                   /evidence="ECO:0000259|Pfam:PF20257"
+SQ   SEQUENCE   251 AA;  28322 MW;  FB8088D931DCC7B7 CRC64;
+     MAIVLLTDFG TKDGFVGAVK GVILSINPSV QIVDLSHEVD SFNVLEGALL LKAHYSYFPE
+     KSVFVGVVDP GVGSERKGII VKTEKYFFVG PDNGLFDLVI KEAKDFEVYE IKNEKFTLPK
+     KNNTFHGRDV FAPVAAYLSK GVKPEEIGPR IEYREKLKFP EPKREKDFIE GEIIYFDKFG
+     NAITNVPCGK YAYAEFREDK LKVVPYFLAG ERGKLNATCG SFGFMEIFVP VDNAREKFNL
+     KEGEKIKFFI I
+//

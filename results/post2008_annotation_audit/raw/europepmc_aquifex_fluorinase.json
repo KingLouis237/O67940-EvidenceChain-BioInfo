@@ -1,0 +1,58 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "\"Aquifex aeolicus\" AND fluorinase",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "18818720",
+        "source": "MED",
+        "pmid": "18818720",
+        "pmcid": "PMC2515338",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2515338"
+          ]
+        },
+        "doi": "10.1371/journal.pcbi.1000151",
+        "title": "Structure-guided comparative analysis of proteins: principles, tools, and applications for predicting function.",
+        "authorString": "Mazumder R, Vasudevan S.",
+        "journalTitle": "PLoS Comput Biol",
+        "issue": "9",
+        "journalVolume": "4",
+        "pubYear": "2008",
+        "journalIssn": "1553-734x; 1553-7358; ",
+        "pageInfo": "e1000151",
+        "pubType": "comparative study; discussion; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pfam",
+            "uniprot",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2008-09-26",
+        "firstIndexDate": "2009-12-24"
+      }
+    ]
+  }
+}

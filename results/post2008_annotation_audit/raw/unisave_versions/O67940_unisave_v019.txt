@@ -1,0 +1,38 @@
+ID   O67940_AQUAE PRELIMINARY;      PRT;   251 AA.
+AC   O67940;
+DT   01-AUG-1998 (TrEMBLrel. 07, Created)
+DT   01-AUG-1998 (TrEMBLrel. 07, Last sequence update)
+DT   01-JUN-2003 (TrEMBLrel. 24, Last annotation update)
+DE   Hypothetical protein aq_2196.
+GN   OrderedLocusNames=AQ_2196;
+OS   Aquifex aeolicus.
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+OX   NCBI_TaxID=63363;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=VF5;
+RX   MEDLINE=98196666; PubMed=9537320; DOI=10.1038/32831;
+RA   Deckert G., Warren P.V., Gaasterland T., Young W.G., Lenox A.L.,
+RA   Graham D.E., Overbeek R., Snead M.A., Keller M., Aujay M., Huber R.,
+RA   Feldman R.A., Short J.M., Olsen G.J., Swanson R.V.;
+RT   "The complete genome of the hyperthermophilic bacterium Aquifex
+RT   aeolicus.";
+RL   Nature 392:353-358(1998).
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000777; AAC07908.1; -; Genomic_DNA.
+DR   PIR; H70488; H70488.
+DR   InterPro; IPR002747; DUF62.
+DR   Pfam; PF01887; DUF62; 1.
+DR   PIRSF; PIRSF006779; UCP006779; 1.
+DR   ProDom; PD013834; DUF62; 1.
+KW   Complete proteome; Hypothetical protein.
+SQ   SEQUENCE   251 AA;  28322 MW;  FB8088D931DCC7B7 CRC64;
+     MAIVLLTDFG TKDGFVGAVK GVILSINPSV QIVDLSHEVD SFNVLEGALL LKAHYSYFPE
+     KSVFVGVVDP GVGSERKGII VKTEKYFFVG PDNGLFDLVI KEAKDFEVYE IKNEKFTLPK
+     KNNTFHGRDV FAPVAAYLSK GVKPEEIGPR IEYREKLKFP EPKREKDFIE GEIIYFDKFG
+     NAITNVPCGK YAYAEFREDK LKVVPYFLAG ERGKLNATCG SFGFMEIFVP VDNAREKFNL
+     KEGEKIKFFI I
+//

@@ -1484,3 +1484,20 @@ The validated O67940 protomer will be searched against both the full experimenta
 Strategy:
 
 - `results/active_site_structure/dali_structural_neighbors/O67940_dali_search_strategy.md`
+
+## 2026-10-15 — Post-2008 O67940 annotation audit frozen
+
+A documented multi-source audit recovered no direct experimental biochemical characterization of O67940 / aq_2196 or a sequence-identical alias within the sources searched.
+
+The evidence includes identifier-expanded Europe PMC searches, current UniProt and RefSeq annotation, UniParc exact-sequence aliases, RCSB accession and 100%-identity sequence searches, and all 102 archived UniSave entry versions.
+
+The sequence remained at UniProt sequence version 1, while family-level annotation changed substantially over time. No archived UniProt version contained a FUNCTION comment.
+
+Reproduction:
+
+- `scripts/05_evolutionary_active_site_context/run_O67940_post2008_annotation_audit.py`
+- `scripts/05_evolutionary_active_site_context/audit_unisave_annotation_history.py`
+
+Interpretation:
+
+- `results/post2008_annotation_audit/O67940_post2008_audit_interpretation.md`

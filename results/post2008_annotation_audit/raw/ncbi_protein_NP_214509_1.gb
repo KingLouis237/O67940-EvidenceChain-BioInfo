@@ -1,0 +1,66 @@
+LOCUS       NP_214509                251 aa            linear   CON 03-AUG-2016
+DEFINITION  hypothetical protein aq_2196 [Aquifex aeolicus VF5].
+ACCESSION   NP_214509
+VERSION     NP_214509.1
+DBLINK      BioProject: PRJNA57765
+            Assembly: GCF_000008625.1
+DBSOURCE    REFSEQ: accession NC_000918.1
+KEYWORDS    RefSeq.
+SOURCE      Aquifex aeolicus VF5
+  ORGANISM  Aquifex aeolicus VF5
+            Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+REFERENCE   1  (residues 1 to 251)
+  AUTHORS   Deckert,G., Warren,P.V., Gaasterland,T., Young,W.G., Lenox,A.L.,
+            Graham,D.E., Overbeek,R., Snead,M.A., Keller,M., Aujay,M.,
+            Huber,R., Feldman,R.A., Short,J.M., Olson,G.J. and Swanson,R.V.
+  TITLE     The complete genome of the hyperthermophilic bacterium Aquifex
+            aeolicus
+  JOURNAL   Nature 392 (6674), 353-358 (1998)
+   PUBMED   9537320
+REFERENCE   2  (residues 1 to 251)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2001) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 251)
+  AUTHORS   Deckert,G., Warren,P.V., Gaasterland,T., Young,W.G., Lenox,A.L.,
+            Graham,D.E., Overbeek,R., Snead,M.A., Keller,M., Aujay,M.,
+            Huber,R., Feldman,R.A., Short,J.M., Olson,G.J. and Swanson,R.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUL-1997) Diversa Corporation, Genomics, San Diego,
+            CA 92121, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAC07908.
+            RefSeq Category: Reference Genome
+                        TYS: Designated Type Strain
+                        UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..251
+                     /organism="Aquifex aeolicus VF5"
+                     /strain="VF5"
+                     /type_material="type strain of Aquifex aeolicus"
+                     /db_xref="taxon:224324"
+     Protein         1..251
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=28191
+     Region          3..250
+                     /region_name="COG1912"
+                     /note="Stereoselective (R,S)-S-adenosylmethionine
+                     hydrolase (adenosine-forming) [Coenzyme transport and
+                     metabolism, Defense mechanisms]"
+                     /db_xref="CDD:441516"
+     CDS             1..251
+                     /locus_tag="aq_2196"
+                     /coded_by="complement(NC_000918.1:1545764..1546519)"
+                     /transl_table=11
+                     /db_xref="GeneID:1193990"
+CONTIG      join(WP_010881445.1:1..251)
+ORIGIN      
+        1 maivlltdfg tkdgfvgavk gvilsinpsv qivdlshevd sfnvlegall lkahysyfpe
+       61 ksvfvgvvdp gvgserkgii vktekyffvg pdnglfdlvi keakdfevye iknekftlpk
+      121 knntfhgrdv fapvaaylsk gvkpeeigpr ieyreklkfp epkrekdfie geiiyfdkfg
+      181 naitnvpcgk yayaefredk lkvvpyflag ergklnatcg sfgfmeifvp vdnarekfnl
+      241 kegekikffi i
+//
+

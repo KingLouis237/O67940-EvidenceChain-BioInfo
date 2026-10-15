@@ -1,0 +1,299 @@
+{
+  "version": "6.9",
+  "hitCount": 7,
+  "request": {
+    "queryString": "\"Aquifex aeolicus\" AND halogenase",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 100,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39564484",
+        "source": "MED",
+        "pmid": "39564484",
+        "pmcid": "PMC11573776",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11573776"
+          ]
+        },
+        "doi": "10.3389/fmicb.2024.1459716",
+        "title": "Genomic insights into the cold adaptation and secondary metabolite potential of <i>Pseudoalteromonas</i> sp. WY3 from Antarctic krill.",
+        "authorString": "Wang Y, Xie J, Feng Z, Ma L, Wu W, Guo C, He J.",
+        "journalTitle": "Front Microbiol",
+        "journalVolume": "15",
+        "pubYear": "2024",
+        "journalIssn": "1664-302x",
+        "pageInfo": "1459716",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen"
+          ]
+        },
+        "firstPublicationDate": "2024-11-05",
+        "firstIndexDate": "2024-11-21"
+      },
+      {
+        "id": "36000868",
+        "source": "MED",
+        "pmid": "36000868",
+        "pmcid": "PMC9469721",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9469721"
+          ]
+        },
+        "doi": "10.1128/aem.00806-22",
+        "title": "Genetic and Biochemical Characterization of Halogenation and Drug Transportation Genes Encoded in the Albofungin Biosynthetic Gene Cluster.",
+        "authorString": "Wang ZC, Lo IW, Lin KH, Cheng AN, Zadeh SM, Huang YH, Li TL.",
+        "journalTitle": "Appl Environ Microbiol",
+        "issue": "17",
+        "journalVolume": "88",
+        "pubYear": "2022",
+        "journalIssn": "0099-2240; 1098-5336; ",
+        "pageInfo": "e0080622",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2022-08-24",
+        "firstIndexDate": "2022-08-24"
+      },
+      {
+        "id": "18818720",
+        "source": "MED",
+        "pmid": "18818720",
+        "pmcid": "PMC2515338",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2515338"
+          ]
+        },
+        "doi": "10.1371/journal.pcbi.1000151",
+        "title": "Structure-guided comparative analysis of proteins: principles, tools, and applications for predicting function.",
+        "authorString": "Mazumder R, Vasudevan S.",
+        "journalTitle": "PLoS Comput Biol",
+        "issue": "9",
+        "journalVolume": "4",
+        "pubYear": "2008",
+        "journalIssn": "1553-734x; 1553-7358; ",
+        "pageInfo": "e1000151",
+        "pubType": "comparative study; discussion; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 5,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pfam",
+            "uniprot",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2008-09-26",
+        "firstIndexDate": "2009-12-24"
+      },
+      {
+        "id": "24883430",
+        "source": "MED",
+        "pmid": "24883430",
+        "pmcid": "PMC5267508",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5267508"
+          ]
+        },
+        "doi": "10.1039/c3np70128j",
+        "title": "Bioactive oligosaccharide natural products.",
+        "authorString": "McCranie EK, Bachmann BO.",
+        "journalTitle": "Nat Prod Rep",
+        "issue": "8",
+        "journalVolume": "31",
+        "pubYear": "2014",
+        "journalIssn": "0265-0568; 1460-4752; ",
+        "pageInfo": "1026-1042",
+        "pubType": "research support, non-u.s. gov't; research-article; review; research support, u.s. gov't, non-p.h.s.; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 67,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2014-08-01",
+        "firstIndexDate": "2014-06-04"
+      },
+      {
+        "id": "33404015",
+        "source": "MED",
+        "pmid": "33404015",
+        "pmcid": "PMC9483940",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9483940"
+          ]
+        },
+        "doi": "10.1039/d0np00064g",
+        "title": "Identification and characterization of enzymes involved in the biosynthesis of pyrimidine nucleoside antibiotics.",
+        "authorString": "McErlean M, Liu X, Cui Z, Gust B, Van Lanen SG.",
+        "journalTitle": "Nat Prod Rep",
+        "issue": "7",
+        "journalVolume": "38",
+        "pubYear": "2021",
+        "journalIssn": "0265-0568; 1460-4752; ",
+        "pageInfo": "1362-1407",
+        "pubType": "research-article; review; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2021-07-01",
+        "firstIndexDate": "2021-01-07"
+      },
+      {
+        "id": "11959542",
+        "source": "MED",
+        "pmid": "11959542",
+        "pmcid": "PMC127163",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC127163"
+          ]
+        },
+        "doi": "10.1128/aac.46.5.1174-1182.2002",
+        "title": "Biosynthetic gene cluster of simocyclinone, a natural multihybrid antibiotic.",
+        "authorString": "Trefzer A, Pelzer S, Schimana J, Stockert S, Bihlmaier C, Fiedler HP, Welzel K, Vente A, Bechthold A.",
+        "journalTitle": "Antimicrob Agents Chemother",
+        "issue": "5",
+        "journalVolume": "46",
+        "pubYear": "2002",
+        "journalIssn": "0066-4804; 1098-6596; ",
+        "pageInfo": "1174-1182",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 96,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "uniprot"
+          ]
+        },
+        "firstPublicationDate": "2002-05-01",
+        "firstIndexDate": "2009-12-23"
+      },
+      {
+        "id": "PMC7088348",
+        "source": "PMC",
+        "pmcid": "PMC7088348",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7088348"
+          ]
+        },
+        "title": "2. Metalloproteins",
+        "journalTitle": "J Biol Inorg Chem",
+        "issue": "suppl 1",
+        "journalVolume": "12",
+        "pubYear": "2007",
+        "journalIssn": "0949-8257; 1432-1327; ",
+        "pageInfo": "53-98",
+        "pubType": "calendar",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2007-01-01",
+        "firstIndexDate": "2020-03-26"
+      }
+    ]
+  }
+}

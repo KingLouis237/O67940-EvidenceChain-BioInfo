@@ -1,0 +1,3 @@
+search	raw_file	http_status	total_count	query_sequence_length	identity_cutoff	returned_identifiers
+UniProt_accession_mapping	rcsb_O67940_uniprot_search.json	204	0			
+exact_sequence_100pct_identity	rcsb_O67940_exact_sequence_search.json	204	0	251	1.0	

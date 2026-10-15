@@ -1,0 +1,12 @@
+database	id	active	organism	taxon_id	version	created	last_updated
+UniProtKB/TrEMBL	O67940	True	Aquifex aeolicus (strain VF5)	224324	1	1998-08-01	2026-09-02
+RefSeq	WP_010881445	True	Aquifex aeolicus	63363	1	2013-07-19	2026-03-16
+RefSeq	NP_214509	False	Aquifex aeolicus (strain VF5)	224324	1	2004-07-08	2020-05-04
+EMBL	AAC07908	True	Aquifex aeolicus (strain VF5)	224324	1	2003-03-12	2024-07-17
+EnsemblBacteria	AAC07908	True	Aquifex aeolicus (strain VF5)	224324		2013-01-21	2026-01-14
+SEED	fig|224324.1.peg.1524	True	Aquifex aeolicus (strain VF5)	224324		2013-03-19	2013-03-19
+SEED	fig|224324.8.peg.1700	True	Aquifex aeolicus (strain VF5)	224324		2013-03-19	2013-03-19
+PATRIC	fig|224324.8.peg.1700	True	Aquifex aeolicus (strain VF5)	224324		2016-04-06	2017-02-18
+PIRARC	H70488	False				2003-03-31	2003-04-04
+PIR	H70488	False				2003-04-11	2005-01-04
+PATRIC	20961220	False	Aquifex aeolicus (strain VF5)	224324		2013-03-18	2014-07-08
