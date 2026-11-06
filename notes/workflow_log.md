@@ -1501,3 +1501,26 @@ Reproduction:
 Interpretation:
 
 - `results/post2008_annotation_audit/O67940_post2008_audit_interpretation.md`
+
+## 2026-11-06 — O58212 functional anchor audited and classified
+
+The reviewed candidate O58212 / PH0463 was audited against primary biochemical, isotope-labelling, structural, sequence-identity, and homolog-mutagenesis evidence.
+
+Direct evidence on the exact O58212/PH0463 sequence supports SAM hydroxide adenosyltransferase / SAM-hydrolysing activity. The candidate was therefore classified as `direct_functional_anchor`.
+
+Mechanistic evidence was kept evidence-calibrated: the PH0463 structure supports the Asp68-Arg75-His127 / ordered-water network, while mutagenesis of corresponding residues was performed in a Salinispora arenicola homolog rather than directly in O58212.
+
+The functional-anchor evidence tables, evidence-to-file provenance links, validator, raw-source provenance, checksums, environment snapshot, and candidate-level interpretation were updated.
+
+Interpretation:
+
+- `results/functional_anchor_audit/O58212_anchor_interpretation.md`
+
+Evidence tables:
+
+- `results/functional_anchor_audit/parsed/functional_anchor_evidence.tsv`
+- `results/functional_anchor_audit/parsed/functional_anchor_evidence_files.tsv`
+
+Validator:
+
+- `scripts/05_evolutionary_active_site_context/validate_functional_anchor_evidence.py`

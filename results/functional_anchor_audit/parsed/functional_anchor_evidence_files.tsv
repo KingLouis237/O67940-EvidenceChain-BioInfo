@@ -1,0 +1,18 @@
+evidence_id	file_role	raw_evidence_file	description
+FAE0001	primary_evidence	results/functional_anchor_audit/raw/O58212/PMID18551689_supporting_information.pdf	Primary supporting information containing the PH0463 SAM enzyme assay and kinetic measurements.
+FAE0001	identity_bridge	results/functional_anchor_audit/raw/O58212/O58212_uniprot_2026-11-05.json	Current canonical O58212 sequence used to establish identity with the historical PH0463 sequence.
+FAE0001	identity_bridge	results/functional_anchor_audit/raw/O58212/BAA29549.1_ncbi.fasta	Historical PH0463/BAA29549.1 sequence; exactly identical to current O58212.
+FAE0002	primary_evidence	results/functional_anchor_audit/raw/O58212/PMID18551689_supporting_information.pdf	Primary supporting information containing the H2-18O isotope-labelling experiment.
+FAE0002	identity_bridge	results/functional_anchor_audit/raw/O58212/O58212_uniprot_2026-11-05.json	Current canonical O58212 sequence used to establish identity with the assayed PH0463 sequence.
+FAE0002	identity_bridge	results/functional_anchor_audit/raw/O58212/BAA29549.1_ncbi.fasta	Historical PH0463/BAA29549.1 sequence; exactly identical to current O58212.
+FAE0003	primary_evidence	results/functional_anchor_audit/raw/O58212/2WR8_rcsb_entry.json	RCSB entry metadata containing experimental method, resolution and structure-level metadata.
+FAE0003	construct_definition	results/functional_anchor_audit/raw/O58212/2WR8_rcsb_polymer_entity_1.json	Deposited 2WR8 polymer sequence and SIFTS reference mapping to O58212.
+FAE0003	ligand_definition	results/functional_anchor_audit/raw/O58212/2WR8_rcsb_nonpolymer_entity_2.json	RCSB non-polymer entity establishing ligand identity as S-adenosyl-L-homocysteine (SAH).
+FAE0003	identity_bridge	results/functional_anchor_audit/raw/O58212/O58212_uniprot_2026-11-05.json	Current canonical O58212 sequence used for exact comparison with the deposited 2WR8 polymer.
+FAE0004	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 mechanistic paper describing the SAH-bound PH0463 active site, ordered waters and His-Arg-Asp geometry.
+FAE0004	construct_definition	results/functional_anchor_audit/raw/O58212/2WR8_rcsb_polymer_entity_1.json	Deposited 2WR8 polymer sequence establishing the N-terminal GSH extension followed by the complete O58212 sequence.
+FAE0004	identity_bridge	results/functional_anchor_audit/raw/O58212/O58212_uniprot_2026-11-05.json	Canonical O58212 sequence used to confirm that 2WR8 contains the complete candidate sequence.
+FAE0005	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 paper reporting D72A mutagenesis in the Salinispora arenicola DUF62 homolog and identifying Asp72 as corresponding to PH0463 Asp68.
+FAE0006	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 paper reporting Arg79Ala mutagenesis in the Salinispora arenicola DUF62 homolog and mapping Arg79 to PH0463 Arg75.
+FAE0007	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 paper reporting H130A mutagenesis in the Salinispora arenicola DUF62 homolog and approximately 25% residual catalytic efficiency.
+FAE0008	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 paper reporting H130Y mutagenesis in the Salinispora arenicola DUF62 homolog and approximately 5% residual catalytic efficiency.

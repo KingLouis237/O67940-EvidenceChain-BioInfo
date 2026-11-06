@@ -1,0 +1,408 @@
+===== PAGE 1 =====
+
+
+
+Supporting Information
+© Wiley-VCH 2008
+69451 Weinheim, Germany
+
+===== PAGE 2 =====
+
+ 1
+SUPPLEMENTARY INFORMATION
+S-Adenosyl-L-methionine:hydroxide adenosyltransferase, a SAM enzyme **
+Hai Deng, Catherine H. Botting, John T.G. Hamilton, Rupert J. M. Russell, David O’Hagan*,
+
+1. Purification of S-Adenosyl-L-methionine:hydroxide adenosyltransferase
+The clone containing ORF PH0463 from the marine archaea P. horikoshii  OT3  was purchased from  NBRC
+(NITE-DOB, Japan) (NBRC no: NBRC G01 -000-971, Clone ID: S2_2219, EMBL accession No. BAA29549).
+The PH0463 ORF was subcloned into pET28a(+) vector (Novagen) using the following two primers: PH0463-
+F(GCAGGAGGAATTCATATGATAACCTTAACCACCGACTTCGG) and PH0463-R:
+(CGCCGCTCGAGTCATAGCAACCTCACCCTTAGCTC)  with restriction sites NdeI and XhoI, respectively.
+The resultant plasmid pET -PH0463 was transferred into E coli BL21 C43(DE3) competent cell and grown in
+Luria broth containing kanamycin (100 µg/ml) at 37 OC until an absobance of 0.6 at 600 nm was reached. The
+PH0463 protein was over -expressed in E. coli by adding IPTG (1mM) and cells were left to grow at 16 0C for
+16 h. Cells were then harvested by centrifugation and were subject to sonication to induce lysis. The cell-free
+extract with PBS and imidazole (10 mM) was then centrifuged twice at 20,000g at 4 0C for 15 min. The
+supernatant was collected by passing through a Ni-affinity column (Qiagen) and the active fractions were eluted
+by adding PBS buffer with imid azole (100 mM). The eluent was dialysed for 16h at 25 oC by adding thrombin
+(0.5 unit; Sigma -Aldrich Co. Ltd., ) and adenosine deaminase (0.01 unit, Sigma -Aldrich Co. Ltd.,). The
+dialysate was then passed through a Ni -affinity column for a second time and t he eluent was subjected then to
+size exclusion chromatography (Size Exclusive column -Amersham Co). The active fractions were collected
+and subjected to enzymatic assay.
+
+
+Figure 1. SDS-Page of the pr ogressive purification of S -adenosyl-L-methionine:hydroxide adenosyltransferase.
+1. Protein molecular weight markers; 2. Cell -free extract; 3. Eluent after the first Ni -affinity column; 4. Eluent
+after the second Ni -affinity column; 5. Eluent after size exclusion chromatography. The identity of the protein
+was confirmed by MS-MS mass spectrometry (Applied Biosystems 4800 TOF/TOF analyser ) of a trypsic digest
+of the purified protein.
+
+2. Enzyme Assay
+In order to determine the pH optimum of the enzyme activity was assayed in NaHCO3-citric acid buffer (100mM,
+pH 4.5), phosphate buffer (100mM, pH 7.2), Tris -HCl buffer (100 mM, pH 8.5), Na 2CO3-NaHCO3 buffer
+(100mM, pH 10), CAPS-NaOH (100mM, pH 11) and CAPS-NaOH (100mM, pH 12.5) buffer.
+Experiments to determine the kinetic parameters involved incubation of the enzyme (0.2 -0.8 µM), SAM (10 µM-
+1 mM) and 5’ -ClDA (100 µM – 3 mM) in Tris -HCl buffer (100mM, pH 8.5), in a final volume of 100 µL. The
+enzymatic reaction was quenched by adding ice -cold ethanol (500 µl). After freeze-drying the resultant solution,
+the residue was dispers ed in water (100 µl) and an aliquot was subject to analytical HPLC assay. For SAH 6
+
+===== PAGE 3 =====
+
+ 2
+inhibition experiments, SAH 6(50 µM), enzyme (0.2 µM) and the indicated SAM concentration in Tris -HCl
+buffer (100mM, pH 8.5), at a final volume of 100µL.
+
+y = 0.0068x + 0.0103
+R2 = 0.9903
+y = 0.0004x + 0.0102
+R2 = 0.9623
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+-40 -20 0 20 40 60 80 100 120
+1/[SAM] (1/mM)
+1/V (1/nmol/mg/min)
+SAH[100uM] SAH[0] Linear (SAH[100uM]) Linear (SAH[0])
+
+
+Figure 2. Double recriprocal plot showing SAM as a substrate and the inhibition of SAM conversion with SAH.
+Inhibition kinetic studies of PH0463 protein with SAM (0.01 mM - 1 mM) as the substrate and SAH as an
+inhibitor of SAM conversion. Km for SAM = 39.2 µ?, k cat = 0.14 s-1
+
+y = 0.1245x + 0.257
+R2 = 0.986
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+-4 -2 0 2 4 6 8 10 12
+1/ClDA[mM]
+1/Vmax
+
+
+Figure 3. Double recriprocal plot showing 5’ -ClDA 3 (0.1 mM to 3 mM) as a substrate for the enzyme.  Km for
+5’-ClDA = 410 µM, kcat of 0.31 min-1
+
+3. GC-MS method for measurement for the incorporation of the 18O-isotope from [18O]-water into [5'-18O]-
+adenosine.
+
+The enzyme (10 µM, 60 µL) was incubated with H 218O (95 atom%, Sigma -Aldrich Co., 100 µL) and an aliquot
+(10 µL) of a 20mM SAM solution in PBS buffer at 37 oC for 16 h. After addition of ethanol (500 μL) the solution
+was freeze-dried and the  residue was treated with an excess of N-methyl-N-(trimethylsilyl) trifluoroacetamide
+and then heated for 60 min at 100 °C. GC-MS analysis was performed on an Agilent 5890 GC instrument which
+was directly attached to Agilent 5973A mass selective detector (M SD). The GC was equipped with an Ultra 1
+fused-silica capillary column (Agilent Technologies; 12m × 0.25mm × 0.17 μm). The oven temperature was
+programmed to hold for 1 min at 100°C and then ramp at 10°C/min to 300°C. The injector and transfer line
+temperatures were set at 250°C and the per -trimethylsilylated sample (1μl) automatically injected in the splitless
+
+===== PAGE 4 =====
+
+ 3
+mode. The MSD was operated in the selected ion monitoring mode with positive chemical ionization using
+methane as the reagent gas. Ion currents were measured at m/z 555, 556 and 557 amu. Percentage incorporation of 18O into adenosine was calculated at 48% by the formula [(integral of ion current at m/z 557/sum of integrals of
+ion currents at m/z 555 and 557) x 100] after ion current at m/z 557 had been corrected for natural abundance. The
+latter correction was applied by measuring the natural abundance of this ion in an authentic standard at the time of
+analysis. The diluation from 95-atom % to 48-atom-% can be accounted for by assay dilution.
+
+N
+NN
+N
+HNTMS
+O
+OTMSOTMS
+HH
+HH
+TMSO
+mass 555amu
+        tetratrimethylsilylated adenosine
+
+   CI-Mass spectrum of tetratrimethysilylated adenosine (unlabelled).
+100 150 200 250 300 350 400 450 500 550 600
+0
+20000
+40000
+60000
+80000
+100000
+120000
+140000
+160000
+180000
+200000
+220000
+240000
+260000
+m/z-->
+Abundance
+Scan 987 (16.781 min): 73A08389.D
+540
+584
+230129 208103 322259 466348171 394281 512
+555
+ 16
+O-
+unlabelled
+
+===== PAGE 5 =====
+
+ 4
+
+
+Upper: GC trace/retention time of tetratrimethylsilylated adenosine
+Lower: CI-mass spectrum of labelled adenosine recovered from an enzyme reaction carried out in 18H2O
+    (48 atom %)
+
+100 150 200 250 300 350 400 450 500 550 600
+0
+5000
+10000
+15000
+20000
+25000
+30000
+35000
+40000
+45000
+50000
+55000
+60000
+65000
+70000
+75000
+80000
+85000
+90000
+m/z-->
+Abundance
+Scan 983 (16.754 min): 73A08409.D
+542
+129
+586
+208103
+322236
+171 280
+486350
+394 512450
+CI TIC 18O sample
+18O/16O-Adenosine CI spectra
+11.00 12.00 13.00 14.00 15.00 16.00 17.00 18.00 19.00 20.00
+200000
+400000
+600000
+800000
+1000000
+1200000
+1400000
+1600000
+1800000
+2000000
+2200000
+2400000
+2600000
+2800000
+Time-->
+Abundance
+TIC: 73A08409.D
+ per trimethyl silylatedadenosine
+555
+557  18O-
+labelled
+(~48atom%)
+
+===== PAGE 6 =====
+
+ 5
+
+4. MS-MS methods
+The gel band was excised and cut into 1mm cubes.  These were then subjected to in -gel digestion, using a
+ProGest Investigator in -gel digestion robot (Genomic Solutions, Ann Arbor, MI) using standard protocols.
+Briefly the gel cubes were destained by washing with acetonitrile and subjected to reduction and alkylation before
+digestion with trypsin (36 ng) at 37°C. The peptides were extracted with 10% formic acid and concentrated down
+to 20 μL using a SpeedVac (ThermoSavant).
+
+For analysis by nanoLC -ESI MS -MS, they were then separated using an UltiMate nanoLC (LC Packings,
+Amsterdam) equipped with a PepMap C 18 trap & column, using a 30 min gradient of increasing acetonitrile
+concentration, containing 0.1 % formic acid (5 -35% acetonitrile in 18 min, 35 -50% in a further 7, followed by
+95% acetonitrile to clean the column).  The eluent was sprayed into a Q -Star Pulsar XL tandem mass
+spectrometer (Applied Biosystems, Foster City, CA) and analysed in Information Dependent Acquisition (IDA)
+mode. MS/MS data for doubly and triply charged precursor ions was converted to centroid data, without
+smoothing, using the Masc ot Daemon 2.1 (Matrix Science, London) data import filter for Sciex Analyst.  The
+MS/MS data file generated was analysed using the Mascot search engine against an internal database containing
+the predicted sequence. The data was searched with tolerances of  0.2 Da for the precursor and fragment ions,
+trypsin as the cleavage enzyme, one missed cleavage, carbamidomethyl modification of cysteines as a fixed
+modification and methionine oxidation (and 18O incorporation where appropriate) selected as a variable
+modification.
+
+For MALDI MS and MS-MS, the sample solution (0.5 μL) was applied to the MALDI target along with α-cyano-
+4-hydroxycinnamic acid matrix  (0.5 μL, 10 mg/mL in 50:50 acetonitrile:0.1% TFA).  MALDI MS and MSMS
+was acquired using a 4800 MALDI TOF/T OF Analyser (Applied Biosystems, Foster City, CA) equipped with a
+Nd:YAG 355 nm laser and calibrated using a mixture of peptides.  The data was processed as described above
+with tolerances of 100 ppm for the precursor and 0.5 Da for the fragment ions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Investigating Oxygen-18 incorporation into the enzyme at Asp-68.
+
+===== PAGE 7 =====
+
+ 6
+
+
+Figure 4 - Mass analyses of the molecular ions of triply charged tryptic peptide corresponding to amino acids 60-
+75 (GTVHVGVIDPGVGTER) did not show e vidence for the incorporation of 18O from H 218O (95-atom-%) at
+Asp-68 in the presence (upper) or absence (lower) of SAM.
+
+The enzyme ( 20µM, 90 µL) was incubated with 100 µL H218O (95 atom %, Sigma -Aldrich Co.) and 10 µL of
+20mM SAM in PBS buffer overnight.  An aliquot (40 µL) was subject to HPLC analysis, and simultaneously an
+aliquot (50µL) was analysed by SDS-PAGE and the resultant protein band excised and subjected to trypsin in-gel
+digestion (see above).  The resultant peptides were then separated using an UltiMate nanoLC (LC Packings,
+Amsterdam) equipped with a PepMap C18 trap & column, using a 30 min gradient of increasing acetonitrile
+concentration, containing 0.1 % formic acid (5 -35% acetonitrile in 18 min, 35 -50% in a further 7, followed by
+95% aceto nitrile to clean the column).   The eluent was sprayed into a Q -Star Pulsar XL tandem mass
+spectrometer (Applied Biosystems, Foster City, CA) and analysed in Information Dependent Acquisition (IDA)
+mode.
+
+MS peptide sequences: GTVHVGVIDPGVGTER Peptide aa 60-75 (triply charged)
+
+===== PAGE 8 =====
+
+ 7
+
+MS peptide sequences: GTVHVGVIDPGVGTER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 5 - Control experiment.  Oxygen-18 incorporation into a protein fragment of the enzyme as assessed by
+enzymatic digest in H 218O – MALDI mass spectrum of tryptic peptide corresponding to amino acids 60 -75
+performed in (Upper) H216O and (Lower) H218O.
+
+A sample of the enzyme was subjected to manual in -gel digestion, where the destained, reduced and alkylated
+sample was incubated in H 218O ((95-atom-%, 15 μL), 1 M ammonium bicarbonate ( 0.3 μL), trypsin (0.3 μL of
+0.2 μg/μL) in 0.01% formic acid at 37°C for 16h.  The sample solution (0.5 μL) was applied to the MALDI target
+along with α-cyano-4-hydroxycinnamic acid matrix  ( 0.5 μL, 10 mg/mL in 50:50 acetonitri le:0.1% TFA).
+MALDI-MS and MS -MS was acquired using a 4800 MALDI TOF/TOF Analyser (Applied Biosystems, Foster
+City, CA).  The lower spectrum shows a 95% incorporation of 18O.
+
+5. Alignment information for Figure 1
+
+Sample Name Protein Organism NCBI access No
+I-fluorinase 5’-fluoro-5’-deoxy-adenosine
+synthase (fluorinase)
+Streptomyces cattleya 46015529
+II-chlorinase Duf62 protein Salinispora tropica-CNB440 126466090
+III Duf62 protein Acidobacteria bacterium Ellin345 83814680
+IV Duf62 protein Salinibacter ruber DSM 13855 83814680
+V Duf62 protein Prosthecochloris aestuarii DSM 271 68551507
+VI Duf62 protein Thermotoga maritima MSB8 15643425
+VII Duf62 protein Listeria monocytogenes EGD-e 16804625
+VIII Duf62 protein Chlorobium ferrooxidans DSM 13031 110596904
+IX Duf62 protein Staphylothermus marinus F1 126466090
+X Duf62 protein Pyrococcus horikoshii OT3 14590374
+XI Duf62 protein Escherichia coli O157:H7 15804403
+XII Duf62 protein Staphylococcus aureus subsp. aureus 57651078
+
+
+1586.0 1590.2 1594.4 1598.6 1602.8 1607.0
+Mass (m/z)
+2689.0
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+% Intensity
+<<M2_MS>> 4700 Reflector Spec #1 MC[BP = 1045.5, 9065]
+1596.84
+1594.83
+1592.791588.77 1601.79
+1586.0 1590.2 1594.4 1598.6 1602.8 1607.0
+Mass (m/z)
+1409.8
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+% Intensity
+4700 Reflector Spec #1 MC[BP = 2525.3, 16662]
+1592.81
+1586.66
+
+===== PAGE 9 =====
+
+ 8
+7.  Protein database (PDB) codes for the crystallographic data for the four Duf-62 proteins that have had
+their structures solved by crystallography.
+Duf 62 protein from Methanococcus Jannaschii DSM 2661 PDB: 2f4n
+Duf 62 protein from Pyrococcus horikoshii OT3 PDB: 1WU8
+Duf 62 protein from Thermus Thermophilus Hb8 PDB: 2CW5
+Duf 62 protein from Thermotoga maritima PDB: 2ZBU
+
+===== PAGE 10 =====
+
+ 9
+
+===== PAGE 11 =====
+
+ 10
+Figure 6. Amino acid sequences of around ninety Duf -62 proteins,derived from genome sequence data. The sequences are c ompared with the fluorinase and
+the chlorinase (entries 1 and 2 respectively).  The arrows point to the three active site residues (His, Arg and Asp) which are hydrogen bonded together (see
+Figure 3 in the text), and also the Asp residue which anchors the 2'- and 3'- hydroxyl groups of the ribose ring in adenosine/SAM. These residues are highly
+conserved through the Dug -62 family of enzymes. The numbering of the arrowed residues is for the P. horikoshi enzyme. It isclear that the although the
+chlorinase and fluorinase enzymes have some similarity to the Duf -62 family, they do not retain the hydrogen bonded His, Arg and Asp triad, and as a
+consequence are fundamentally different.
+
+
+[End]
