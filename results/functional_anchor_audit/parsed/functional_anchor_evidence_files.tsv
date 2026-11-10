@@ -16,3 +16,15 @@ FAE0005	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC306
 FAE0006	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 paper reporting Arg79Ala mutagenesis in the Salinispora arenicola DUF62 homolog and mapping Arg79 to PH0463 Arg75.
 FAE0007	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 paper reporting H130A mutagenesis in the Salinispora arenicola DUF62 homolog and approximately 25% residual catalytic efficiency.
 FAE0008	primary_evidence	results/functional_anchor_audit/raw/O58212/PMCID_PMC3063057_fulltext.xml	Primary 2009 paper reporting H130Y mutagenesis in the Salinispora arenicola DUF62 homolog and approximately 5% residual catalytic efficiency.
+FAE0009	primary_evidence	results/functional_anchor_audit/raw/A4X3Q0/PMCID_PMC2762381_fulltext.html	Primary SalL paper containing the direct biochemical characterization and activity-assay methods.
+FAE0009	construct_definition	results/functional_anchor_audit/raw/A4X3Q0/PMCID_PMC2762381_fulltext.html	Primary paper documenting amplification of salL from S. tropica CNB-440 genomic DNA, pHIS8 expression and removal of the N-terminal His8 tag.
+FAE0009	identity_bridge	results/functional_anchor_audit/raw/A4X3Q0/A4X3Q0_uniprot_2026-11-10.json	Current canonical A4X3Q0 sequence used in the identity audit.
+FAE0009	identity_bridge	results/functional_anchor_audit/raw/A4X3Q0/ABP53500.1_ncbi.fasta	Historical genome-linked SalL sequence, exactly identical to current A4X3Q0.
+FAE0009	identity_bridge	results/functional_anchor_audit/raw/A4X3Q0/2Q6I_rcsb_polymer_entity_1.json	Wild-type 2Q6I polymer sequence, exactly identical to current A4X3Q0.
+FAE0010	primary_evidence	results/functional_anchor_audit/raw/A4X3Q0/PMCID_PMC2762381_fulltext.html	Primary paper reporting direct Cl/Br/I activity and the deliberate negative fluoride assays.
+FAE0010	construct_definition	results/functional_anchor_audit/raw/A4X3Q0/PMCID_PMC2762381_fulltext.html	Primary paper defining the recombinant wild-type SalL construct and His8-tag removal.
+FAE0010	identity_bridge	results/functional_anchor_audit/raw/A4X3Q0/A4X3Q0_uniprot_2026-11-10.json	Current canonical A4X3Q0 sequence used to identify the assayed biological candidate.
+FAE0011	primary_evidence	results/functional_anchor_audit/raw/A4X3Q0/2Q6I_rcsb_entry.json	RCSB record for the experimental wild-type SalL structure.
+FAE0011	construct_definition	results/functional_anchor_audit/raw/A4X3Q0/2Q6I_rcsb_polymer_entity_1.json	Deposited 2Q6I polymer sequence establishing the exact 283-residue wild-type construct.
+FAE0011	identity_bridge	results/functional_anchor_audit/raw/A4X3Q0/A4X3Q0_uniprot_2026-11-10.json	Current canonical A4X3Q0 sequence used for the exact 283/283 comparison with 2Q6I.
+FAE0011	primary_evidence	results/functional_anchor_audit/raw/A4X3Q0/PMCID_PMC2762381_fulltext.html	Primary paper assigning 2Q6I to wild-type SalL and distinguishing it from the Y70T and Y70T/G131S mutants.

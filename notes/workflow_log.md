@@ -1524,3 +1524,25 @@ Evidence tables:
 Validator:
 
 - `scripts/05_evolutionary_active_site_context/validate_functional_anchor_evidence.py`
+
+## 2026-11-10 — A4X3Q0 / SalL audited as direct functional anchor
+
+A4X3Q0 / SalL was audited against current and historical sequence records, the primary biochemical study, and the wild-type experimental structure.
+
+Current A4X3Q0, historical ABP53500.1, and the wild-type 2Q6I polymer were confirmed to be sequence-identical at all 283 residues. The primary study cloned `salL` directly from *Salinispora tropica* CNB-440 genomic DNA and removed the N-terminal His8 tag before biochemical analysis.
+
+Direct assays showed SAM-dependent halogenation with chloride, bromide and iodide. Fluoride was deliberately tested but no fluoride-dependent halogenase activity was detected under the reported assay conditions.
+
+A4X3Q0 was therefore classified as `direct_functional_anchor` for SalL-like non-fluorinating halogenase chemistry.
+
+The structural audit also corrected the historical reference distinction: 2Q6I and 2Q6K are wild-type SalL structures, whereas 2Q6O is Y70T and 2Q6L is Y70T/G131S. Mutant-specific specificity analysis remains deferred to the later conditional pocket-analysis stage.
+
+Interpretation:
+
+- `results/functional_anchor_audit/A4X3Q0_anchor_interpretation.md`
+
+Evidence records:
+
+- `FAE0009` — direct chloride-dependent biochemical activity
+- `FAE0010` — Cl/Br/I substrate specificity and deliberate negative fluoride test
+- `FAE0011` — exact-sequence wild-type 2Q6I structural anchor
