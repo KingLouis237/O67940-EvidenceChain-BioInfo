@@ -1567,3 +1567,28 @@ Evidence records:
 - `FAE0013` — exact-sequence experimental 1RQP structural anchor
 
 With O58212, A4X3Q0 and Q70GK9 now classified as direct functional anchors, the minimum experimentally grounded HAT/SAM-hydrolysing, SalL-like non-fluorinating halogenase, and fluorinase classes required by the prospective analysis contract are represented. Additional anchor audits are not pursued by default unless a later analysis exposes a specific unresolved ambiguity.
+
+## 2026-11-11 — Final reviewed evolutionary reference set frozen
+
+The primary biological reference set for the final O67940 evolutionary analysis was frozen before generation of the final MAFFT alignment or IQ-TREE topology.
+
+The selection rule uses O67940 plus the complete reviewed subset of the previously frozen UniProt operational candidate universe defined by PF01887 + PF20257, `fragment:false`, and protein length 200–350 aa. The frozen universe contains 4,432 proteins, of which exactly 11 are reviewed; all 11 are retained.
+
+The resulting primary set contains 12 biological taxa:
+
+- 1 query: O67940
+- 3 direct experimental landmarks: O58212, A4X3Q0 and Q70GK9
+- 8 additional reviewed evolutionary-context proteins
+
+Sequence-integrity checks confirmed that all 12 biological sequences are unique, use standard amino-acid characters, and are consistent across the relevant frozen sequence sources. The three direct functional anchors also match their independently audited current sequences exactly.
+
+PDB-derived 1RQP and 2Q6O sequences are not treated as additional phylogenetic taxa. 1RQP represents the Q70GK9 biological protein, while 2Q6O is the SalL Y70T mutant rather than an independent wild-type biological sequence.
+
+Reviewed database labels remain contextual annotations unless supported by the separate functional-anchor audit. The primary tree will therefore be interpreted as evolutionary evidence and not as direct biochemical validation.
+
+Decision record:
+
+- `docs/final_reference_set_decision_2026-11-11.md`
+- `results/phylogeny/O67940_final_reviewed_reference_set_decision.tsv`
+
+No final alignment or phylogenetic topology was generated before this reference-set freeze.
