@@ -1592,3 +1592,46 @@ Decision record:
 - `results/phylogeny/O67940_final_reviewed_reference_set_decision.tsv`
 
 No final alignment or phylogenetic topology was generated before this reference-set freeze.
+
+## 2026-11-11 — Canonical 12-sequence evolutionary input built and validated
+
+The frozen 12-taxon reference-set decision was implemented as a reproducible sequence-construction step.
+
+A dedicated builder script now generates the canonical phylogenetic input from frozen sources:
+
+- O67940 from `data/O67940_AQUAE.fasta`
+- the 11 reviewed references from `data/databases/O67940_uniprot_pfam_candidates/candidate_sequences.fasta`
+
+The builder takes taxon membership and order directly from the previously frozen decision table rather than from a hard-coded biological class list.
+
+Outputs:
+
+- `results/phylogeny/O67940_final_reviewed_reference_set.fasta`
+- `results/phylogeny/O67940_final_reviewed_reference_set_qc.tsv`
+
+Builder:
+
+- `scripts/05_evolutionary_active_site_context/build_final_reviewed_reference_set.py`
+
+The canonical FASTA contains exactly 12 accession-only records, one per biological taxon, with no PDB-derived duplicate or mutant taxa and no functional labels embedded in the FASTA headers.
+
+Mechanical QC confirmed:
+
+- 12 expected taxa and 12 unique accessions
+- no exact duplicate biological sequences
+- standard amino-acid characters only
+- O67940 exact agreement with the frozen candidate-universe sequence
+- all 11 reviewed references exact agreement with the frozen Swiss-Prot 2026-07-04 snapshot
+- FASTA taxon order matching the frozen decision table
+
+The builder was rerun and produced byte-identical FASTA and QC outputs, confirming deterministic reconstruction.
+
+Current output SHA256 values:
+
+- FASTA: `7ced3945ae2d6c334c7dd6d92b4127dc8b1133d7ad3afb22710ca859af57583f`
+- QC table: `2066a86ec7c80439fd2ad267ec1d275984d81be4ffeb02b449f4e004ab54e23c`
+- builder script: `220283c6e138dc7fb38d7f8ff0db742d0630edcc437e3bc68a4ea0332a5ddd30`
+
+This step establishes the exact biological sequences entering the final evolutionary analysis. It does not provide evidence about O67940 evolutionary placement, biochemical activity or substrate specificity.
+
+No final MAFFT alignment or IQ-TREE analysis has yet been generated from this canonical input.
