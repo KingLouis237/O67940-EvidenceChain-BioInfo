@@ -1635,3 +1635,24 @@ Current output SHA256 values:
 This step establishes the exact biological sequences entering the final evolutionary analysis. It does not provide evidence about O67940 evolutionary placement, biochemical activity or substrate specificity.
 
 No final MAFFT alignment or IQ-TREE analysis has yet been generated from this canonical input.
+
+## 2026-11-11 — Primary MAFFT alignment strategy frozen before final alignment
+
+The alignment strategy for the final 12-taxon reviewed-reference evolutionary analysis was frozen before generation of the final alignment or IQ-TREE topology.
+
+Based on the canonical sequence architecture and the corrected 12-taxon exploratory gap diagnostic, MAFFT G-INS-i was selected as the primary alignment strategy. The proteins are broadly coextensive in length and show extensive global alignment occupancy, with localized indel-rich regions rather than a pattern dominated by isolated homologous blocks.
+
+Primary MAFFT design:
+
+- MAFFT 7.525
+- G-INS-i: `--globalpair --maxiterate 1000`
+- deterministic iterative refinement: `--threadit 0`
+- primary alignment analysed untrimmed
+
+E-INS-i is predefined as an alignment-method sensitivity analysis because several taxa contain localized longer gap runs and the family has a multi-domain context. L-INS-i is not retained as a default sensitivity because the observed architecture does not best match a single conserved domain with long unrelated flanking regions.
+
+Decision record:
+
+- `docs/final_alignment_strategy_decision_2026-11-11.md`
+
+No final MAFFT alignment or IQ-TREE topology had been generated when this decision was frozen.
