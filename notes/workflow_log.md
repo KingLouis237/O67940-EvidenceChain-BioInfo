@@ -1546,3 +1546,24 @@ Evidence records:
 - `FAE0009` — direct chloride-dependent biochemical activity
 - `FAE0010` — Cl/Br/I substrate specificity and deliberate negative fluoride test
 - `FAE0011` — exact-sequence wild-type 2Q6I structural anchor
+
+## 2026-11-11 — Q70GK9 / fluorinase audited as direct functional anchor
+
+Q70GK9 / FDAS was audited against the historical `AJ581748` `fla` record, primary biochemical evidence, and the experimental 1RQP structure.
+
+Current Q70GK9, the historical `AJ581748` `fla` CDS translation, and the deposited 1RQP polymer were confirmed to be sequence-identical at all 299 residues.
+
+Direct biochemical evidence showed formation of 5'-fluoro-5'-deoxyadenosine from SAM and fluoride by recombinant wild-type FDAS. The final recombinant tag/terminal state could not be reconstructed explicitly from the audited methods and is therefore retained as `construct_state = unclear`, without weakening the resolved biological candidate identity.
+
+Q70GK9 was classified as `direct_functional_anchor` for SAM-dependent fluorinase chemistry.
+
+Interpretation:
+
+- `results/functional_anchor_audit/Q70GK9_anchor_interpretation.md`
+
+Evidence records:
+
+- `FAE0012` — direct wild-type fluorination activity
+- `FAE0013` — exact-sequence experimental 1RQP structural anchor
+
+With O58212, A4X3Q0 and Q70GK9 now classified as direct functional anchors, the minimum experimentally grounded HAT/SAM-hydrolysing, SalL-like non-fluorinating halogenase, and fluorinase classes required by the prospective analysis contract are represented. Additional anchor audits are not pursued by default unless a later analysis exposes a specific unresolved ambiguity.

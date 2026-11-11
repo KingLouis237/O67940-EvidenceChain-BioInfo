@@ -1,0 +1,64 @@
+LOCUS       AJ581748                 900 bp    DNA     linear   BCT 10-FEB-2004
+DEFINITION  Streptomyces cattleya flA gene for 5'-fluoro-5'-deoxyadenosine
+            synthase (5'FDA).
+ACCESSION   AJ581748
+VERSION     AJ581748.1
+KEYWORDS    5'-fluoro-5'-deoxyadenosine synthase; 5'FDA; flA gene.
+SOURCE      Streptantibioticus cattleyicolor
+  ORGANISM  Streptantibioticus cattleyicolor
+            Bacteria; Bacillati; Actinomycetota; Actinomycetes;
+            Kitasatosporales; Streptomycetaceae; Streptantibioticus.
+REFERENCE   1
+  AUTHORS   Dong,C., Huang,F., Deng,H., Schaffrath,C., Spencer,J.B., O'Hagan,D.
+            and Naismith,J.H.
+  TITLE     Crystal structure and mechanism of a bacterial fluorinating enzyme
+  JOURNAL   Nature 427 (6974), 561-565 (2004)
+   PUBMED   14765200
+REFERENCE   2  (bases 1 to 900)
+  AUTHORS   Huang,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2003) Huang F., Department of Chemistry,
+            Univerisity of Cambridge, Lensfield Road, Cambridge CB2 1EW, United
+            Kingdom
+FEATURES             Location/Qualifiers
+     source          1..900
+                     /organism="Streptantibioticus cattleyicolor"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:29303"
+     gene            1..900
+                     /gene="flA"
+     CDS             1..900
+                     /gene="flA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="5'-fluoro-5'-deoxyadenosine synthase"
+                     /protein_id="CAE46446.1"
+                     /db_xref="InterPro:IPR002747"
+                     /db_xref="PDB:1RQP"
+                     /db_xref="PDB:1RQR"
+                     /db_xref="PDB:2C2W"
+                     /db_xref="UniProtKB/TrEMBL:Q70GK9"
+                     /translation="MAANSTRRPIIAFMSDLGTTDDSVAQCKGLMYSICPDVTVVDVC
+                     HSMTPWDVEEGARYIVDLPRFFPEGTVFATTTYPATGTTTRSVAVRIKQAAKGGARGQ
+                     WAGSGAGFERAEGSYIYIAPNNGLLTTVLEEHGYLEAYEVTSPKVIPEQPEPTFYSRE
+                     MVAIPSAHLAAGFPLSEVGRPLEDHEIVRFNRPAVEQDGEALVGVVSAIDHPFGNVWT
+                     NIHRTDLEKAGIGYGARLRLTLDGVLPFEAPLTPTFADAGEIGNIAIYLNSRGYLSIA
+                     RNAASLAYPYHLKEGMSARVEAR"
+ORIGIN      
+        1 atggctgcca acagcacacg tcgccccatc atcgcgttca tgagcgacct ggggaccacg
+       61 gacgactccg tcgcccagtg caaggggctc atgtacagca tctgcccgga cgtcacggtg
+      121 gtggacgtct gccactcgat gacgccctgg gacgtcgagg agggcgcccg ctacatcgtg
+      181 gaccttccgc gcttcttccc cgagggaacg gtcttcgcca ccaccaccta tccggcgacc
+      241 ggcaccacca cccgctcggt ggcggtgcgc atcaagcagg ccgccaaggg cggtgcccgc
+      301 ggccagtggg cgggctcggg ggccggcttc gagcgcgccg agggctcgta catctacatc
+      361 gcgcccaaca acgggctgct gaccaccgtg ctggaggagc acggctacct ggaggcgtac
+      421 gaggtcacct cgccgaaggt catccccgag cagcccgaac cgaccttcta cagccgggag
+      481 atggtggcca tcccctccgc gcacctggcc gccggcttcc cgctgtccga ggtcggccgt
+      541 ccgctggagg accacgagat cgtccgcttc aaccgcccgg ccgtcgagca ggacggggag
+      601 gcgctggtgg gcgtggtctc cgccatcgac cacccgttcg gcaacgtgtg gaccaacatc
+      661 caccgcaccg acctggagaa ggcgggcatc ggctacggcg cccggctgcg gctgacgctg
+      721 gacggcgtgc tgccgttcga ggcgccgctg accccgacgt tcgccgacgc cggtgagatc
+      781 ggcaacatcg ccatctacct caacagccgc ggttacctgt ccatcgcgcg caacgcggcc
+      841 agcctcgcct acccgtacca cctcaaggag ggcatgtccg cccgggtcga ggcccgctga
+//
+

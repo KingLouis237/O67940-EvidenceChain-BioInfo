@@ -28,3 +28,10 @@ FAE0011	primary_evidence	results/functional_anchor_audit/raw/A4X3Q0/2Q6I_rcsb_en
 FAE0011	construct_definition	results/functional_anchor_audit/raw/A4X3Q0/2Q6I_rcsb_polymer_entity_1.json	Deposited 2Q6I polymer sequence establishing the exact 283-residue wild-type construct.
 FAE0011	identity_bridge	results/functional_anchor_audit/raw/A4X3Q0/A4X3Q0_uniprot_2026-11-10.json	Current canonical A4X3Q0 sequence used for the exact 283/283 comparison with 2Q6I.
 FAE0011	primary_evidence	results/functional_anchor_audit/raw/A4X3Q0/PMCID_PMC2762381_fulltext.html	Primary paper assigning 2Q6I to wild-type SalL and distinguishing it from the Y70T and Y70T/G131S mutants.
+FAE0012	primary_evidence	results/functional_anchor_audit/raw/Q70GK9/PMCID_PMC3326528_fulltext.html	Primary 2007 mechanistic study directly measuring wild-type FDAS formation of 5'-FDA from SAM and fluoride.
+FAE0012	construct_definition	results/functional_anchor_audit/raw/Q70GK9/PMCID_PMC3326528_fulltext.html	Primary paper describing subcloning of the fla ORF into pHisTev, expression of the wild-type construct in C43(DE3), and subsequent purification.
+FAE0012	identity_bridge	results/functional_anchor_audit/raw/Q70GK9/Q70GK9_uniprot_2026-11-11.json	Current Q70GK9 canonical sequence and reviewed record used in the candidate-identity audit.
+FAE0012	identity_bridge	results/functional_anchor_audit/raw/Q70GK9/AJ581748_ncbi_genbank.txt	Historical fla nucleotide record whose translated 299-residue CDS is exactly identical to current Q70GK9.
+FAE0013	primary_evidence	results/functional_anchor_audit/raw/Q70GK9/1RQP_rcsb_entry.json	RCSB record for the experimental Streptomyces cattleya fluorinase structure 1RQP.
+FAE0013	construct_definition	results/functional_anchor_audit/raw/Q70GK9/1RQP_rcsb_polymer_entity_1.json	Deposited 1RQP polymer sequence establishing the exact 299-residue structural construct.
+FAE0013	identity_bridge	results/functional_anchor_audit/raw/Q70GK9/Q70GK9_uniprot_2026-11-11.json	Current canonical Q70GK9 sequence used for the exact 299/299 comparison with the 1RQP polymer.
