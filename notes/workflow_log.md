@@ -1656,3 +1656,48 @@ Decision record:
 - `docs/final_alignment_strategy_decision_2026-11-11.md`
 
 No final MAFFT alignment or IQ-TREE topology had been generated when this decision was frozen.
+
+## 2026-11-12 — Final G-INS-i mechanistic landmark mapping generated and reproducibility-checked
+
+The prospectively selected primary G-INS-i strategy was executed on the frozen 12-sequence biological reference set using MAFFT 7.525.
+
+The recorded command used `--globalpair --maxiterate 1000 --thread -1 --threadit 0`. The preserved stderr record is byte-identical to the original MAFFT `.log`.
+
+Primary alignment:
+
+- `results/phylogeny/O67940_final_reviewed_reference_set_ginsi.fasta`
+
+The alignment contains 12 taxa and 329 final alignment columns.
+
+A seven-row mechanistic-landmark registry was built from the separately audited O58212, A4X3Q0 and Q70GK9 experimental anchors:
+
+- `results/residue_mapping/O67940_final_mechanistic_landmark_registry.tsv`
+
+A deterministic mapper then projected each anchor residue through the frozen G-INS-i alignment:
+
+- `scripts/05_evolutionary_active_site_context/map_final_mechanistic_landmarks.py`
+- `results/residue_mapping/O67940_final_mechanistic_landmark_mapping_long.tsv`
+
+Key O67940 correspondences were:
+
+- O58212 D68 → O67940 D69
+- O58212 R75 → O67940 R76
+- O58212 H127 → O67940 H126
+- SalL Y70 / FDAS T75 column → O67940 V67
+- SalL G131 / FDAS S158 column → O67940 G127
+
+The output contains 84 rows (7 landmarks × 12 taxa), all seven anchor self-mappings were validated, and every focal column had 12/12 occupancy.
+
+The MAFFT alignment was regenerated independently from the frozen input and was byte-identical to the primary alignment. The mechanistic mapper was also rerun and regenerated a byte-identical mapping table.
+
+Interpretation:
+
+The result establishes reproducible sequence-level positional correspondence to experimentally grounded landmarks. The D69/R76/H126 correspondence introduces a HAT-like mechanistic context, while V67/G127 does not support direct transfer of FDAS-like specificity. These observations do not establish HAT activity, halogenase activity or substrate specificity.
+
+Detailed interpretation:
+
+- `results/residue_mapping/O67940_final_mechanistic_landmark_interpretation.md`
+
+Next:
+
+Freeze this evidence layer and then perform the prospectively defined E-INS-i alignment-method sensitivity analysis before treating the positional mapping as alignment-strategy robust.

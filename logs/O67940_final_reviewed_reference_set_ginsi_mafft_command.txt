@@ -1,0 +1,9 @@
+date: 2026-11-11T22:21:18+01:00
+working_directory: /home/abane_ashu/methods_bioinfo_reanalysis
+mafft_executable: /home/abane_ashu/miniconda3/envs/methods_bioinfo/bin/mafft
+mafft_version: v7.525 (2024/Mar/13)
+input: results/phylogeny/O67940_final_reviewed_reference_set.fasta
+output: results/phylogeny/O67940_final_reviewed_reference_set_ginsi.fasta
+
+command:
+mafft --globalpair --maxiterate 1000 --thread -1 --threadit 0 results/phylogeny/O67940_final_reviewed_reference_set.fasta > results/phylogeny/O67940_final_reviewed_reference_set_ginsi.fasta 2> logs/O67940_final_reviewed_reference_set_ginsi_mafft.log
