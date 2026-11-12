@@ -1701,3 +1701,25 @@ Detailed interpretation:
 Next:
 
 Freeze this evidence layer and then perform the prospectively defined E-INS-i alignment-method sensitivity analysis before treating the positional mapping as alignment-strategy robust.
+
+## 2026-11-12 — E-INS-i alignment-method sensitivity criteria frozen
+
+Before generating the E-INS-i alignment, I froze the analysis criteria for the predefined alignment-method sensitivity test.
+
+The sensitivity analysis will use the same canonical 12-sequence input, the same seven mechanistic landmarks, no trimming, and MAFFT 7.525 with `--genafpair --maxiterate 1000 --thread -1 --threadit 0`.
+
+The primary robustness criterion is whether all seven experimentally anchored positions map to the same O67940 residue identity and residue number as in the frozen primary G-INS-i analysis. Absolute alignment-column numbers are not required to remain identical.
+
+Secondary comparisons will evaluate mapping stability across all 84 landmark-by-taxon correspondences and changes in focal-column occupancy.
+
+Any disagreement between G-INS-i and E-INS-i will be retained as alignment-method sensitivity rather than resolved by selecting the alignment that gives the preferred biological interpretation.
+
+Decision record:
+
+- `docs/final_alignment_sensitivity_decision_2026-11-12.md`
+
+No E-INS-i alignment had been generated when these criteria were frozen.
+
+Next:
+
+Freeze this decision record in Git, then generate the predefined E-INS-i sensitivity alignment.
