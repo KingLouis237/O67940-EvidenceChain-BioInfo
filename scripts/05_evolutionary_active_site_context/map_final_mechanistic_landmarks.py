@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
+import argparse
 import csv
 
 
-ALIGNMENT = Path(
+DEFAULT_ALIGNMENT = Path(
     "results/phylogeny/"
     "O67940_final_reviewed_reference_set_ginsi.fasta"
 )
@@ -19,10 +20,43 @@ EVIDENCE = Path(
     "functional_anchor_evidence.tsv"
 )
 
-OUTPUT = Path(
+DEFAULT_OUTPUT = Path(
     "results/residue_mapping/"
     "O67940_final_mechanistic_landmark_mapping_long.tsv"
 )
+
+
+def parse_args():
+    """Parse alignment and output paths only."""
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "Map the frozen mechanistic-landmark registry "
+            "through a selected 12-taxon alignment."
+        )
+    )
+
+    parser.add_argument(
+        "--alignment",
+        type=Path,
+        default=DEFAULT_ALIGNMENT,
+        help=(
+            "Aligned FASTA to map. "
+            "Defaults to the frozen primary G-INS-i alignment."
+        ),
+    )
+
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=DEFAULT_OUTPUT,
+        help=(
+            "Long-format TSV output path. "
+            "Defaults to the frozen primary mapping table."
+        ),
+    )
+
+    return parser.parse_args()
 
 
 def read_fasta(path):
@@ -143,8 +177,13 @@ def column_to_residue(
 
 
 # ------------------------------------------------------------
-# Load and validate the frozen final alignment.
+# Select alignment/output paths, then validate the alignment.
 # ------------------------------------------------------------
+
+args = parse_args()
+
+ALIGNMENT = args.alignment
+OUTPUT = args.output
 
 order, records = read_fasta(
     ALIGNMENT
@@ -270,7 +309,7 @@ for landmark in registry:
 
 # ------------------------------------------------------------
 # Map each experimentally grounded anchor residue into the
-# frozen G-INS-i alignment and propagate that column across
+# selected alignment and propagate that column across
 # all 12 biological taxa.
 # ------------------------------------------------------------
 

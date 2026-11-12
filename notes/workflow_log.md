@@ -1723,3 +1723,26 @@ No E-INS-i alignment had been generated when these criteria were frozen.
 Next:
 
 Freeze this decision record in Git, then generate the predefined E-INS-i sensitivity alignment.
+
+## 2026-11-12 — Mechanistic-landmark mapper parameterized before E-INS-i execution
+
+Before generating or inspecting the E-INS-i sensitivity alignment, the existing mechanistic-landmark mapper was generalized to accept explicit alignment and output paths.
+
+The previous mapper hard-coded the primary G-INS-i alignment and mapping-table paths. The mapping algorithm itself was not changed.
+
+New command-line options:
+
+- `--alignment`
+- `--output`
+
+The frozen mechanistic-landmark registry, audited functional-anchor evidence table, 12-taxon validation, seven-landmark requirement, anchor-residue validation, residue-to-column and column-to-residue logic, output schema, and interpretation boundary remain unchanged.
+
+The default paths remain the existing primary G-INS-i alignment and primary mapping table, preserving backwards compatibility.
+
+Regression testing confirmed that both the default invocation and an explicit-path invocation using the frozen G-INS-i alignment reproduced the previously frozen 84-row primary mapping table byte-for-byte.
+
+This refactor therefore changes the mapper interface only. It was completed before generation of the E-INS-i alignment so that the same mapping implementation can be used for both alignment strategies.
+
+Next:
+
+Freeze this mapper-interface change, then generate the prospectively defined E-INS-i alignment.
