@@ -1,0 +1,10 @@
+metric	value
+total_mapping_comparisons	84
+stable_residue_correspondences	84
+changed_residue_correspondences	0
+o67940_total_landmarks	7
+o67940_stable_correspondences	7
+o67940_changed_correspondences	0
+identical_alignment_columns	84
+identical_column_occupancies	84
+primary_robustness_pass	yes

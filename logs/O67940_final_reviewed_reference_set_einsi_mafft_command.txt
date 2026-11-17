@@ -1,0 +1,10 @@
+date: 2026-11-13T13:55:41+01:00
+working_directory: /home/abane_ashu/methods_bioinfo_reanalysis
+executable: /home/abane_ashu/miniconda3/envs/methods_bioinfo/bin/mafft
+version: v7.525 (2024/Mar/13)
+input: results/phylogeny/O67940_final_reviewed_reference_set.fasta
+input_sha256: 7ced3945ae2d6c334c7dd6d92b4127dc8b1133d7ad3afb22710ca859af57583f
+output: results/phylogeny/O67940_final_reviewed_reference_set_einsi.fasta
+stderr: logs/O67940_final_reviewed_reference_set_einsi_mafft_stderr.txt
+strategy: E-INS-i
+command: /home/abane_ashu/miniconda3/envs/methods_bioinfo/bin/mafft --genafpair --maxiterate 1000 --thread -1 --threadit 0 results/phylogeny/O67940_final_reviewed_reference_set.fasta > results/phylogeny/O67940_final_reviewed_reference_set_einsi.fasta 2> logs/O67940_final_reviewed_reference_set_einsi_mafft_stderr.txt

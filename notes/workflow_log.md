@@ -1746,3 +1746,80 @@ This refactor therefore changes the mapper interface only. It was completed befo
 Next:
 
 Freeze this mapper-interface change, then generate the prospectively defined E-INS-i alignment.
+
+## 2026-11-13 — E-INS-i mechanistic-landmark sensitivity analysis completed
+
+The prospectively defined E-INS-i alignment-method sensitivity analysis was completed using the same frozen 12-sequence input and the same seven experimentally grounded mechanistic landmarks as the primary G-INS-i analysis.
+
+E-INS-i execution:
+
+- MAFFT 7.525
+- `--genafpair --maxiterate 1000 --thread -1 --threadit 0`
+- output: `results/phylogeny/O67940_final_reviewed_reference_set_einsi.fasta`
+- alignment SHA256: `f6df74873c0649dae339e194461f99335847835981d74bc34c1785f22afa6d9a`
+
+Structural QC confirmed:
+
+- 12/12 expected taxa retained
+- canonical taxon order retained
+- one shared alignment width
+- removal of alignment gaps exactly reconstructed all 12 frozen source sequences
+
+An independent MAFFT rerun produced a byte-identical E-INS-i alignment.
+
+The E-INS-i alignment width was 333 columns versus 329 for the primary G-INS-i alignment.
+
+A global residue-column diagnostic compared 3,325 ungapped residue positions and found 960 positions with changed absolute alignment-column placement. O67940 had 73/251 residues with changed column placement. This diagnostic establishes that the alternative strategy changed global alignment geometry; it was not part of the predefined primary robustness criterion.
+
+The diagnostic was preserved reproducibly as:
+
+- `scripts/05_evolutionary_active_site_context/compare_alignment_residue_columns.py`
+- `results/phylogeny/O67940_final_ginsi_vs_einsi_residue_column_shift_summary.tsv`
+
+The same frozen mapper and landmark registry were then applied to the E-INS-i alignment.
+
+Primary sensitivity result:
+
+- 7/7 O67940 mechanistic-landmark correspondences unchanged
+- D69, R76, H126, V67 and G127 mappings retained
+- all focal occupancies remained 12/12
+- focal absolute alignment columns were also unchanged
+
+Secondary 12-taxon result:
+
+- 84/84 landmark-by-sequence residue correspondences unchanged
+- 0 changed correspondences
+
+The complete E-INS-i mapping table is byte-identical to the frozen G-INS-i mapping table.
+
+E-INS-i mapping SHA256:
+
+`ddc62b066e4abf6a122cb0c4fe02b9cb3296748091f6f50cef3bce43fe017992`
+
+Comparison-table SHA256:
+
+`396530b1b75fb96f78a026518e13b5c9a77cefe09fbde12ab8bbadc86d716635`
+
+Sensitivity-summary SHA256:
+
+`4104f7d202d203a2ddb3810e0a4d7cf8b019bc33c09ec5a9598dc5952ccb8d3e`
+
+Comparator-script SHA256:
+
+`37b8e34a02950ad037dcf543b5abb55b3e5f9441638f7d16e2be88c0e414b494`
+
+The E-INS-i mapping, comparison table and sensitivity summary were independently regenerated and reproduced byte-for-byte.
+
+Interpretation:
+
+The experimentally anchored O67940 positional correspondences are robust to the prospectively specified G-INS-i versus E-INS-i alignment-method sensitivity test. This does not establish biochemical function, substrate specificity, equivalent three-dimensional geometry or robustness to every possible alignment method.
+
+Detailed interpretation:
+
+- `results/residue_mapping/O67940_final_mechanistic_landmark_alignment_sensitivity_interpretation.md`
+
+The comparator implementation was written after generation of the E-INS-i alignment, but the sensitivity criteria had already been frozen and committed before E-INS-i execution. The primary mapping result is additionally validated independently by the byte-identical full G-INS-i and E-INS-i mapping tables.
+
+Next:
+
+Freeze this sensitivity evidence layer. The next independent mechanistic evidence layer should address three-dimensional structural correspondence rather than introducing additional alignment strategies by default.
