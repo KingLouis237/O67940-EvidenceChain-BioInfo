@@ -1823,3 +1823,30 @@ The comparator implementation was written after generation of the E-INS-i alignm
 Next:
 
 Freeze this sensitivity evidence layer. The next independent mechanistic evidence layer should address three-dimensional structural correspondence rather than introducing additional alignment strategies by default.
+
+## 2026-11-17 — DALI pre-execution reference audit updated
+
+The prospectively frozen 2026-08-26 O67940 DALI structural-neighbour search design was reviewed before DALI execution.
+
+The original query, full-PDB search, PDB25 search, interpretation rules and search scope remain unchanged.
+
+Independent functional-anchor work completed after the original strategy was frozen established additional experimentally grounded structural references. The predefined reference-audit set now distinguishes:
+
+- 2Q6O — historical SalL Y70T mutant reference;
+- 1RQP — wild-type FDAS historical and functional reference;
+- 2Q6I — wild-type SalL functional reference;
+- 2WR8 — PH0463/O58212 SAM hydroxide adenosyltransferase mechanistic reference.
+
+These structures were defined before inspection of DALI search results and will not be counted as independent DALI discoveries.
+
+The full-PDB and PDB25 raw results will be preserved before curation or biological interpretation.
+
+Addendum:
+
+- `results/active_site_structure/dali_structural_neighbors/O67940_dali_preexecution_addendum_2026-11-17.md`
+
+The original frozen DALI strategy remains unchanged.
+
+Next:
+
+Freeze this pre-execution addendum, then execute the predefined full-PDB and PDB25 DALI searches using the validated AlphaFoldDB v6 O67940 query.
