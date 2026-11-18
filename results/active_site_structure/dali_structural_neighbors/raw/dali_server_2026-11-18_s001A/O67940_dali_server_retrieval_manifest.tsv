@@ -1,0 +1,18 @@
+field	value
+analysis	O67940 structural-neighbour search
+job_title	O67940_AFv6_full_PDB
+server_chain_id	s001A
+server_result_token	655c38fdffa7609317e5cb5665816587170d5857464c28b318
+job_id	NOT_EXPOSED_BY_SERVER
+query_file	data/alphafold/AF-O67940-F1-model_v6.pdb
+query_sha256	0bda0c9e85d92c562f1f82445d8c9e528b6cdc72499d5cbf9812960fddc6fa64
+query_chain	A
+query_length	251
+git_commit_at_retrieval	b7c7ea8f9218d202d2b1ffcf6bbf74d644f1ebc1
+retrieval_time_local	2026-11-18T12:34:35+01:00
+server_base_url	http://ekhidna2.biocenter.helsinki.fi/barcosel/tmp//655c38fdffa7609317e5cb5665816587170d5857464c28b318//
+server_notice	Results reported by server as deleted after one week
+predefined_primary_views	full_PDB;PDB25
+auxiliary_server_views	PDB50;PDB90
+tabular_output	s001A.dali.tsv
+interpretation_started	no

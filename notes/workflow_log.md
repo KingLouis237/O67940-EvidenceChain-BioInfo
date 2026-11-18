@@ -1850,3 +1850,54 @@ The original frozen DALI strategy remains unchanged.
 Next:
 
 Freeze this pre-execution addendum, then execute the predefined full-PDB and PDB25 DALI searches using the validated AlphaFoldDB v6 O67940 query.
+
+## 2026-11-18 — Raw DALI structural-neighbour results preserved
+
+The prospectively defined O67940 DALI structural-neighbour search was executed using:
+
+- query: `data/alphafold/AF-O67940-F1-model_v6.pdb`
+- query SHA256: `0bda0c9e85d92c562f1f82445d8c9e528b6cdc72499d5cbf9812960fddc6fa64`
+- DALI query identifier: `s001A`
+- query chain: A
+- query length: 251 residues
+- repository commit at retrieval: `b7c7ea8f9218d202d2b1ffcf6bbf74d644f1ebc1`
+- retrieval time: `2026-11-18T12:34:35+01:00`
+
+A single DALI server submission returned four database views:
+
+- full PDB;
+- PDB25;
+- PDB50;
+- PDB90.
+
+The prospectively defined inferential views remain full PDB and PDB25.
+
+PDB50 and PDB90 were generated automatically by the same server job and are preserved as auxiliary raw outputs. Their availability does not change the predefined analysis design.
+
+The server also supplied a tabular DALI output.
+
+All raw server files were downloaded before biological inspection or interpretation because the server reported that results would be deleted after one week.
+
+Raw directory:
+
+- `results/active_site_structure/dali_structural_neighbors/raw/dali_server_2026-11-18_s001A/`
+
+Retrieval manifest:
+
+- `results/active_site_structure/dali_structural_neighbors/raw/dali_server_2026-11-18_s001A/O67940_dali_server_retrieval_manifest.tsv`
+
+Pre-submission manifest:
+
+- `results/active_site_structure/dali_structural_neighbors/raw/dali_server_2026-11-18_s001A/O67940_dali_presubmission_manifest.txt`
+
+The pre-submission manifest was created before DALI execution and is preserved verbatim. Its `PENDING` job/result fields and `PRE_SUBMISSION` status record the state at that time and were not retrospectively rewritten after the server result became available.
+
+Raw bundle checksum manifest:
+
+- `results/active_site_structure/dali_structural_neighbors/raw/dali_server_2026-11-18_s001A/O67940_dali_raw_checksums.sha256`
+
+No DALI hit was promoted, biologically curated or interpreted before preservation of the raw result bundle.
+
+Next:
+
+Freeze the raw DALI acquisition layer, then inspect and validate the machine-readable DALI output schema before deriving any biological interpretation.

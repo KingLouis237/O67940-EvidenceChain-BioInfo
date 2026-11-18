@@ -1,0 +1,15 @@
+search_type	full_PDB
+query_file	data/alphafold/AF-O67940-F1-model_v6.pdb
+query_sha256	0bda0c9e85d92c562f1f82445d8c9e528b6cdc72499d5cbf9812960fddc6fa64
+query_accession	O67940
+query_model	AlphaFoldDB_AF-O67940-F1-model_v6
+query_chain	A
+query_length	251
+server	DALI
+submission_time_local	2026-11-18T11:48:23+01:00
+git_commit	b7c7ea8f9218d202d2b1ffcf6bbf74d644f1ebc1
+git_branch	publication-upgrade-homolog-active-site
+job_title	O67940_AFv6_full_PDB
+job_id	PENDING
+result_url	PENDING
+status	PRE_SUBMISSION
