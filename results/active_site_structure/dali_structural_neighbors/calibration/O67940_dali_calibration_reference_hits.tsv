@@ -1,0 +1,12 @@
+reference_pdb	reference_role	search_view	exact_pdb_present	exact_hit_count_in_view	rank	subject_id	chain_id	z_score	rmsd	aligned_length	subject_length	query_length	query_coverage	seq_identity_pct	description	source_table
+2Q6I	WT_SalL	full_PDB	yes	1	12	2q6iA	A	28.9	2.1	250	267	251	0.996016	28	MOLECULE: HYPOTHETICAL PROTEIN;	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv
+2Q6I	WT_SalL	PDB25	no	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	exact PDB entry absent from this view	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_pdb25_matches.tsv
+2Q6O	SalL_Y70T_historical_mutant	full_PDB	yes	2	25	2q6oA	A	28.5	2.1	250	270	251	0.996016	28	MOLECULE: HYPOTHETICAL PROTEIN;	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv
+2Q6O	SalL_Y70T_historical_mutant	full_PDB	yes	2	26	2q6oB	B	28.5	2.1	250	270	251	0.996016	28	MOLECULE: HYPOTHETICAL PROTEIN;	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv
+2Q6O	SalL_Y70T_historical_mutant	PDB25	no	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	exact PDB entry absent from this view	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_pdb25_matches.tsv
+1RQP	WT_FDAS	full_PDB	yes	3	54	1rqpB	B	27.1	2.0	250	292	251	0.996016	27	MOLECULE: 5'-FLUORO-5'-DEOXYADENOSINE SYNTHASE;	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv
+1RQP	WT_FDAS	full_PDB	yes	3	56	1rqpA	A	27.1	2.0	248	292	251	0.988048	27	MOLECULE: 5'-FLUORO-5'-DEOXYADENOSINE SYNTHASE;	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv
+1RQP	WT_FDAS	full_PDB	yes	3	66	1rqpC	C	27.0	2.1	248	292	251	0.988048	27	MOLECULE: 5'-FLUORO-5'-DEOXYADENOSINE SYNTHASE;	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv
+1RQP	WT_FDAS	PDB25	no	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	exact PDB entry absent from this view	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_pdb25_matches.tsv
+2WR8	PH0463_HAT_related	full_PDB	yes	1	17	2wr8A	A	28.8	2.0	246	259	251	0.980080	38	MOLECULE: PUTATIVE UNCHARACTERIZED PROTEIN PH0463;	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv
+2WR8	PH0463_HAT_related	PDB25	no	0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	exact PDB entry absent from this view	results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_pdb25_matches.tsv

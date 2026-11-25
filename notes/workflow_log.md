@@ -1952,3 +1952,53 @@ No new external source was added to `metadata/source_provenance.tsv` because the
 Next:
 
 Freeze the parser/normalization layer, then perform the predefined structural-neighbourhood analysis using full PDB and PDB25, beginning with the four predefined reference structures and a nonredundant audit of the high-ranking neighbourhood.
+
+## 2026-11-25 — DALI predefined calibration-reference audit
+
+The frozen DALI parsing/normalization layer at commit `280ad6293972a5db59df03864882376e3890d73e` was queried for four prospectively defined experimental calibration structures:
+
+- 2Q6I — WT SalL
+- 2Q6O — SalL Y70T historical mutant
+- 1RQP — WT FDAS
+- 2WR8 — PH0463 / HAT-related structure
+
+Extraction was performed with:
+
+- `scripts/05_evolutionary_active_site_context/extract_dali_calibration_references.py`
+
+Inputs:
+
+- `results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv`
+- `results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_pdb25_matches.tsv`
+
+The extractor verifies the frozen SHA-256 hashes and cardinalities of both parsed input tables before analysis.
+
+Observed full-PDB results:
+
+- 2Q6I chain A: rank 12, Z=28.9, RMSD=2.1 Å, aligned length=250/251 query residues, query coverage=0.996016, sequence identity=28%.
+- 2WR8 chain A: rank 17, Z=28.8, RMSD=2.0 Å, aligned length=246/251 query residues, query coverage=0.980080, sequence identity=38%.
+- 2Q6O chains A/B: ranks 25/26, Z=28.5, RMSD=2.1 Å, aligned length=250/251 query residues, query coverage=0.996016, sequence identity=28%.
+- 1RQP chains B/A/C: ranks 54/56/66, Z=27.1/27.1/27.0, RMSD=2.0/2.0/2.1 Å, aligned length=250/248/248 residues, query coverage=0.996016/0.988048/0.988048, sequence identity=27%.
+
+Thus all four prospectively defined calibration PDB entries were independently recovered within the top 66 of the 2406 full-PDB DALI matches.
+
+None of the four exact PDB IDs appeared in the PDB25 result. This is recorded only as an observation. No claim is made at this stage about which PDB25 representatives, if any, correspond to these structures.
+
+Validation semantics explicitly distinguish computational invariants from scientific observations:
+
+- input checksums, input cardinalities, predefined reference count, view representation, and output-row accounting are PASS/FAIL invariants;
+- the number of calibration structures recovered in full PDB and PDB25 are recorded as OBSERVED values with no prespecified expected biological outcome.
+
+Supported claim:
+
+The independent full-PDB DALI search recovered all four prospectively defined experimental calibration structures among the top 66 structural matches to the O67940 AlphaFold model, with Z-scores of 27.0–28.9 and near-complete query coverage.
+
+Limitations:
+
+DALI Z-score measures structural similarity and is not a biochemical or substrate-specificity score. Recovery of SalL, FDAS and PH0463-related experimental structures does not establish that O67940 performs chlorination, fluorination, HAT activity, or any particular substrate chemistry. Exact absence from PDB25 cannot by itself identify the representative structure selected by the reduced database.
+
+No new external provenance source was added because this layer is a deterministic analysis of already-provenanced frozen DALI results.
+
+Next:
+
+Freeze this calibration-reference layer, then characterize the DALI score landscape and define the high-ranking nonredundant structural neighborhood without functional cherry-picking.
