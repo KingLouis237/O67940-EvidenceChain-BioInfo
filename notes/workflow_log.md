@@ -1901,3 +1901,54 @@ No DALI hit was promoted, biologically curated or interpreted before preservatio
 Next:
 
 Freeze the raw DALI acquisition layer, then inspect and validate the machine-readable DALI output schema before deriving any biological interpretation.
+
+## 2026-11-25 — DALI structural-neighbour parsing layer validated
+
+The frozen DALI raw acquisition layer at commit `2fff61f69120e738f7ba06bad2fa324db1079dc2` was parsed using:
+
+- `scripts/05_evolutionary_active_site_context/parse_dali_structural_neighbors.py`
+
+The parser first revalidated the 11 frozen raw DALI artifacts against:
+
+- `results/active_site_structure/dali_structural_neighbors/raw/dali_server_2026-11-18_s001A/O67940_dali_raw_checksums.sha256`
+
+The parser contract had been prospectively tested before generation of derived tables:
+
+- full-PDB TSV records: 2406
+- full-PDB TXT records: 2406
+- full-PDB TSV/TXT rank-order mismatches: 0
+- PDB25 records: 639
+- PDB50 records: 859
+- PDB90 records: 1062
+- all four rankings contiguous
+
+Derived inferential tables emitted:
+
+- `results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv`
+- `results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_pdb25_matches.tsv`
+
+Validation output:
+
+- `results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_parser_validation.tsv`
+
+The full-PDB derived table preserves all 17 raw DALI TSV fields while adding deterministic fields including rank, PDB ID, chain ID, query length and query coverage.
+
+`query_coverage` is a derived quantity calculated as:
+
+`aligned_length / 251`
+
+and is not a DALI-reported field.
+
+PDB ID and chain ID are deterministic decompositions of the DALI subject identifier; the original subject identifier is retained.
+
+Terminal whitespace in derived `description` fields is stripped during parsing. This normalizes fixed-width padding present in the DALI summary text without altering the substantive description text. Frozen raw DALI files remain byte-for-byte unchanged.
+
+PDB50 and PDB90 were validated for record count and rank continuity but were not emitted as inferential tables because they are auxiliary server-generated views rather than prospectively defined primary analyses.
+
+No biological hit selection, functional interpretation, or promotion of new anchors was performed during this parsing step.
+
+No new external source was added to `metadata/source_provenance.tsv` because these outputs are deterministic derivatives of the already-provenanced frozen DALI acquisition.
+
+Next:
+
+Freeze the parser/normalization layer, then perform the predefined structural-neighbourhood analysis using full PDB and PDB25, beginning with the four predefined reference structures and a nonredundant audit of the high-ranking neighbourhood.

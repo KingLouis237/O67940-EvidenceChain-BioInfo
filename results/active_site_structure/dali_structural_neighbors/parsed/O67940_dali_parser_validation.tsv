@@ -1,0 +1,12 @@
+check	status	observed	expected
+raw_bundle_checksum_validation	PASS	11 files verified	11 files verified
+full_pdb_tsv_schema	PASS	17 columns	17 columns
+full_pdb_record_count	PASS	2406	2406
+pdb25_record_count	PASS	639	639
+pdb50_record_count	PASS	859	859
+pdb90_record_count	PASS	1062	1062
+full_pdb_tsv_txt_mismatches	PASS	0	0
+full_pdb_rank_continuity	PASS	1..2406	1..2406
+pdb25_rank_continuity	PASS	1..639	1..639
+pdb50_rank_continuity	PASS	1..859	1..859
+pdb90_rank_continuity	PASS	1..1062	1..1062
