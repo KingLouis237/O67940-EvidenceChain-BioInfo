@@ -1,0 +1,10 @@
+uniprot_accession	pdb_entry_count	pdb_ids	sequence_state_count	sequence_state_ids	sequence_lengths	rcsb_mutation_counts	source_organisms	best_full_rank	best_full_z	pdb25_entries
+Q9WZC8	2	2ZBV,2ZBU	1	SEQSTATE_01	263	0	Thermotoga maritima MSB8	1	30.9	none
+O58212	2	1WU8,2WR8	2	SEQSTATE_02,SEQSTATE_06	256,259	0,6	Pyrococcus horikoshii OT3	8	29.5	none
+A0A059WF38	1	7CCG	1	SEQSTATE_03	271	0	Streptomyces noursei	11	29.0	none
+A4X3Q0	6	2Q6I,6RYZ,6RZ2,2Q6L,2Q6K,2Q6O	3	SEQSTATE_04,SEQSTATE_07,SEQSTATE_08	283,285	0,1,2	Salinispora tropica CNB-440	12	28.9	none
+A0A2T0T269	1	7XTO	1	SEQSTATE_05	276	0	Umezawaea tangerina	13	28.9	none
+Q70GK9	16	2C5H,2V7X,2CBX,5FIU,4CQJ,2C2W,2C4T,2V7T,2V7W,1RQP,2C5B,2V7U,2V7V,1RQR,2C4U,2CC2	3	SEQSTATE_09,SEQSTATE_10,SEQSTATE_13	299	0,1,6	Streptantibioticus cattleyicolor	30	27.6	2C4T
+W0W999	2	5LMZ,5B6I	2	SEQSTATE_11,SEQSTATE_12	302,319	0	Streptomyces sp. MA37	36	27.4	none
+Q5SLF5	1	2CW5	1	SEQSTATE_14	255	2	Thermus thermophilus	59	27.0	none
+Q59045	2	22UY,2F4N	2	SEQSTATE_15,SEQSTATE_16	271,273	1,5	Methanocaldococcus jannaschii|Methanocaldococcus jannaschii DSM 2661	87	25.0	22UY

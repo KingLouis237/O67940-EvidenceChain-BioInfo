@@ -2203,3 +2203,111 @@ RCSB metadata describe deposited structures and database cross-references. They 
 Next:
 
 Freeze this raw external acquisition before deriving any PDB-to-UniProt or exact-sequence consolidation table.
+
+## 2026-11-26 — RCSB protein-entity and canonical-sequence consolidation
+
+The frozen RCSB metadata acquisition at commit `1ba4a8b5b020ef1a903dc21505ad2fdcce6a900e` was combined deterministically with the frozen annotation-neutral DALI PDB registry to quantify biological-reference and canonical-sequence redundancy within the high-Z structural neighborhood.
+
+Frozen inputs:
+
+- `results/active_site_structure/dali_structural_neighbors/pdb_registry/O67940_dali_high_z_pdb_registry.tsv`
+- SHA-256: `127ede4775e0387c33833c799a7e798e361a55264e9eed4016fbb773a96ae35f`
+
+- `results/active_site_structure/dali_structural_neighbors/biological_metadata/raw/rcsb_2026-11-26/response.json`
+- SHA-256: `94501c04ab30ccb29a964bd230c2ee557cfa8813ad1af006705203d7bebd5dd7`
+
+Analysis script:
+
+- `scripts/05_evolutionary_active_site_context/consolidate_rcsb_dali_entities.py`
+
+The script verifies both frozen input hashes, requires the observed one-polymer-entity and one-UniProt-reference state for each of the 33 PDB entries, validates RCSB canonical sequence lengths, joins the RCSB metadata to the frozen DALI registry, and generates three complementary consolidation levels:
+
+1. one row per PDB polymer entity;
+2. one row per distinct RCSB canonical-sequence hash;
+3. one row per RCSB-linked UniProt accession.
+
+Observed reduction:
+
+- PDB entries: 33
+- RCSB polymer entities: 33
+- distinct RCSB-linked UniProt accessions: 9
+- distinct RCSB canonical-sequence states: 16
+- canonical-sequence hashes shared across different UniProt accessions: 0
+- distinct UniProt accessions represented in the PDB25 high-Z regime: 2
+
+RCSB mutation-count distribution across the 33 entries:
+
+- 0 mutations: 22 entries
+- 1 mutation: 6 entries
+- 2 mutations: 2 entries
+- 5 mutations: 1 entry
+- 6 mutations: 2 entries
+
+The nine RCSB-linked UniProt accessions are:
+
+- Q9WZC8
+- O58212
+- A0A059WF38
+- A4X3Q0
+- A0A2T0T269
+- Q70GK9
+- W0W999
+- Q5SLF5
+- Q59045
+
+The full-PDB structural neighborhood is therefore substantially redundant at the PDB-entry level. In particular, Q70GK9 accounts for 16 PDB entries and A4X3Q0 for 6.
+
+The PDB25 high-Z representatives correspond to two RCSB-linked UniProt reference accessions:
+
+- 2C4T -> Q70GK9
+- 22UY -> Q59045
+
+2C4T and the prospectively defined calibration structure 1RQP both map to Q70GK9 and share the same RCSB canonical-sequence SHA-256:
+
+`54d0045dd302676c073cb3d07cdb84824e42c18f75a883f4ded8c643d64f7492`
+
+This supports treating them as structures associated with the same RCSB-linked reference protein and canonical sequence representation. It does not establish identical ligand, chemical, catalytic, oligomeric, or experimental state.
+
+Canonical-sequence-state definition:
+
+Canonical-sequence states are defined by SHA-256 of the whitespace-normalized, upper-case RCSB `pdbx_seq_one_letter_code_can` field.
+
+This field is a canonical sequence representation and must not be interpreted as a complete description of chemical or experimental sequence state. RCSB mutation-count metadata are therefore retained independently.
+
+A concrete example is Q70GK9 canonical sequence state `SEQSTATE_09`: twelve PDB entries share the same canonical sequence hash while their RCSB mutation-count metadata include both 0 and 6. This demonstrates that canonical-sequence identity alone must not be used to infer identical experimental state.
+
+Validation:
+
+- all 33 PDB entries were recovered from both frozen inputs;
+- all 33 had exactly one returned polymer entity;
+- all 33 had exactly one RCSB-linked UniProt reference accession;
+- all 33 canonical sequence lengths matched the reported RCSB sequence lengths;
+- all 33 PDB entries were accounted for by the canonical-sequence-state grouping;
+- all 33 PDB entries were accounted for by the UniProt grouping;
+- all 16 canonical-sequence-state identifiers were unique;
+- all 33 entities received one canonical-sequence-state assignment.
+
+The script refuses to overwrite existing canonical outputs.
+
+All four derived tables were independently regenerated from the unchanged frozen inputs and reproduced byte-for-byte.
+
+Outputs:
+
+- `results/active_site_structure/dali_structural_neighbors/biological_metadata/derived/entity_consolidation/O67940_rcsb_polymer_entity_registry.tsv`
+- `results/active_site_structure/dali_structural_neighbors/biological_metadata/derived/entity_consolidation/O67940_rcsb_sequence_state_registry.tsv`
+- `results/active_site_structure/dali_structural_neighbors/biological_metadata/derived/entity_consolidation/O67940_rcsb_uniprot_consolidation.tsv`
+- `results/active_site_structure/dali_structural_neighbors/biological_metadata/derived/entity_consolidation/O67940_rcsb_entity_consolidation_validation.tsv`
+
+Supported claim:
+
+The empirically defined O67940 high-Z DALI neighborhood contains 33 unique PDB entries but maps through the frozen RCSB metadata to nine UniProt reference accessions and 16 distinct RCSB canonical-sequence representations. Thus, raw PDB-entry counts substantially overstate the number of distinct reference proteins represented in the structural neighborhood.
+
+Limitations:
+
+RCSB UniProt mappings and canonical sequence hashes are metadata-derived consolidation evidence. They do not establish enzyme activity, substrate specificity, catalytic mechanism, orthology, evolutionary relationship, or identical biochemical state. A shared UniProt accession or canonical-sequence hash must not be treated as proof that two PDB structures represent identical experimental states.
+
+No new external provenance source was added because this layer is a deterministic derivation of the already frozen and provenance-registered RCSB acquisition.
+
+Next:
+
+Freeze the entity-consolidation layer, then begin the biological identity and literature audit at the UniProt-reference level rather than auditing all 33 PDB entries independently.
