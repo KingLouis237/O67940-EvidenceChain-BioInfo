@@ -2002,3 +2002,73 @@ No new external provenance source was added because this layer is a deterministi
 Next:
 
 Freeze this calibration-reference layer, then characterize the DALI score landscape and define the high-ranking nonredundant structural neighborhood without functional cherry-picking.
+
+## 2026-11-26 — DALI score-landscape and discontinuity audit
+
+Starting from the frozen DALI calibration-reference layer at commit `99c8e5462de94b7a3d38d2bc836b4959e034ecde`, the ranked DALI score distributions were examined before biological annotation review of the broader structural neighborhood.
+
+Inputs:
+
+- `results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_full_pdb_matches.tsv`
+- `results/active_site_structure/dali_structural_neighbors/parsed/O67940_dali_pdb25_matches.tsv`
+
+Analysis script:
+
+- `scripts/05_evolutionary_active_site_context/summarize_dali_score_landscape.py`
+
+The script verifies the frozen SHA-256 hashes and expected cardinalities of both parsed inputs, checks contiguous ranks and non-increasing Z-score ordering, calculates every adjacent Z-score difference, and defines the empirical high-similarity regime as the entries preceding the largest adjacent Z-score drop in each retained database view.
+
+The boundary rule was not prospectively specified before the DALI search. It was selected after a read-only numerical score-landscape audit revealed a very large discontinuity, but before biological annotation review of the resulting neighborhood. This distinction is retained to avoid retrospectively presenting an exploratory boundary rule as preregistered.
+
+Observed score landscape:
+
+Full-PDB view:
+- 2406 ranked matches.
+- Largest adjacent Z-score drop: rank 93 to rank 94.
+- Z-score changes from 23.0 to 8.0.
+- Drop magnitude: 15.0.
+- Median positive adjacent gap among the first 100 ranks: 0.1.
+- Largest-to-median early positive-gap ratio: 150.0.
+- Empirical high-similarity regime: ranks 1–93.
+
+PDB25 view:
+- 639 ranked matches.
+- Largest adjacent Z-score drop: rank 3 to rank 4.
+- Z-score changes from 23.0 to 7.0.
+- Drop magnitude: 16.0.
+- Median positive adjacent gap among the first 100 ranks: 0.1.
+- Largest-to-median early positive-gap ratio: 160.0.
+- Empirical high-similarity regime: ranks 1–3.
+
+The two retained DALI database views therefore converge on a sharp separation between a high-Z structural-neighbor regime and the lower-scoring tail. In both views the high-Z regime ends at Z=23.0, although this observed value is not treated as a universal DALI significance threshold.
+
+Implementation note:
+
+The first implementation of the permanent score-landscape script failed while writing the adjacent-gap table because of incorrect tuple indexing. The failed run occurred before this layer was frozen. Its partial derived outputs were deleted, the indexing error was corrected, and all outputs were regenerated from the unchanged frozen inputs. The corrected script was then compiled successfully.
+
+Before freezing, the script was further hardened by:
+- rounding derived floating-point summaries deterministically to remove binary representation artifacts;
+- adding explicit refusal to overwrite existing canonical score-landscape outputs;
+- regenerating all canonical outputs from scratch;
+- confirming that a second run into the populated canonical directory fails intentionally;
+- independently reproducing all three output tables byte-for-byte in `/tmp/O67940_dali_landscape_recheck`.
+
+Outputs:
+
+- `results/active_site_structure/dali_structural_neighbors/score_landscape/O67940_dali_score_landscape_summary.tsv`
+- `results/active_site_structure/dali_structural_neighbors/score_landscape/O67940_dali_adjacent_z_gaps.tsv`
+- `results/active_site_structure/dali_structural_neighbors/score_landscape/O67940_dali_high_z_cluster.tsv`
+
+Supported claim:
+
+For the O67940 DALI query, both the full-PDB and redundancy-reduced PDB25 views contain a pronounced empirical discontinuity separating a high-Z structural-neighbor regime from the lower-scoring tail. The full-PDB boundary occurs between ranks 93 and 94 (Z=23.0 to 8.0), whereas the PDB25 boundary occurs between ranks 3 and 4 (Z=23.0 to 7.0).
+
+Limitations:
+
+The largest-adjacent-drop rule is an empirical, query-specific boundary identified from this DALI score distribution; it is not a general DALI significance threshold. Z-score discontinuity identifies structural-neighborhood structure but does not establish biochemical function, orthology, substrate specificity, catalytic mechanism, or evolutionary relationship. The PDB25 view is a redundancy-reduced view of the same structural search context and should not be described as a statistically independent experiment.
+
+No new external provenance source was added because this layer is a deterministic analysis of already-provenanced frozen DALI results.
+
+Next:
+
+Freeze the numerical score-landscape layer before inspecting the biological identities and experimental evidence associated with the high-Z structural neighborhood.
