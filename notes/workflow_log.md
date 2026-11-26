@@ -2311,3 +2311,91 @@ No new external provenance source was added because this layer is a deterministi
 Next:
 
 Freeze the entity-consolidation layer, then begin the biological identity and literature audit at the UniProt-reference level rather than auditing all 33 PDB entries independently.
+
+## 2026-11-26 — Raw UniProtKB acquisition for DALI reference-protein audit
+
+The frozen RCSB entity-consolidation layer at commit `fdc6895f666b258b7c97b5dee9e9574fb2c3c8b3` reduced the empirically defined O67940 high-Z DALI neighborhood from 33 PDB entries to nine RCSB-linked UniProt reference accessions.
+
+Frozen upstream table:
+
+`results/active_site_structure/dali_structural_neighbors/biological_metadata/derived/entity_consolidation/O67940_rcsb_uniprot_consolidation.tsv`
+
+Frozen upstream SHA-256:
+
+`619f275436b038ce27d1b4dfece408e21ba5807a77105638786b5be13b42c37f`
+
+The nine UniProt accessions were extracted programmatically from the frozen table rather than manually transcribed:
+
+- Q9WZC8
+- O58212
+- A0A059WF38
+- A4X3Q0
+- A0A2T0T269
+- Q70GK9
+- W0W999
+- Q5SLF5
+- Q59045
+
+The deterministic accession list is:
+
+`results/active_site_structure/dali_structural_neighbors/biological_metadata/uniprot_audit/raw/uniprot_2026-11-26/accessions.txt`
+
+Its SHA-256 is:
+
+`acd26c1176432fff27a9c78bae908b9972dd5fc1b8f98b812506d523ac4e1e10`
+
+Each accession was retrieved independently from the UniProtKB REST API using:
+
+`https://rest.uniprot.org/uniprotkb/{ACCESSION}.json`
+
+For every request, the raw JSON response body and raw HTTP response headers were preserved independently.
+
+Raw acquisition directory:
+
+`results/active_site_structure/dali_structural_neighbors/biological_metadata/uniprot_audit/raw/uniprot_2026-11-26`
+
+Acquisition observations:
+
+- requested UniProt accessions: 9
+- returned UniProt JSON records: 9
+- returned raw HTTP-header files: 9
+- requested/returned primary-accession matches: 9/9
+- final HTTP status: 200 for all 9 records
+- final content type: `application/json` for all 9 records
+- HTTP response blocks per request: 1 for all 9 records
+- UniProt release: `2026_04` for all 9 records
+- UniProt release date: `04-November-2026`
+- server retrieval times ranged from `Thu, 26 Nov 2026 16:32:49 GMT` to `Thu, 26 Nov 2026 16:32:53 GMT`
+
+The per-accession retrieval metadata, response sizes, JSON SHA-256 values, and raw-header SHA-256 values are recorded in:
+
+`results/active_site_structure/dali_structural_neighbors/biological_metadata/uniprot_audit/raw/uniprot_2026-11-26/retrieval_manifest.tsv`
+
+An internal acquisition checksum manifest covers 20 source/control artifacts:
+
+- `accessions.txt`
+- `retrieval_manifest.tsv`
+- nine UniProt JSON responses
+- nine raw HTTP-header responses
+
+All 20 checksum validations passed.
+
+The acquisition directory contains 21 files in total because the checksum manifest itself is the twenty-first file.
+
+Raw-data policy:
+
+The retrieved JSON responses and HTTP headers are external evidence and must remain byte-identical. They must not be reformatted, reserialized, whitespace-normalized, or manually edited.
+
+Raw HTTP-header files are therefore integrity-checked by SHA-256 rather than modified to satisfy generic source-code whitespace conventions.
+
+Supported claim at this stage:
+
+Current UniProtKB release `2026_04` records were successfully retrieved and provenance-registered for all nine RCSB-linked reference accessions represented in the frozen O67940 high-Z DALI neighborhood.
+
+Not yet supported:
+
+This raw acquisition has not yet been used to infer protein function, catalytic activity, substrate specificity, orthology, biochemical equivalence, or functional equivalence to O67940. Reviewed/unreviewed status, protein names, functional comments, EC assignments, evidence codes, GO terms, and literature references have deliberately not yet been interpreted.
+
+Next:
+
+Freeze the raw UniProt acquisition before deriving any biological annotation or evidence-summary tables.
