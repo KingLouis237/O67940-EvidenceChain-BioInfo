@@ -2122,3 +2122,84 @@ Before freezing, canonical outputs were checked for terminal whitespace, the scr
 Next:
 
 Freeze the annotation-neutral PDB-level registry, then begin a separate biological metadata and literature audit of the nonredundant high-Z structural neighborhood.
+
+## 2026-11-26 — RCSB metadata acquisition for DALI high-Z neighborhood
+
+The annotation-neutral DALI PDB registry frozen at commit `411c0e60a0aaf3687e16cc5385d3488a24531396` defined 33 unique PDB entries for external metadata acquisition.
+
+Upstream registry:
+
+- `results/active_site_structure/dali_structural_neighbors/pdb_registry/O67940_dali_high_z_pdb_registry.tsv`
+- SHA-256: `127ede4775e0387c33833c799a7e798e361a55264e9eed4016fbb773a96ae35f`
+
+Acquisition strategy:
+
+- `results/active_site_structure/dali_structural_neighbors/biological_metadata/O67940_rcsb_metadata_acquisition_strategy.md`
+
+External source:
+
+- RCSB PDB Data API GraphQL
+- endpoint: `https://data.rcsb.org/graphql`
+- HTTP method: POST
+- server response: HTTP 200
+- server date: Thu, 26 Nov 2026 14:36:29 GMT
+- content type: application/json
+
+The 33 requested PDB identifiers were generated deterministically from the frozen upstream registry rather than manually entered.
+
+Raw acquisition directory:
+
+- `results/active_site_structure/dali_structural_neighbors/biological_metadata/raw/rcsb_2026-11-26/`
+
+Raw/request artifacts:
+
+- `pdb_ids.txt`
+- `query.graphql`
+- `request.json`
+- `response_headers.txt`
+- `response.json`
+- `retrieval_manifest.tsv`
+- `acquisition_checksums_sha256.txt`
+
+Response accounting:
+
+- requested PDB entries: 33
+- returned PDB entries: 33
+- missing requested entries: 0
+- unexpected returned entries: 0
+- returned polymer entities: 33
+
+A read-only metadata-structure audit showed:
+
+- all 33 PDB entries contained exactly one returned polymer entity;
+- no returned polymer entity lacked the requested canonical sequence;
+- no returned polymer entity lacked a description;
+- no returned polymer entity lacked author chain identifiers;
+- no returned polymer entity lacked a reference-sequence identifier;
+- no returned polymer entity lacked source-organism metadata;
+- no returned polymer entity lacked mutation-count metadata;
+- all 33 reference-sequence identifier records used UniProt.
+
+These are observations from the retrieved RCSB metadata and are not biological-function validation.
+
+Raw-file policy:
+
+The HTTP headers and JSON response are preserved byte-for-byte. In particular, the retrieved response-header file retains its original CRLF line terminators and must not be normalized.
+
+For final Git whitespace validation, `response_headers.txt` is excluded from `git diff --check` because Git interprets the preserved CRLF carriage returns as trailing whitespace. This raw file is instead integrity-checked directly by its SHA-256 checksum. All project-authored files remain subject to the normal Git whitespace check.
+
+The acquisition checksum manifest verifies the request artifacts, raw HTTP headers, raw JSON response, and retrieval manifest. The raw response SHA-256 is:
+
+`94501c04ab30ccb29a964bd230c2ee557cfa8813ad1af006705203d7bebd5dd7`
+
+Supported claim:
+
+Authoritative RCSB metadata were successfully retrieved for every one of the 33 PDB entries fixed by the upstream DALI neighborhood registry. Each entry returned one polymer entity in this acquisition, and each returned entity carried the requested sequence, chain, mutation, organism, and UniProt-reference metadata needed for the next consolidation layer.
+
+Limitations:
+
+RCSB metadata describe deposited structures and database cross-references. They do not by themselves validate enzyme activity, substrate specificity, catalytic mechanism, orthology, or functional equivalence between structures sharing a reference accession.
+
+Next:
+
+Freeze this raw external acquisition before deriving any PDB-to-UniProt or exact-sequence consolidation table.

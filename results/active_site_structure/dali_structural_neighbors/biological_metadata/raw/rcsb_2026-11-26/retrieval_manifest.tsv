@@ -1,0 +1,15 @@
+field	value
+external_source	RCSB PDB Data API GraphQL
+endpoint	https://data.rcsb.org/graphql
+http_method	POST
+http_status	200
+server_date	Thu, 26 Nov 2026 14:36:29 GMT
+content_type	application/json
+upstream_frozen_commit	411c0e60a0aaf3687e16cc5385d3488a24531396
+upstream_registry	results/active_site_structure/dali_structural_neighbors/pdb_registry/O67940_dali_high_z_pdb_registry.tsv
+upstream_registry_sha256	127ede4775e0387c33833c799a7e798e361a55264e9eed4016fbb773a96ae35f
+requested_pdb_entries	33
+returned_pdb_entries	33
+missing_pdb_entries	0
+unexpected_pdb_entries	0
+polymer_entities_returned	33

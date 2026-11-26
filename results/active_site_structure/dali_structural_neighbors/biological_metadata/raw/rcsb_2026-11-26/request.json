@@ -1,0 +1,40 @@
+{
+  "query": "query O67940DaliNeighborhood($ids: [String!]!) {\n  entries(entry_ids: $ids) {\n    rcsb_id\n\n    struct {\n      title\n    }\n\n    exptl {\n      method\n    }\n\n    rcsb_entry_info {\n      resolution_combined\n    }\n\n    rcsb_accession_info {\n      deposit_date\n      initial_release_date\n    }\n\n    polymer_entities {\n      rcsb_id\n\n      rcsb_polymer_entity {\n        pdbx_description\n      }\n\n      entity_poly {\n        rcsb_entity_polymer_type\n        pdbx_seq_one_letter_code_can\n        rcsb_sample_sequence_length\n        rcsb_mutation_count\n      }\n\n      rcsb_polymer_entity_container_identifiers {\n        entity_id\n        auth_asym_ids\n        asym_ids\n\n        reference_sequence_identifiers {\n          database_name\n          database_accession\n        }\n      }\n\n      rcsb_entity_source_organism {\n        ncbi_taxonomy_id\n        ncbi_scientific_name\n      }\n    }\n  }\n}\n",
+  "variables": {
+    "ids": [
+      "2ZBV",
+      "2ZBU",
+      "1WU8",
+      "7CCG",
+      "2Q6I",
+      "7XTO",
+      "6RYZ",
+      "6RZ2",
+      "2WR8",
+      "2Q6L",
+      "2Q6K",
+      "2Q6O",
+      "2C5H",
+      "2V7X",
+      "2CBX",
+      "5LMZ",
+      "5B6I",
+      "5FIU",
+      "4CQJ",
+      "2C2W",
+      "2C4T",
+      "2V7T",
+      "2V7W",
+      "1RQP",
+      "2C5B",
+      "2CW5",
+      "2V7U",
+      "2V7V",
+      "1RQR",
+      "2C4U",
+      "2CC2",
+      "22UY",
+      "2F4N"
+    ]
+  }
+}
